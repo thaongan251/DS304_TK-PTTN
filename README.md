@@ -20,4 +20,5 @@ STT | Họ tên | MSSV | Github
 
 ## Tài liệu tham khảo
 For Codebook: https://scikit-learn.org/stable/datasets/toy_dataset.html
+
 For Preprocessing: https://towardsdatascience.com/data-preparation-and-preprocessing-is-just-as-important-creating-the-actual-model-in-data-sciences-2c0562b65f62
