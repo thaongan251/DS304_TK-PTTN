@@ -1,11 +1,10 @@
-# DS103.L21 - Thu thập và tiền xử lý dữ liệu
+# DS304.L21 - Thiết kế và Phân tích thực nghiệm
 
 ## Thông tin môn học
 * **Môn học:** Thiết kế và Phân tích thực nghiệm
 * **Lớp:** DS304.L21
 * **Năm học:** HKII NH 2020-2021
-* **Giảng viên:** 
-  * TS. Đỗ Trọng Hợp
+* **Giảng viên:** TS. Đỗ Trọng Hợp
 
 ## Thông tin nhóm
 STT | Họ tên | MSSV | Github
