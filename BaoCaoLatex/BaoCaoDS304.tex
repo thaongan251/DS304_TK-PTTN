@@ -61,7 +61,66 @@ Khoa Khoa học và Kỹ thuật Thông tin\\
 \section{Tổng quan bộ dữ liệu}
 
 \subsection{Giới thiệu chung về bộ dữ liệu}
+Bộ dữ liệu được xây dựng bao gồm  thuộc tính cơ bản của 422 bệnh nhân bệnh tiểu đường và kết quả là một giá trị đáng giá quá trình tiến triển của bệnh nhân sau 1 năm ghi nhận. Dưới đây là ví dụ các điểm dữ liệu được trích ra từ bộ dữ liệu và codebook của bộ dữ liệu.
+\begin{table}
+	\setlength{\tabcolsep}{0.5em}
+	\renewcommand{\arraystretch}{1.4}
+	\begin{center}
+		\caption{Ví dụ về các điểm dữ liệu}\label{tab1}
+		\begin{tabular}{|p{0.75cm}|p{0.75cm}|p{0.75cm}|p{0.75cm}|p{0.75cm}|p{0.75cm}|p{0.75cm}|p{0.75cm}|p{1cm}|p{0.75cm}|p{0.75cm}|}
+			\hline
+			\textbf{AGE}&\textbf{SEX}&\textbf{BMI}&\textbf{BF}&\textbf{S1}&\textbf{S2}&\textbf{S3}&\textbf{S4}&\textbf{S5}&\textbf{S6}&\textbf{Y}\\
+			\hline
+			59&2&32.1&101&157&93.2&38&4&4.8598&87&151\\
+			\hline
+			48&1&21.6&87&183&103.2&70&3&3.8918&69&75\\
+			\hline
+			72&2&30.5&93&156&93.6&41&4&4.6728&85&141\\
+			\hline
+			24&1&25.3&84&198&131.4&40&5&4.8903&89&206\\
+			\hline
+			50&	1	&23&	101&	192&	125.4&	52&	4&	4.2905&	80&	135\\
+			\hline
+		\end{tabular}
+	\end{center}
+\end{table}
 
+\begin{table}[H]
+	\setlength{\tabcolsep}{0.5em}
+	\renewcommand{\arraystretch}{1.4}
+	\begin{center}
+		\caption{Codebook của bộ dữ liệu}\label{tab2}
+			\begin{tabular}{ | p{2.5cm} | p{9.45cm} |} 
+			\hline
+			\textbf{Thông tin} & \textbf{Nội dung}\\ 
+			\hline
+			Tên bộ dữ liệu &Diabetes dataset\\
+			\hline
+			Nguồn thu nhập & \url{https://www4.stat.ncsu.edu/~boos/var.select/diabetes.tab.txt}\\
+			\hline
+			Số điểm dữ liệu & 422\\
+			\hline
+			Số thuộc tính & 11\\
+			\hline
+			\multirow{1}{2.25cm}
+			{Thông tin thuộc tính} & \textbf{AGE:} độ tuổi của bệnh nhân\\
+								&\textbf{SEX:} giới tính của bệnh nhân \\
+								& -  Giá trị 1 tương ứng với giới tính là \\
+								& -  Gái trị 2 tương ứng với giới tính là \\
+								&\textbf{BMI:} Body Mass Index (chỉ số khối cơ thể)\\
+								&\textbf{BF:}  average blood pressure (giá trị huyết áp trung bình)\\
+								&\textbf{S1:} tổng lượng cholesterol trong huyết thanh (tc - total serum cholesterol)\\
+								&\textbf{S2:} giá trị lipoprotein tỷ trọng thấp (ldl - low-density lipoproteins) \\
+								&\textbf{S3:} giá trị lipoprotein tỷ trọng cao (hdl - high-density lipoproteins)\\
+								&\textbf{S4:} tỉ lệ giữa  cholesterol toàn phần so với lượng HDL (tch - total cholesterol / HDL) \\
+								&\textbf{S5:} mức triglyceries có trong huyết thanh có thể ghi nhận (ltg - possibly log of serum triglycerides level)\\
+								&\textbf{S6:}  chỉ số mức đường huyết (glu - blood sugar level)\\
+								&\textbf{Y:} giá trị định lượng về tiến triển của bệnh nhân sau 1 năm kể từ thời điểm ghi nhận\\
+								\hline
+								
+			\end{tabular}
+		\end{center}
+	\end{table}
 \subsection{Phân tích và trực quan bộ dữ liệu}
 
 \section{Tiền xử lý dữ liệu}
@@ -118,11 +177,11 @@ they are formatted as run-in headings.
 
 \paragraph{Sample Heading (Fourth Level)}
 The contribution should contain no more than four levels of
-headings. Table~\ref{tab1} gives a summary of all heading levels.
+headings. Table~\ref{tab3} gives a summary of all heading levels.
 
 \begin{table}
 \caption{Table captions should be placed above the
-tables.}\label{tab1}
+tables.}\label{tab3}
 \begin{tabular}{|l|l|l|}
 \hline
 Heading level &  Example & Font size and style\\
