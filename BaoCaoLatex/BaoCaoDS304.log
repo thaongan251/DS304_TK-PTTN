@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2021.6.7)  14 JUL 2021 13:14
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2021.6.7)  14 JUL 2021 13:27
 entering extended mode
 **BaoCaoDS304.tex
 (C:\Users\HP\Documents\GitHub\DS304_TK-PTTN\BaoCaoLatex\BaoCaoDS304.tex
@@ -680,8 +680,8 @@ Overfull \hbox (1.24983pt too wide) in paragraph at lines 70--85
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 99--100
-[]|$\T5/cmtt/m/n/9 https : / / www4 . stat . ncsu . edu / ~boos / var . select 
-/ diabetes .$
+[]|$\T5/cmtt/m/n/9 https : / / scikit -[] learn . org / stable / datasets / toy
+ _ dataset .$
  []
 
 
@@ -689,7 +689,7 @@ Overfull \vbox (8.08379pt too high) detected at line 106
  []
 
 
-Overfull \hbox (12.58226pt too wide) in paragraph at lines 93--123
+Overfull \hbox (12.58226pt too wide) in paragraph at lines 93--122
  [] 
  []
 
@@ -700,7 +700,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
 
-LaTeX Warning: Empty `thebibliography' environment on input line 164.
+LaTeX Warning: Empty `thebibliography' environment on input line 163.
 
 [3]
 Package epstopdf Info: Source file: <fig1.eps>
@@ -711,7 +711,7 @@ Package epstopdf Info: Source file: <fig1.eps>
 (epstopdf)                    size: 26464 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig1-eps-converted-to.pdf f
 ig1.eps>
-(epstopdf)             \includegraphics on input line 210.
+(epstopdf)             \includegraphics on input line 209.
 Package epstopdf Info: Output file is already uptodate.
  <fig1-eps-converted-to.pdf, id=21, 345.29pt x 142.5325pt>
 File: fig1-eps-converted-to.pdf Graphic file (type pdf)
@@ -726,11 +726,11 @@ ed-to.pdf>]
 Here is how much of TeX's memory you used:
  2852 strings out of 495285
  35581 string characters out of 3179888
- 102603 words of memory out of 3000000
+ 103603 words of memory out of 3000000
  5981 multiletter control sequences out of 15000+200000
  19988 words of font info for 45 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,10n,23p,404b,384s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,11n,23p,404b,387s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/P
 rogram Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Progra
@@ -745,7 +745,7 @@ e1/vntex/vnr/vnbx9.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr
 :/Program Files (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnti10.pfb><C:/Program F
 iles (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnti9.pfb><C:/Program Files (x86)/M
 iKTeX 2.8/fonts/type1/vntex/vnr/vntt9.pfb>
-Output written on BaoCaoDS304.pdf (5 pages, 201374 bytes).
+Output written on BaoCaoDS304.pdf (5 pages, 201746 bytes).
 PDF statistics:
  85 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
