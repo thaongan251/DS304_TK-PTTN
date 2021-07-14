@@ -22,3 +22,13 @@ STT | Họ tên | MSSV | Github
 For Codebook: https://scikit-learn.org/stable/datasets/toy_dataset.html#diabetes-dataset
 
 For Preprocessing: https://towardsdatascience.com/data-preparation-and-preprocessing-is-just-as-important-creating-the-actual-model-in-data-sciences-2c0562b65f62
+
+##Latest Notes:
+Nhóm thống nhất dùng hàm này để chia train test :
+
+```
+set.seed(123)
+train.index <- createDataPartition(df$Y, p = .8, list = FALSE)
+train <- df[ train.index,]
+test  <- df[-train.index,]
+```
