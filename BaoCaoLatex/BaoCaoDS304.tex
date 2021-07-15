@@ -49,14 +49,23 @@ Khoa Khoa học và Kỹ thuật Thông tin\\
 \maketitle              % typeset the header of the contribution
 %
 \begin{abstract}
-...
+Bệnh đái tháo đường theo giới y khoa là một trong những mối đe doạ sức khoẻ toàn cầu đối với cộng đồng có tỉ lệ người mắc ngày càng tăng đều theo từng năm với nhiều nguyên nhân ảnh hưởng, trong đó nguyên nhân chính là rối loạn chức năng chuyển hóa insulin. Nhằm tìm hiểu được các yếu tố bên trong cơ thể có tác động như thế nào đến sự rối loạn này, nhóm chúng tôi đã tìm hiểu các chỉ số y tế mang tính thống kê có liên quan bằng bộ dữ liệu có sẵn và tiến hành phân tích, xử lí và đánh giá để có được những kết quả phù hợp cho mục đích của bài nghiên cứu. Trong quá trình phân tích có sử dụng phương pháp thống kê phân tích hồi quy để tìm ra sự ảnh hưởng và tương tác lẫn nhau của các yếu tố này. Sau khi thực hiện xây dựng các mô hình máy học phù hợp và đánh giá chúng, kết quả thu được là <KẾT QUẢ ĐÁNH GIÁ> cho mô hình phân tích tốt nhất <MÔ HÌNH TỐT NHẤT>. <Lược ý kết luận>
 
-\keywords{...}
+\keywords{Đái tháo đường \and Bệnh tiểu đường \and  Phân tích hồi quy}
 \end{abstract}
 %
 %
 %
 \section{Giới thiệu chung}
+
+Đái tháo đường được xem là một căn bệnh phổ biến trong cộng đồng, đặc biệt là Mỹ với xu hướng gia tăng ngày càng cao với con số ước tính lên đến 79 triệu người trưởng thành mắc bệnh và trong đó 50\% người mắc đái tháo đường không biết mình có bệnh vì chưa có triệu chứng rõ ràng. 
+
+Đái tháo đường là một căn bệnh liên quan đến sự rối loạn chuyển hóa trong hormone tuyến tuỵ dẫn đến thiếu hụt lượng insuline trong máu. Các tiêu chuẩn để xác định, chuẩn đoán bệnh đái tháo đường hiện nay được Hiệp hội Đái tháo đường Mỹ công bố cần dựa vào nhiều chỉ số và quá trình phức tạp. Ví dụ khi kiểm tra chỉ số HbA1c của bệnh nhân cần được thực hiện ở phòng thí nghiệm được chuẩn hóa cao. Tuy nhiên, cũng nhờ đó mà việc chuẩn đoán đái tháo đường hay tiền đái tháo đường sẽ phần lớn phụ thuộc vào các chỉ số này từ cơ thể. 
+Chính vì đó, ta cần phải có được một bộ dữ liệu với các chỉ số y tế liên quan để có thể đánh giá phần nào tình trạng hiện tại của bệnh, giúp tăng hiệu quả cũng như giảm đi chi phí cho quá trình chuẩn đoán. 
+
+Trong bài nghiên cứu này, bộ dữ liệu thu thập được từ các bệnh nhân đái tháo đường với các chỉ số y tế liên quan sẽ được đánh giá bằng các mô hình phân tích hồi quy. Từ đó không chỉ hỗ trợ tích cực cho việc chuẩn đoán mà còn có thể phân tích được sự ảnh hưởng và tương tác giữa các chỉ số trên với nhau.
+
+Cấu trúc bài báo cáo được trình bày như sau: Ở mục 2, chúng tôi trình bày thông tin chi tiết của bộ dữ liệu được sử dụng trong bài nghiên cứu. Ở mục 3, chúng tôi tiếp cận bộ dữ liệu và thực hiện tiền xử lý dữ liệu. Sau khi bộ dữ liệu đã được xử lí, chúng sẽ được đưa vào phân tích bằng các mô hình hồi quy khác nhau, quá trình này sẽ được trình bày ở mục 4. Mục 5 sẽ trình bày kết quả đánh giá các mô hình, từ đó có được mô hình tốt nhất trên bộ dữ liệu. Và cuối cùng ở mục 6 là kết luận và hướng phát triển.
 
 \section{Tổng quan bộ dữ liệu}
 
@@ -98,17 +107,17 @@ Bộ dữ liệu được xây dựng bao gồm  thuộc tính cơ bản của 4
 			\hline
 			Nguồn thu nhập & \url{https://scikit-learn.org/stable/datasets/toy_dataset.html#diabetes-dataset}\\
 			\hline
-			Số điểm dữ liệu & 422\\
+			Số điểm dữ liệu & 442\\
 			\hline
 			Số thuộc tính & 11\\
 			\hline
 			\multirow{1}{2.25cm}
 			{Thông tin thuộc tính} & \textbf{AGE:} độ tuổi của bệnh nhân\\
 								&\textbf{SEX:} giới tính của bệnh nhân \\
-								& -  Giá trị 1 tương ứng với giới tính là \\
-								& -  Gái trị 2 tương ứng với giới tính là \\
+								& -  Giá trị 1 tương ứng với giới tính là Nam\\
+								& -  Gái trị 2 tương ứng với giới tính là Nữ\\
 								&\textbf{BMI:} Body Mass Index (chỉ số khối cơ thể)\\
-								&\textbf{BF:}  average blood pressure (giá trị huyết áp trung bình)\\
+								&\textbf{BP:}  average blood pressure (giá trị huyết áp trung bình)\\
 								&\textbf{S1:} tổng lượng cholesterol trong huyết thanh (tc - total serum cholesterol)\\
 								&\textbf{S2:} giá trị lipoprotein tỷ trọng thấp (ldl - low-density lipoproteins) \\
 								&\textbf{S3:} giá trị lipoprotein tỷ trọng cao (hdl - high-density lipoproteins)\\
