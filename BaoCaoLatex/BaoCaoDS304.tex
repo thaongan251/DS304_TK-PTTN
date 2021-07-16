@@ -24,7 +24,7 @@
 
 \begin{document}
 %
-\title{Phân tích hồi quy bộ dữ liệu Diabetes \thanks{Hướng dẫn bởi TS. Đỗ Trọng Hợp}}
+\title{Phân tích ảnh hưởng của các chỉ số sức khỏe đến tiến triển bệnh đái tháo đường \thanks{Hướng dẫn bởi TS. Đỗ Trọng Hợp}}
 %
 %\titlerunning{Abbreviated paper title}
 % If the paper title is too long for the running head, you can set
@@ -70,7 +70,7 @@ Cấu trúc bài báo cáo được trình bày như sau: Ở mục 2, chúng t�
 \section{Tổng quan bộ dữ liệu}
 
 \subsection{Giới thiệu chung về bộ dữ liệu}
-Bộ dữ liệu được xây dựng bao gồm  thuộc tính cơ bản của 422 bệnh nhân bệnh tiểu đường và kết quả là một giá trị đáng giá quá trình tiến triển của bệnh nhân sau 1 năm ghi nhận. Dưới đây là ví dụ các điểm dữ liệu được trích ra từ bộ dữ liệu và codebook của bộ dữ liệu.
+Bộ dữ liệu được xây dựng bao gồm  thuộc tính cơ bản của 442 bệnh nhân bệnh tiểu đường và kết quả là một giá trị đáng giá quá trình tiến triển của bệnh nhân sau 1 năm ghi nhận. Dưới đây là ví dụ các điểm dữ liệu được trích ra từ bộ dữ liệu và codebook của bộ dữ liệu.
 \begin{table}
 	\setlength{\tabcolsep}{0.5em}
 	\renewcommand{\arraystretch}{1.4}
@@ -105,7 +105,7 @@ Bộ dữ liệu được xây dựng bao gồm  thuộc tính cơ bản của 4
 			\hline
 			Tên bộ dữ liệu &Diabetes dataset\\
 			\hline
-			Nguồn thu nhập & \url{https://scikit-learn.org/stable/datasets/toy_dataset.html#diabetes-dataset}\\
+			Nguồn thu nhập & \url{https://www4.stat.ncsu.edu/~boos/var.select/diabetes.html}\\
 			\hline
 			Số điểm dữ liệu & 442\\
 			\hline
@@ -124,9 +124,10 @@ Bộ dữ liệu được xây dựng bao gồm  thuộc tính cơ bản của 4
 								&\textbf{S4:} tỉ lệ giữa  cholesterol toàn phần so với lượng HDL (tch - total cholesterol / HDL) \\
 								&\textbf{S5:} mức triglyceries có trong huyết thanh có thể ghi nhận (ltg - possibly log of serum triglycerides level)\\
 								&\textbf{S6:}  chỉ số mức đường huyết (glu - blood sugar level)\\
-								&\textbf{Y:} giá trị định lượng về tiến triển của bệnh nhân sau 1 năm kể từ thời điểm ghi nhận\\
+								&\textbf{Y:} giá trị định lượng về tiến triển bệnh của bệnh nhân sau 1 năm kể từ thời điểm ghi nhận\\
 								\hline
-								
+			Tác giả & Bradley Efron, Trevor Hastie, Iain Johnstone và Robert Tibshirani, Đại học Stanford\\
+			\hline
 			\end{tabular}
 		\end{center}
 	\end{table}

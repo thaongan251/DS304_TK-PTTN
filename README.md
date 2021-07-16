@@ -14,7 +14,7 @@ STT | Họ tên | MSSV | Github
 3 | Võ Tuấn Anh | 19521226 | https://github.com/VOTUANANH01
 
 ## Đề tài báo cáo
-**Phân tích hồi quy bộ dữ liệu Diabetes**
+**Phân tích ảnh hưởng của các chỉ số sức khỏe đến tiến triển bệnh đái tháo đường**
 
 ## Source Code
 
