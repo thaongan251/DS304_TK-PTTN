@@ -159,6 +159,30 @@ Phân tích hồi quy là một phương pháp thống kê mạnh mẽ cho phép
 \subsection{Tương tác giữa các yếu tố}
 
 \subsection{Các độ đo đánh giá mô hình hồi quy}
+Đánh giá mô hình là một bước quan trọng không thể thiếu trong quá trình xây dựng mô hình máy học. Đánh giá mô hình hỗ trợ trong việc đánh giá hiệu suất của mô hình trên dữ liệu huấn luyện và phát hiện ra những trường hợp gây ảnh hương tới mô hình như over-fitting (hiện tượng mô hình thể hiện chính xác các bộ dữ liệu huấn luyện) hay under-fitting (hiện tượng mô hình không hoàn toàn có mối liên hệ nào với bộ dữ liệu huấn luyện), từ đó cải thiện chất lượng hiệu suất của mô hình và giúp mô hình đưa ra kết quả khả quan hơn khi xuất hiện bộ dữ liệu mới trong tương lai. Độ đô được sử đụng để đánh giá cho các mô hình máy học hồi quy trong bài báo cáo Adjusted R-Squared.
+
+
+\subsubsection{R-Squared}
+\begin{equation}
+	R-Squared = 1- \frac{SSE}{SST} =  1 - \frac{\sum (Ytrue - Ypred)^2}{\sum (Ytrue - \overline{Y})^2}
+\end{equation}
+Trong đó:\\
+- SSE là Sum of Squared estimate of errors (tổng bình phương lỗi giữa biến phụ thuộc trong bộ dữ liệu với biến phụ thuộc được dự đoán từ mô hình).\\
+- SST là sum of squares total (tổng bình phương lỗi giữa giá trị biến phụ thuộc trong bộ dữ liệu với tổng bình phương của nó).\\
+
+Độ đo đánh giá R-Squared hay còn được còn có tên gọi khác là Coefficient of Determination, có khoảng giá trị từ 0 tới 1, giúp nhận xét mức độ thích hợp giữa mô hình và các điểm dữ liệu huấn luyện. Kết quả của độ đo R-Squared không đánh giá hiệu suất của mô hình một cách toàn vẹn, giá trị của độ đo thấp không có nghĩa là mô hình có hiệu suất thấp, ngược lại thì kết quả độ đo có cao thì không đồng nghĩa rằng mô hình hoạt động tốt. Ngoài ra, độ đo R-Squared còn có nhược điểm khi tăng số lượng thuộc tính độc lập thì giá trị của độ đo cũng tăng theo, dẫn tới tăng độ phức tạp cho mô hình mặc dù những thuộc tính mới không hoàn toàn mang ý nghĩa cho việc cải thiện dự đoán biến phụ thuộc.
+
+\subsubsection{Adjusted R-Squared}
+\begin{equation}
+	Adjusted  R-Squared = 1- (1-R^2)\frac{n-1}{n-p-1}
+\end{equation}
+Trong đó: \\
+- $R^2$: giá trị của R-Square trên bộ dữ liệu.\\
+- n: số lượng điểm dữ liệu trong bộ dữ liệu.\\
+- p: số lượng thuộc tính độc lập trong bộ dữ liệu.\\
+
+ Độ đo đánh giá Adjusted R-Squared đã khắc phục khuyết điểm vốn có của R-Squared, khi tăng số lượng thuộc tính độc lập nếu giá trị của độ đo Adjusted R-Squared giảm nghĩa là thuộc tính đó không có ý nghĩa trong việc nâng cao hiệu suất mô hình tránh trường hợp dư thừa hay tăng độ phức tạp cho mô hình một cách không cần thiết.
+
 
 \subsection{Xây dựng mô hình hồi quy}
 \subsubsection{Simple Linear Regression}
