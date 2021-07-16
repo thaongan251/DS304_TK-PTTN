@@ -23,7 +23,24 @@ For Codebook: https://scikit-learn.org/stable/datasets/toy_dataset.html#diabetes
 
 For Preprocessing: https://towardsdatascience.com/data-preparation-and-preprocessing-is-just-as-important-creating-the-actual-model-in-data-sciences-2c0562b65f62
 
-##Latest Notes:
+## Latest Notes:
+
+Tiền xử lý:
+
+```
+#preprocess
+df_p = df
+for( i in names(df_p))
+{
+  p <- quantile(df[,i], 0.95)
+  if(i!='SEX' & i!='AGE' & i!='Y')
+  {
+    df_p<-df_p[!(df_p[,i] > p), ] #Bỏ outlier lớn hơn bách phân vị thứ 95
+  }
+}
+df_p['Y'] <- log1p(df_p[,11]) # log transformation
+```
+
 Nhóm thống nhất dùng hàm này để chia train test :
 
 ```
