@@ -188,11 +188,24 @@ Trong đó: \\
 \subsubsection{Simple Linear Regression}
 \subsubsection{Multiple Linear Regression}
 \subsubsection{Polynomial Regression}
-\subsubsection{Elastic Net Regression}
+
 \subsubsection{Ridge Regression}
+là phương pháp xác định hệ số của mô hình hồi quy đa biến trong điều kiện biến độc lập có sự tương quan chặt chẽ với nhau. Được xem là dạng chính quy (regularization) của hồi quy tuyến tính. Dùng để giảm số lượng biến độc lập trong mô hình hồi quy, nhằm giảm các vấn đề Overfitting và Underfitting.
+	\begin{equation}
+	L_{ridge}(\hat{\beta})=\sum^{n}_{i=1}{(y_i-x'_i\hat{\beta})^2}+\lambda\sum^{m}_{j=1}{\hat{\beta}^2_j}=||y-X\hat{\beta}||^2+\lambda||\hat{\beta}||^2
+	\end{equation}
+
 \subsubsection{Lasso Regression}
+là một phương phá dùng để giảm số lượng biến độc lập tring mô hình hồi quy nhưng sử dụng tổng các giá trị tuyệt đối của hệ số bên trong biểu thức. Vì về bản chất, Lasso Regression không chỉ giảm giá trị của hệ số mà thậm chí cố gắng loại bỏ nó. Sự khác biệt của Ridge và Lasso là Ridge sẽ không bao giờ cho giá trị của hệ số bằng 0. Hạn chế chính là không phù hợp cho một số loại dữ liệu.
+	\begin{equation}
+	L_{lasso}(\hat{\beta})=\sum^{n}_{i=1}{(y_i-x'_i\hat{\beta})^2}+\lambda\sum^{m}_{j=1}{|\hat{\beta}_j|}
+	\end{equation}
 
-
+\subsubsection{Elastic Net Regression}
+là sự kết hợp của cả hai mô hình Ridge Regression và Lasso Regression. Ưu điểm của mô hình này là không dễ dàng loại bỏ hệ số cộng tuyến.
+	\begin{equation}
+		L_{enet}(\hat{\beta})=\frac{\sum^{n}_{i=1}{(y_i-x'_i\hat{\beta})^2}}{2n}+\lambda(\frac{1-\alpha}{2}\sum^{m}_{j=1}{\hat{\beta}^2_j+\alpha\sum^{m}_{j=1}{|\hat{\beta}_j|}})
+	\end{equation}
 \section{Đánh giá mô hình hồi quy}
 
 \subsection{Kết quả đánh giá mô hình}
