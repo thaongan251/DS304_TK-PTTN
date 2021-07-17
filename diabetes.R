@@ -23,7 +23,7 @@ av <- aov(Y~.,data=train)
 summary(av)
 
 # Effect of interaction
-av <- aov(Y~AGE*BMI*BP*S1*S2*S3*S5*S6,data=train)
+av <- aov(Y~AGE*BMI*BP*S1*S2*S3*S5*S6+SEX+S4,data=train)
 summary(av)
 
 #Build Models
@@ -39,7 +39,7 @@ summary(av)
   abline(lm(y.test.pred~y.test),col='red',lwd=2)
   
   #multiple linear regression
-  fit <- lm(formula = Y~AGE+BMI+BP+S3+S5,data=train)
+  fit <- lm(formula = Y~SEX+BMI+BP+S1+S2+S5+S6,data=train)
   summary(fit)
   y.test.pred <- predict(fit,newdata=x.test)
   predict <- lm(y.test~y.test.pred)
@@ -49,11 +49,11 @@ summary(av)
   abline(lm(y.test.pred~y.test),col='red',lwd=2)
   
   #polynomial regression
-  fit <- lm(formula = Y~AGE+BMI+BP+S3+S5+
-                        I(AGE^2)+I(BMI^2)+I(BP^2)+I(S3^2)+I(S5^2)+
-                        I(AGE*BMI)+I(AGE*BP)+I(BMI*BP) + 
-                        I(BMI*S1*S5) + I(BMI*S2*S5) +I(BP*S3*S6)+
-                        I(S1*S2*S3*S5)+I(BP*S1*S3*S6) + I(AGE*S2*S3*S6)+I(BP*S1*S5*S6)+
+  fit <- lm(formula = Y~AGE+BP+BMI+S3+SEX+
+                        I(AGE^2)+I(S5^2)+I(S3^2)+
+                        I(BMI*BP) + 
+                        I(BMI*S1*S5) + I(BMI*S2*S5)+
+                        I(AGE*S2*S3*S6)+
                         I(BMI*S1*S2*S3*S5) + I(AGE*BP*S3*S5*S6),
             data=train)
   summary(fit)
@@ -64,7 +64,6 @@ summary(av)
   plot(y.test,y.test.pred, pch = 19, cex = 1, col = "black")
   abline(lm(y.test.pred~y.test),col='red',lwd=2)
   
-
   #ridge (alpha = 0)
   set.seed(123)
   ridge.fit <- cv.glmnet(as.matrix(x.train),y.train,type.measure ='mse',alpha=0,family='gaussian')
