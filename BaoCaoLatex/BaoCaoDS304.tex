@@ -167,8 +167,10 @@ Phân tích hồi quy là một phương pháp thống kê mạnh mẽ cho phép
 	R-Squared = 1- \frac{SSE}{SST} =  1 - \frac{\sum (Ytrue - Ypred)^2}{\sum (Ytrue - \overline{Y})^2}
 \end{equation}
 Trong đó:\\
-- SSE là Sum of Squared estimate of errors (tổng bình phương lỗi giữa biến phụ thuộc trong bộ dữ liệu với biến phụ thuộc được dự đoán từ mô hình).\\
-- SST là sum of squares total (tổng bình phương lỗi giữa giá trị biến phụ thuộc trong bộ dữ liệu với tổng bình phương của nó).\\
+\begin{itemize}
+	\item  \textbf{SSE} là Sum of Squared estimate of errors (tổng bình phương lỗi giữa biến phụ thuộc trong bộ dữ liệu với biến phụ thuộc được dự đoán từ mô hình).\\
+	\item \textbf{SST} là sum of squares total (tổng bình phương lỗi giữa giá trị biến phụ thuộc trong bộ dữ liệu với tổng bình phương của nó).\\
+\end{itemize}
 
 Độ đo đánh giá R-Squared hay còn được còn có tên gọi khác là Coefficient of Determination, có khoảng giá trị từ 0 tới 1, giúp nhận xét mức độ thích hợp giữa mô hình và các điểm dữ liệu huấn luyện. Kết quả của độ đo R-Squared không đánh giá hiệu suất của mô hình một cách toàn vẹn, giá trị của độ đo thấp không có nghĩa là mô hình có hiệu suất thấp, ngược lại thì kết quả độ đo có cao thì không đồng nghĩa rằng mô hình hoạt động tốt. Ngoài ra, độ đo R-Squared còn có nhược điểm khi tăng số lượng thuộc tính độc lập thì giá trị của độ đo cũng tăng theo, dẫn tới tăng độ phức tạp cho mô hình mặc dù những thuộc tính mới không hoàn toàn mang ý nghĩa cho việc cải thiện dự đoán biến phụ thuộc.
 
@@ -177,17 +179,152 @@ Trong đó:\\
 	Adjusted  R-Squared = 1- (1-R^2)\frac{n-1}{n-p-1}
 \end{equation}
 Trong đó: \\
-- $R^2$: giá trị của R-Square trên bộ dữ liệu.\\
-- n: số lượng điểm dữ liệu trong bộ dữ liệu.\\
-- p: số lượng thuộc tính độc lập trong bộ dữ liệu.\\
+\begin{itemize}
+	\item \boldmath{$R^2$:} giá trị của R-Square trên bộ dữ liệu.\\
+	\item \textbf{n:} số lượng điểm dữ liệu trong bộ dữ liệu.\\
+	\item \textbf{p:} số lượng thuộc tính độc lập trong bộ dữ liệu.\\
+\end{itemize}
 
  Độ đo đánh giá Adjusted R-Squared đã khắc phục khuyết điểm vốn có của R-Squared, khi tăng số lượng thuộc tính độc lập nếu giá trị của độ đo Adjusted R-Squared giảm nghĩa là thuộc tính đó không có ý nghĩa trong việc nâng cao hiệu suất mô hình tránh trường hợp dư thừa hay tăng độ phức tạp cho mô hình một cách không cần thiết.
 
 
 \subsection{Xây dựng mô hình hồi quy}
 \subsubsection{Simple Linear Regression}
-\subsubsection{Multiple Linear Regression}
-\subsubsection{Polynomial Regression}
+là mô hình hồi quy tuyến tính đơn biến, nghĩa là mô hình chỉ có duy nhất một biến độc lập. Mô hình được biểu diễn qua phương trình: $y= \beta_0 +\beta_1x$, trong đó y là biến phụ thuộc, x là biến độc lập và $\beta_0, \beta_1$ là các tham số mô hình. Đặc trưng của mô hình là một đường thẳng tuyến tính giúp đánh giá mối quan hệ giữa biến độc lập và biến phụ thuộc. 
+
+Vì bộ dữ liệu có 10 biến độc lập nên việc chọn thuộc tính dựa vào hệ số tương quan cao nhất giữa biến phụ thuộc Y và các thuộc tính còn lại. 
+
+\begin{table}
+	\setlength{\tabcolsep}{0.5em}
+	\renewcommand{\arraystretch}{1.4}
+	\begin{center}
+		\caption{Hệ số tương quan giữa biến phụ thuộc Y và các biến độc lập}\label{tab3}
+		\begin{tabular}{|c|c|}
+			\hline
+			Biến độc lập&Hệ số tương quan\\
+			\hline
+			AGE&0.19\\
+			\hline
+			SEX&0.043\\
+			\hline
+			BMI&0.59\\
+			\hline
+			BP&	0.44\\
+			\hline
+			S1&	0.21\\
+			\hline
+			S2&0.17\\
+			\hline
+			S3&$-0.39$\\
+			\hline
+			S4&0.43\\
+			\hline
+			S5&0.57\\
+			\hline
+			S6&0.38\\
+			\hline
+		\end{tabular}			
+	\end{center}
+\end{table}
+Thông qua bảng~\ref{tab3}, biến độc lập được sử dụn trong mô hình là BMI với hệ số tương quan là 0.59. Quá trình xây dựng mô hình Simple Linear Regression được thực trên R - Studio thông qua hàm lm với các tham số:  lm(formula = $Y \sim BMI$,data=train)
+
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=\textwidth]{fig1.eps}
+		\caption{Phân tích hồi quy trên mô hình Simple Linear Regression trước khi tiền xử lí} \label{fig:slr}
+	\end{center}
+\end{figure}
+
+Từ hình~\ref{fig:slr}, mô hình Simple Linear Regression trước khi tiền xử lí có dạng là:\\
+\begin{center}
+	$\textbf{Y}=  + *\textbf{BMI}$
+\end{center}
+
+
+
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=\textwidth]{fig1.eps}
+		\caption{Phân tích hồi quy trên mô hình Simple Linear Regression sau khi tiền xử lí} \label{fig:slrp}
+	\end{center}
+\end{figure}
+Từ hình~\ref{fig:slrp}, mô hình Simple Linear Regression sau khi tiền xử lí có dạng là:\\
+\begin{center}
+	$\textbf{Y}=  + *\textbf{BMI}$
+\end{center}
+
+
+\subsubsection{Multiple Linear Regression} là trường hợp khi mô hình hồi quy tuyến tính tồn tại nhiều hơn một biến độc lập. Khi đó, phương trình biểu diễn cho mô hình là: $y= \beta_0 +\beta_1*x_1+\beta_2*x_2+...+\beta_n*x_n$ với x,y,$\beta_0, \beta_1,...,\beta_n$ có ý nghĩa tương tự như mô hình Simple Linear Regression.
+
+Dựa vào phân tích ảnh hưởng các yếu tố ở mục 4.2, các thuộc tính có ảnh hưởng sẽ được sử dụng để xây dựng mô hình Multiple Linear Regressionl là AGE, BMI, BP, S3, S5. Sau đó tiếp tục phân tích hồi quy để chọn ra thuộc tính có ảnh hưởng.Các tham số thuộc tính được chọn sau khi phân tích hồi quy trong hàm lm là lm(formula = $Y\sim BMI+BP+S3+S5$,data=train).
+
+
+
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=\textwidth]{fig1.eps}
+		\caption{Phân tích hồi quy trên mô hình Multiple Linear Regression trước khi tiền xử lí}
+		\label{fig:mlr}
+	\end{center}
+\end{figure}
+
+Từ hình~\ref{fig:mlr}, mô hình Multiple Linear Regression trước khi tiền xử lí có dạng là:\\
+\begin{center}
+	$\textbf{Y}=  + *\textbf{BMI}+*\textbf{BP}+*\textbf{S3}+*\textbf{S5}$
+\end{center}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=\textwidth]{fig1.eps}
+		\caption{Phân tích hồi quy trên mô hình Multiple Linear Regression sau khi tiền xử lí}
+		\label{fig:mlrp}
+	\end{center}
+\end{figure}
+
+Từ hình~\ref{fig:mlrp}, mô hình Multiple Linear Regression sau khi tiền xử lí có dạng là:\\
+\begin{center}
+	$\textbf{Y}=  + *\textbf{BMI}+*\textbf{BP}+*\textbf{S3}+*\textbf{S5}$
+\end{center}
+
+
+
+\subsubsection{Polynomial Regression} được sử dụng khi mối quan hệ giữa biến độc lập và biến phụ thuộc không thể trực quan trên một đường thẳng tuyến tính. Khi đó phương trình biểu diễn mô hình sẽ có dạng $y= \beta_0 +\beta_1*x_1+\beta_2*x^2+...+\beta_n*x^n$ với x,y,$\beta_0, \beta_1,...,\beta_n$
+có ý nghĩa tương tự như mô hình Simple Linear Regression.
+
+Thông qua phân tích ảnh hưởng các yếu tố ở mục 4.2 và tương tác giữa các yếu tố ở mục 4.3, các tham số được lựa chọn để xây dựng mô hình Polynomial Regression, sau đó thực hiện phân tích hồi quy để chọn ra tham số giúp mô hình đạt hiệu suất tốt nhất. Những tham số được chọn sau cùng trong hàm lm là
+lm(formula = $Y\sim $,data=train).
+
+
+
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=\textwidth]{fig1.eps}
+		\caption{Phân tích hồi quy trên mô hình Polynomial Regression trước khi tiền xử lí}
+		\label{fig:pl}
+	\end{center}
+\end{figure}
+
+Từ hình~\ref{fig:pl}, mô hình Polynomial Regression trước khi tiền xử lí có dạng là:\\
+\begin{center}
+	$\textbf{Y}=  + $
+\end{center}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=\textwidth]{fig1.eps}
+		\caption{Phân tích hồi quy trên mô hình Polynomial Regression sau khi tiền xử lí}
+		\label{fig:prp}
+	\end{center}
+\end{figure}
+
+Từ hình~\ref{fig:prp}, mô hình Multiple Linear Regression sau khi tiền xử lí có dạng là:\\
+\begin{center}
+	$\textbf{Y}=  $
+\end{center}
 
 \subsubsection{Ridge Regression}
 là phương pháp xác định hệ số của mô hình hồi quy đa biến trong điều kiện biến độc lập có sự tương quan chặt chẽ với nhau. Được xem là dạng chính quy (regularization) của hồi quy tuyến tính. Dùng để giảm số lượng biến độc lập trong mô hình hồi quy, nhằm giảm các vấn đề Overfitting và Underfitting.

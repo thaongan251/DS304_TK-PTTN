@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2021.6.6)  18 JUL 2021 01:40
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2021.6.7)  18 JUL 2021 02:21
 entering extended mode
 **BaoCaoDS304.tex
-(D:\__UIT\HK4\DS304_TK&PTTN\DS304_TK-PTTN\BaoCaoLatex\BaoCaoDS304.tex
+(C:\Users\HP\Documents\GitHub\DS304_TK-PTTN\BaoCaoLatex\BaoCaoDS304.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
 rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
-(D:\__UIT\HK4\DS304_TK&PTTN\DS304_TK-PTTN\BaoCaoLatex\llncs.cls
+(C:\Users\HP\Documents\GitHub\DS304_TK-PTTN\BaoCaoLatex\llncs.cls
 Document Class: llncs 2018/03/10 v2.20 
  LaTeX document class for Lecture Notes in Computer Science
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\article.cls"
@@ -626,7 +626,11 @@ Package: ulem 2000/05/26
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-(D:\__UIT\HK4\DS304_TK&PTTN\DS304_TK-PTTN\BaoCaoLatex\BaoCaoDS304.aux)
+(C:\Users\HP\Documents\GitHub\DS304_TK-PTTN\BaoCaoLatex\BaoCaoDS304.aux
+
+LaTeX Warning: Label `tab3' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
@@ -641,8 +645,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
-
-("C:\Program Files (x86)\MiKTeX 2.8\tex\context\base\supp-pdf.tex"
+ ("C:\Program Files (x86)\MiKTeX 2.8\tex\context\base\supp-pdf.tex"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count118
 \scratchdimen=\dimen131
@@ -711,69 +714,212 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-Underfull \hbox (badness 10000) in paragraph at lines 168--172
+Underfull \hbox (badness 10000) in paragraph at lines 168--170
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 178--183
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--182
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
 
 [5]
-
-LaTeX Warning: Empty `thebibliography' environment on input line 219.
-
-[6]
 Package epstopdf Info: Source file: <fig1.eps>
-(epstopdf)                    date: 2021-07-16 23:11:40
+(epstopdf)                    date: 2021-07-18 02:17:41
 (epstopdf)                    size: 357553 bytes
 (epstopdf)             Output file: <fig1-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-07-16 23:11:40
+(epstopdf)                    date: 2021-07-18 02:17:41
 (epstopdf)                    size: 26464 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig1-eps-converted-to.pdf f
 ig1.eps>
-(epstopdf)             \includegraphics on input line 265.
+(epstopdf)             \includegraphics on input line 234.
 Package epstopdf Info: Output file is already uptodate.
- <fig1-eps-converted-to.pdf, id=37, 345.29pt x 142.5325pt>
+ <fig1-eps-converted-to.pdf, id=33, 345.29pt x 142.5325pt>
+File: fig1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig1-eps-converted-to.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
+
+ []
+
+Package epstopdf Info: Source file: <fig1.eps>
+(epstopdf)                    date: 2021-07-18 02:17:41
+(epstopdf)                    size: 357553 bytes
+(epstopdf)             Output file: <fig1-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-07-18 02:17:41
+(epstopdf)                    size: 26464 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig1-eps-converted-to.pdf f
+ig1.eps>
+(epstopdf)             \includegraphics on input line 249.
+Package epstopdf Info: Output file is already uptodate.
+File: fig1-eps-converted-to.pdf Graphic file (type pdf)
+<use fig1-eps-converted-to.pdf>
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
+
+ []
+
+[7 <C:/Users/HP/Documents/GitHub/DS304_TK-PTTN/BaoCaoLatex/fig1-eps-converted-t
+o.pdf>]
+Package epstopdf Info: Source file: <fig1.eps>
+(epstopdf)                    date: 2021-07-18 02:17:41
+(epstopdf)                    size: 357553 bytes
+(epstopdf)             Output file: <fig1-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-07-18 02:17:41
+(epstopdf)                    size: 26464 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig1-eps-converted-to.pdf f
+ig1.eps>
+(epstopdf)             \includegraphics on input line 268.
+Package epstopdf Info: Output file is already uptodate.
+File: fig1-eps-converted-to.pdf Graphic file (type pdf)
+ <use fig1-eps-converted-to.pdf>
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+
+ []
+
+Package epstopdf Info: Source file: <fig1.eps>
+(epstopdf)                    date: 2021-07-18 02:17:41
+(epstopdf)                    size: 357553 bytes
+(epstopdf)             Output file: <fig1-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-07-18 02:17:41
+(epstopdf)                    size: 26464 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig1-eps-converted-to.pdf f
+ig1.eps>
+(epstopdf)             \includegraphics on input line 281.
+Package epstopdf Info: Output file is already uptodate.
+File: fig1-eps-converted-to.pdf Graphic file (type pdf)
+<use fig1-eps-converted-to.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
+
+ []
+
+Package epstopdf Info: Source file: <fig1.eps>
+(epstopdf)                    date: 2021-07-18 02:17:41
+(epstopdf)                    size: 357553 bytes
+(epstopdf)             Output file: <fig1-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-07-18 02:17:41
+(epstopdf)                    size: 26464 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig1-eps-converted-to.pdf f
+ig1.eps>
+(epstopdf)             \includegraphics on input line 305.
+Package epstopdf Info: Output file is already uptodate.
+File: fig1-eps-converted-to.pdf Graphic file (type pdf)
+<use fig1-eps-converted-to.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+
+ []
+
+Package epstopdf Info: Source file: <fig1.eps>
+(epstopdf)                    date: 2021-07-18 02:17:41
+(epstopdf)                    size: 357553 bytes
+(epstopdf)             Output file: <fig1-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-07-18 02:17:41
+(epstopdf)                    size: 26464 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig1-eps-converted-to.pdf f
+ig1.eps>
+(epstopdf)             \includegraphics on input line 318.
+Package epstopdf Info: Output file is already uptodate.
+File: fig1-eps-converted-to.pdf Graphic file (type pdf)
+<use fig1-eps-converted-to.pdf>
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
+
+ []
+
+[10]
+
+LaTeX Warning: Empty `thebibliography' environment on input line 356.
+
+
+Underfull \vbox (badness 1406) has occurred while \output is active []
+
+ [11]
+Package epstopdf Info: Source file: <fig1.eps>
+(epstopdf)                    date: 2021-07-18 02:17:41
+(epstopdf)                    size: 357553 bytes
+(epstopdf)             Output file: <fig1-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-07-18 02:17:41
+(epstopdf)                    size: 26464 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig1-eps-converted-to.pdf f
+ig1.eps>
+(epstopdf)             \includegraphics on input line 402.
+Package epstopdf Info: Output file is already uptodate.
 File: fig1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig1-eps-converted-to.pdf>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7] [8 <D:/__UIT/HK4/DS304_TK&PTTN/DS304_TK-PTTN/BaoCaoLatex/fig1-eps-converted
--to.pdf>] (D:\__UIT\HK4\DS304_TK&PTTN\DS304_TK-PTTN\BaoCaoLatex\BaoCaoDS304.aux
-) ) 
+[12] [13]
+(C:\Users\HP\Documents\GitHub\DS304_TK-PTTN\BaoCaoLatex\BaoCaoDS304.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2869 strings out of 495285
- 35869 string characters out of 3179870
- 103603 words of memory out of 3000000
- 5995 multiletter control sequences out of 15000+200000
+ 2876 strings out of 495285
+ 35952 string characters out of 3179888
+ 103693 words of memory out of 3000000
+ 6002 multiletter control sequences out of 15000+200000
  19988 words of font info for 45 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  41i,10n,23p,1210b,384s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmex10.pfb
-><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/
-Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
- Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (
-x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x8
-6)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/
-MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiK
-TeX 2.8/fonts/type1/vntex/vnr/vnbx10.pfb><C:/Program Files (x86)/MiKTeX 2.8/fon
-ts/type1/vntex/vnr/vnbx12.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/vn
-tex/vnr/vnbx9.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnr1
-0.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnr9.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnti10.pfb><C:/Program Files 
-(x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnti9.pfb><C:/Program Files (x86)/MiKTeX
- 2.8/fonts/type1/vntex/vnr/vntt9.pfb>
-Output written on BaoCaoDS304.pdf (8 pages, 269207 bytes).
+<C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmbx7.pfb><
+C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:
+/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program
+ Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files 
+(x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86
+)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/Mi
+KTeX 2.8/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX
+ 2.8/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2
+.8/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.8/
+fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.8/fon
+ts/type1/vntex/vnr/vnbx10.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/vn
+tex/vnr/vnbx12.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnb
+x9.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnr10.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnr9.pfb><C:/Program Files 
+(x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnti10.pfb><C:/Program Files (x86)/MiKTe
+X 2.8/fonts/type1/vntex/vnr/vnti9.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/
+type1/vntex/vnr/vntt9.pfb>
+Output written on BaoCaoDS304.pdf (13 pages, 305105 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
+ 144 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
