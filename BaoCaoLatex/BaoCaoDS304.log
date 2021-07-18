@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2021.5.30)  18 JUL 2021 09:19
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2021.5.30)  18 JUL 2021 21:59
 entering extended mode
 **BaoCaoDS304.tex
 
@@ -630,265 +630,591 @@ Package: ulem 2000/05/26
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
+(E:\Program_Data\Miktex_2.8\tex\latex\todonotes\todonotes.sty
+Package: todonotes 2009/10/24 .dtx Todonotes source and documentation.
+Package: todonotes 2009/04/02
+
+(E:\Program_Data\Miktex_2.8\tex\latex\xkeyval\xkeyval.sty
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+(E:\Program_Data\Miktex_2.8\tex\generic\xkeyval\xkeyval.tex
+\XKV@toks=\toks25
+\XKV@tempa@toks=\toks26
+\XKV@depth=\count118
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+))
+(E:\Program_Data\Miktex_2.8\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(E:\Program_Data\Miktex_2.8\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(E:\Program_Data\Miktex_2.8\tex\latex\pgf\frontendlayer\tikz.sty
+(E:\Program_Data\Miktex_2.8\tex\latex\pgf\basiclayer\pgf.sty
+(E:\Program_Data\Miktex_2.8\tex\latex\pgf\utilities\pgfrcs.sty
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks27
+)
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\utilities\pgfutil-latex.def)
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\utilities\pgfrcs.code.tex
+Package: pgfrcs 2008/02/20 v2.00 (rcs-revision 1.21)
+))
+Package: pgf 2008/01/15 v2.00 (rcs-revision 1.12)
+
+(E:\Program_Data\Miktex_2.8\tex\latex\pgf\basiclayer\pgfcore.sty
+(E:\Program_Data\Miktex_2.8\tex\latex\pgf\systemlayer\pgfsys.sty
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\systemlayer\pgfsys.code.tex
+Package: pgfsys 2008/02/07 v2.00 (rcs-revision 1.31)
+
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
+)
+\pgf@x=\dimen131
+\pgf@y=\dimen132
+\pgf@xa=\dimen133
+\pgf@ya=\dimen134
+\pgf@xb=\dimen135
+\pgf@yb=\dimen136
+\pgf@xc=\dimen137
+\pgf@yc=\dimen138
+\c@pgf@counta=\count119
+\c@pgf@countb=\count120
+\c@pgf@countc=\count121
+\c@pgf@countd=\count122
+
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\systemlayer\pgf.cfg
+File: pgf.cfg 2008/01/13  (rcs-revision 1.6)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 885.
+
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2007/12/20  (rcs-revision 1.20)
+
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2007/12/17  (rcs-revision 1.8)
+)))
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2008/01/23  (rcs-revision 1.6)
+\pgfsyssoftpath@smallbuffer@items=\count123
+\pgfsyssoftpath@bigbuffer@items=\count124
+)
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcore.code.tex
+Package: pgfcore 2008/01/15 v2.00 (rcs-revision 1.6)
+
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\math\pgfmath.code.tex
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\math\pgfmathcalc.code.tex
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\math\pgfmathutil.code.tex
+\pgfmath@box=\box59
+)
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\math\pgfmathparser.code.tex
+\pgfmath@stack=\toks30
+\c@pgfmath@parsecounta=\count125
+\c@pgfmath@parsecountb=\count126
+\c@pgfmath@parsecountc=\count127
+\pgfmath@parsex=\dimen139
+)
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\math\pgfmathoperations.code.tex
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\math\pgfmathtrig.code.tex)
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\math\pgfmathrnd.code.tex))
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\math\pgfmathbase.code.tex)))
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2008/02/03  (rcs-revision 1.13)
+\pgf@picminx=\dimen140
+\pgf@picmaxx=\dimen141
+\pgf@picminy=\dimen142
+\pgf@picmaxy=\dimen143
+\pgf@pathminx=\dimen144
+\pgf@pathmaxx=\dimen145
+\pgf@pathminy=\dimen146
+\pgf@pathmaxy=\dimen147
+\pgf@xx=\dimen148
+\pgf@xy=\dimen149
+\pgf@yx=\dimen150
+\pgf@yy=\dimen151
+\pgf@zx=\dimen152
+\pgf@zy=\dimen153
+)
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcorepathconstruct.cod
+e.tex
+File: pgfcorepathconstruct.code.tex 2008/02/13  (rcs-revision 1.14)
+\pgf@path@lastx=\dimen154
+\pgf@path@lasty=\dimen155
+)
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcorepathusage.code.te
+x
+File: pgfcorepathusage.code.tex 2008/01/23  (rcs-revision 1.11)
+\pgf@shorten@end@additional=\dimen156
+\pgf@shorten@start@additional=\dimen157
+)
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2008/01/15  (rcs-revision 1.26)
+\pgfpic=\box60
+\pgf@hbox=\box61
+\pgf@layerbox@main=\box62
+\pgf@picture@serial@count=\count128
+)
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code
+.tex
+File: pgfcoregraphicstate.code.tex 2007/12/12  (rcs-revision 1.8)
+\pgflinewidth=\dimen158
+)
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcoretransformations.c
+ode.tex
+File: pgfcoretransformations.code.tex 2008/02/04  (rcs-revision 1.10)
+\pgf@pt@x=\dimen159
+\pgf@pt@y=\dimen160
+\pgf@pt@temp=\dimen161
+)
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcorepathprocessing.co
+de.tex
+File: pgfcorepathprocessing.code.tex 2008/01/23  (rcs-revision 1.7)
+)
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2007/06/07  (rcs-revision 1.8)
+)
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2007/12/10  (rcs-revision 1.9)
+\pgf@max=\dimen162
+\pgf@sys@shading@range@num=\count129
+)
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2008/01/15  (rcs-revision 1.1)
+\pgfexternal@startupbox=\box63
+)
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2008/01/15  (rcs-revision 1.1)
+)
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcoretransparency.code
+.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2008/01/15  (rcs-revision 1.1)
+)))
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2008/02/13  (rcs-revision 1.4)
+\pgfnodeparttextbox=\box64
+\toks@savedmacro=\toks31
+)
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2008/01/15  (rcs-revision 1.1)
+\pgf@plotwrite=\write3
+)
+(E:\Program_Data\Miktex_2.8\tex\latex\pgf\compatibility\pgfcomp-version-0-65.st
+y
+Package: pgfcomp-version-0-65 2007/07/03 v2.00 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen163
+\pgf@nodesepend=\dimen164
+)
+(E:\Program_Data\Miktex_2.8\tex\latex\pgf\compatibility\pgfcomp-version-1-18.st
+y
+Package: pgfcomp-version-1-18 2007/07/23 v2.00 (rcs-revision 1.1)
+)) (E:\Program_Data\Miktex_2.8\tex\latex\pgf\utilities\pgffor.sty
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\utilities\pgffor.code.tex
+Package: pgffor 2007/11/07 v2.00 (rcs-revision 1.8)
+\pgffor@iter=\dimen165
+\pgffor@skip=\dimen166
+))
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+Package: tikz 2008/02/13 v2.00 (rcs-revision 1.27)
+
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\libraries\pgflibraryplothandlers.co
+de.tex
+File: pgflibraryplothandlers.code.tex 2007/03/09 v2.00 (rcs-revision 1.9)
+\pgf@plot@mark@count=\count130
+\pgfplotmarksize=\dimen167
+)
+\tikz@lastx=\dimen168
+\tikz@lasty=\dimen169
+\tikz@lastxsaved=\dimen170
+\tikz@lastysaved=\dimen171
+\tikzleveldistance=\dimen172
+\tikzsiblingdistance=\dimen173
+\tikz@figbox=\box65
+\tikz@tempbox=\box66
+\tikztreelevel=\count131
+\tikznumberofchildren=\count132
+\tikznumberofcurrentchild=\count133
+\tikz@fig@count=\count134
+
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2008/01/15  (rcs-revision 1.1)
+\pgfmatrixcurrentrow=\count135
+\pgfmatrixcurrentcolumn=\count136
+\pgf@matrix@numberofcolumns=\count137
+)
+\tikz@expandcount=\count138
+
+(E:\Program_Data\Miktex_2.8\tex\generic\pgf\frontendlayer\tikz\libraries\tikzli
+brarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/01/09 v2.00 (rcs-revision 1.1)
+))) (E:\Program_Data\Miktex_2.8\tex\latex\tools\calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count139
+\calc@Bcount=\count140
+\calc@Adimen=\dimen174
+\calc@Bdimen=\dimen175
+\calc@Askip=\skip48
+\calc@Bskip=\skip49
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count141
+\calc@Cskip=\skip50
+)
+\c@@todonotes@numberoftodonotes=\count142
+) (E:\Program_Data\Miktex_2.8\tex\latex\listings\listings.sty
+\lst@mode=\count143
+\lst@gtempboxa=\box67
+\lst@token=\toks32
+\lst@length=\count144
+\lst@currlwidth=\dimen176
+\lst@column=\count145
+\lst@pos=\count146
+\lst@lostspace=\dimen177
+\lst@width=\dimen178
+\lst@newlines=\count147
+\lst@lineno=\count148
+\lst@maxwidth=\dimen179
+
+(E:\Program_Data\Miktex_2.8\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count149
+\lst@skipnumbers=\count150
+\lst@framebox=\box68
+)
+(E:\Program_Data\Miktex_2.8\tex\latex\listings\listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(E:\Program_Data\Miktex_2.8\tex\latex\fancyvrb\fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count151
+\FV@InFile=\read1
+\FV@TabBox=\box69
+\c@FancyVerbLine=\count152
+\FV@StepNumber=\count153
+\FV@OutFile=\write4
+)
+(E:\Program_Data\Miktex_2.8\tex\latex\verbatimbox\verbatimbox.sty
+Package: verbatimbox 2007/03/16 v1.0
+
+(E:\Program_Data\Miktex_2.8\tex\latex\tools\verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks33
+\verbatim@line=\toks34
+\verbatim@in@stream=\read2
+)
+\savedverbbox=\box70
+\boxtopsep=\dimen180
+\boxbottomsep=\dimen181
+\ps@tempdima=\dimen182
+\ps@tempboxa=\box71
+)
 ("D:\#UIT_Documents\#HK2_2020_2021\Phan tich va Thiet ke thuc nghiem\R_project\
 BaoCaofinal\DS304_TK-PTTN\BaoCaoLatex\BaoCaoDS304.aux"
+
+LaTeX Warning: Label `fig2' multiply defined.
+
+
+LaTeX Warning: Label `fig2' multiply defined.
+
+
+LaTeX Warning: Label `fig2' multiply defined.
+
+
+LaTeX Warning: Label `fig2' multiply defined.
+
+
+LaTeX Warning: Label `fig2' multiply defined.
+
+
+LaTeX Warning: Label `fig2' multiply defined.
+
+
+LaTeX Warning: Label `fig2' multiply defined.
+
+
+LaTeX Warning: Label `fig2' multiply defined.
+
+
+LaTeX Warning: Label `fig2' multiply defined.
+
+
+LaTeX Warning: Label `fig2' multiply defined.
+
+
+LaTeX Warning: Label `fig2' multiply defined.
+
+
+LaTeX Warning: Label `fig2' multiply defined.
+
+
+LaTeX Warning: Label `fig2' multiply defined.
+
+
+LaTeX Warning: Label `fig2' multiply defined.
+
+
+LaTeX Warning: Label `tab3' multiply defined.
+
+
+LaTeX Warning: Label `tab3' multiply defined.
+
+
+LaTeX Warning: Label `tab3' multiply defined.
+
+
+LaTeX Warning: Label `fig2' multiply defined.
+
 
 LaTeX Warning: Label `tab3' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
  (E:\Program_Data\Miktex_2.8\tex\context\base\supp-pdf.tex
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count118
-\scratchdimen=\dimen131
-\scratchbox=\box59
-\nofMPsegments=\count119
-\nofMParguments=\count120
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count121
-\MPscratchDim=\dimen132
-\MPnumerator=\count122
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count154
+\scratchdimen=\dimen183
+\scratchbox=\box72
+\nofMPsegments=\count155
+\nofMParguments=\count156
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count157
+\MPscratchDim=\dimen184
+\MPnumerator=\count158
+\everyMPtoPDFconversion=\toks36
 )
+\c@lstlisting=\count159
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 49.
+(Font)              <14.4> on input line 85.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 49.
+(Font)              <7> on input line 85.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 49.
+(Font)              <5> on input line 85.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 49.
+(Font)              <9> on input line 85.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 49.
-LaTeX Font Info:    Try loading font information for T5+cmtt on input line 49.
+(Font)              <6> on input line 85.
+LaTeX Font Info:    Try loading font information for T5+cmtt on input line 85.
  (E:\Program_Data\Miktex_2.8\tex\latex\vntex\t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-Title too long for running head. Please supply
-a shorter form with \titlerunning prior to \maketitle
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 54.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 90.
+
 (E:\Program_Data\Miktex_2.8\tex\latex\base\omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 90.
  [1
 
 {C:/ProgramData/MiKTeX/2.8/pdftex/config/pdftex.map}]
-Overfull \hbox (1.75339pt too wide) in paragraph at lines 81--81
+Overfull \hbox (1.75339pt too wide) in paragraph at lines 117--117
 []|\T5/cmr/bx/n/9 AGE| 
  []
 
 
-Overfull \hbox (1.24983pt too wide) in paragraph at lines 79--94
+Overfull \hbox (1.24983pt too wide) in paragraph at lines 115--130
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 []|$\T5/cmtt/m/n/9 https : / / www4 . stat . ncsu . edu / ~boos / var . select 
 / diabetes .$
  []
 
 
-Overfull \vbox (8.08379pt too high) detected at line 115
+Overfull \vbox (8.08379pt too high) detected at line 151
  []
 
 
-Overfull \hbox (12.58226pt too wide) in paragraph at lines 102--132
+Overfull \hbox (12.58226pt too wide) in paragraph at lines 138--168
  [] 
  []
 
+[2] [3] <describe.png, id=25, 773.289pt x 203.5605pt>
+File: describe.png Graphic file (type png)
+ <use describe.png>
+<Scatter_Y.png, id=27, 901.6887pt x 864.1083pt>
+File: Scatter_Y.png Graphic file (type png)
+ <use Scatter_Y.png> [4 <D:/#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke
+ thuc nghiem/R_project/BaoCaofinal/DS304_TK-PTTN/BaoCaoLatex/describe.png> <D:/
+#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke thuc nghiem/R_project/BaoCa
+ofinal/DS304_TK-PTTN/BaoCaoLatex/Scatter_Y.png>] <Scatter_factors.png, id=33, 1
+754.9565pt x 1608.2484pt>
+File: Scatter_factors.png Graphic file (type png)
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<use Scatter_factors.png> [5 <D:/#UIT_Documents/#HK2_2020_2021/Phan tich va Thi
+et ke thuc nghiem/R_project/BaoCaofinal/DS304_TK-PTTN/BaoCaoLatex/Scatter_facto
+rs.png>] <Corr.png, id=38, 672.111pt x 581.0508pt>
+File: Corr.png Graphic file (type png)
+ <use Corr.png> [6 <D:/#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke thuc
+ nghiem/R_project/BaoCaofinal/DS304_TK-PTTN/BaoCaoLatex/Corr.png>]
+<Dist_Y.png, id=43, 960.4683pt x 558.1653pt>
+File: Dist_Y.png Graphic file (type png)
+ <use Dist_Y.png>
+<Dist_BMI.png, id=44, 1184.5053pt x 721.7364pt>
+File: Dist_BMI.png Graphic file (type png)
+ <use Dist_BMI.png> [7 <D:/#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke 
+thuc nghiem/R_project/BaoCaofinal/DS304_TK-PTTN/BaoCaoLatex/Dist_Y.png>] [8 <D:
+/#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke thuc nghiem/R_project/BaoC
+aofinal/DS304_TK-PTTN/BaoCaoLatex/Dist_BMI.png>] <box.png, id=54, 2477.255pt x 
+2477.255pt>
+File: box.png Graphic file (type png)
+ <use box.png>
+[9 <D:/#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke thuc nghiem/R_projec
+t/BaoCaofinal/DS304_TK-PTTN/BaoCaoLatex/box.png>]
+<AGEOR.png, id=59, 1003.75pt x 548.0475pt>
+File: AGEOR.png Graphic file (type png)
+ <use AGEOR.png>
+<BMIOR.png, id=60, 1003.75pt x 548.0475pt>
+File: BMIOR.png Graphic file (type png)
+ <use BMIOR.png>
+<BPOR.png, id=61, 1003.75pt x 548.0475pt>
+File: BPOR.png Graphic file (type png)
+ <use BPOR.png>
+<S1OR.png, id=62, 1003.75pt x 548.0475pt>
+File: S1OR.png Graphic file (type png)
+ <use S1OR.png>
+<S2OR.png, id=63, 1003.75pt x 548.0475pt>
+File: S2OR.png Graphic file (type png)
+ <use S2OR.png> [10 <D:/#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke thu
+c nghiem/R_project/BaoCaofinal/DS304_TK-PTTN/BaoCaoLatex/AGEOR.png> <D:/#UIT_Do
+cuments/#HK2_2020_2021/Phan tich va Thiet ke thuc nghiem/R_project/BaoCaofinal/
+DS304_TK-PTTN/BaoCaoLatex/BMIOR.png>]
+Overfull \vbox (61.29924pt too high) has occurred while \output is active []
 
- [2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3]
-Underfull \hbox (badness 10000) in paragraph at lines 168--170
+[11 <D:/#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke thuc nghiem/R_proje
+ct/BaoCaofinal/DS304_TK-PTTN/BaoCaoLatex/BPOR.png> <D:/#UIT_Documents/#HK2_2020
+_2021/Phan tich va Thiet ke thuc nghiem/R_project/BaoCaofinal/DS304_TK-PTTN/Bao
+CaoLatex/S1OR.png> <D:/#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke thuc
+ nghiem/R_project/BaoCaofinal/DS304_TK-PTTN/BaoCaoLatex/S2OR.png>]
+<S3OR.png, id=78, 1003.75pt x 548.0475pt>
+File: S3OR.png Graphic file (type png)
+ <use S3OR.png>
+<S4OR.png, id=79, 1003.75pt x 548.0475pt>
+File: S4OR.png Graphic file (type png)
+ <use S4OR.png>
+<S5OR.png, id=80, 1003.75pt x 548.0475pt>
+File: S5OR.png Graphic file (type png)
+ <use S5OR.png>
+Overfull \vbox (61.29924pt too high) has occurred while \output is active []
+
+
+[12 <D:/#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke thuc nghiem/R_proje
+ct/BaoCaofinal/DS304_TK-PTTN/BaoCaoLatex/S3OR.png> <D:/#UIT_Documents/#HK2_2020
+_2021/Phan tich va Thiet ke thuc nghiem/R_project/BaoCaofinal/DS304_TK-PTTN/Bao
+CaoLatex/S4OR.png> <D:/#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke thuc
+ nghiem/R_project/BaoCaofinal/DS304_TK-PTTN/BaoCaoLatex/S5OR.png>]
+<S6OR.png, id=87, 1003.75pt x 548.0475pt>
+File: S6OR.png Graphic file (type png)
+ <use S6OR.png> [13 <D:/#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke thu
+c nghiem/R_project/BaoCaofinal/DS304_TK-PTTN/BaoCaoLatex/S6OR.png>]
+(E:\Program_Data\Miktex_2.8\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(E:\Program_Data\Miktex_2.8\tex\latex\listings\lstlang2.sty
+File: lstlang2.sty 2004/09/05 1.3 listings language file
+)
+(E:\Program_Data\Miktex_2.8\tex\latex\listings\lstlang3.sty
+File: lstlang3.sty 2004/09/05 1.3 listings language file
+) [14]
+LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 426.
+ [15] [16]
+[17] [18] [19] [20] [21] [22] [23]
+Overfull \hbox (6.79274pt too wide) in paragraph at lines 873--874
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.59273pt too wide) in paragraph at lines 871--877
+ [] 
+ []
+
+[24] [25] [26] [27] [28] [29]
+Underfull \hbox (badness 10000) in paragraph at lines 1166--1168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 1169--1170
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--182
+Underfull \hbox (badness 10000) in paragraph at lines 1170--1171
+
+ []
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 1178--1180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
+Underfull \hbox (badness 10000) in paragraph at lines 1181--1182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
+Underfull \hbox (badness 10000) in paragraph at lines 1182--1183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
+Underfull \hbox (badness 10000) in paragraph at lines 1183--1184
 
  []
 
-[5]
-Package epstopdf Info: Source file: <fig1.eps>
-(epstopdf)                    date: 2021-07-18 09:12:24
-(epstopdf)                    size: 357553 bytes
-(epstopdf)             Output file: <fig1-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-07-18 09:12:24
-(epstopdf)                    size: 26464 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig1-eps-converted-to.pdf f
-ig1.eps>
-(epstopdf)             \includegraphics on input line 234.
-Package epstopdf Info: Output file is already uptodate.
- <fig1-eps-converted-to.pdf, id=33, 345.29pt x 142.5325pt>
-File: fig1-eps-converted-to.pdf Graphic file (type pdf)
+[31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41]
+<Rplot.png, id=190, 432.86719pt x 343.2825pt>
+File: Rplot.png Graphic file (type png)
+ <use Rplot.png> [42]
 
-<use fig1-eps-converted-to.pdf>
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Empty `thebibliography' environment on input line 1750.
 
- [6]
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
-
- []
-
-Package epstopdf Info: Source file: <fig1.eps>
-(epstopdf)                    date: 2021-07-18 09:12:24
-(epstopdf)                    size: 357553 bytes
-(epstopdf)             Output file: <fig1-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-07-18 09:12:24
-(epstopdf)                    size: 26464 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig1-eps-converted-to.pdf f
-ig1.eps>
-(epstopdf)             \includegraphics on input line 249.
-Package epstopdf Info: Output file is already uptodate.
-File: fig1-eps-converted-to.pdf Graphic file (type pdf)
-<use fig1-eps-converted-to.pdf>
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
-
- []
-
-[7 <D:/#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke thuc nghiem/R_projec
-t/BaoCaofinal/DS304_TK-PTTN/BaoCaoLatex/fig1-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig1.eps>
-(epstopdf)                    date: 2021-07-18 09:12:24
-(epstopdf)                    size: 357553 bytes
-(epstopdf)             Output file: <fig1-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-07-18 09:12:24
-(epstopdf)                    size: 26464 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig1-eps-converted-to.pdf f
-ig1.eps>
-(epstopdf)             \includegraphics on input line 268.
-Package epstopdf Info: Output file is already uptodate.
-File: fig1-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig1-eps-converted-to.pdf>
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
-
- []
-
-Package epstopdf Info: Source file: <fig1.eps>
-(epstopdf)                    date: 2021-07-18 09:12:24
-(epstopdf)                    size: 357553 bytes
-(epstopdf)             Output file: <fig1-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-07-18 09:12:24
-(epstopdf)                    size: 26464 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig1-eps-converted-to.pdf f
-ig1.eps>
-(epstopdf)             \includegraphics on input line 281.
-Package epstopdf Info: Output file is already uptodate.
-File: fig1-eps-converted-to.pdf Graphic file (type pdf)
-<use fig1-eps-converted-to.pdf>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
-Underfull \hbox (badness 10000) in paragraph at lines 287--288
-
- []
-
-Package epstopdf Info: Source file: <fig1.eps>
-(epstopdf)                    date: 2021-07-18 09:12:24
-(epstopdf)                    size: 357553 bytes
-(epstopdf)             Output file: <fig1-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-07-18 09:12:24
-(epstopdf)                    size: 26464 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig1-eps-converted-to.pdf f
-ig1.eps>
-(epstopdf)             \includegraphics on input line 305.
-Package epstopdf Info: Output file is already uptodate.
-File: fig1-eps-converted-to.pdf Graphic file (type pdf)
-<use fig1-eps-converted-to.pdf>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9]
-Underfull \hbox (badness 10000) in paragraph at lines 311--312
-
- []
-
-Package epstopdf Info: Source file: <fig1.eps>
-(epstopdf)                    date: 2021-07-18 09:12:24
-(epstopdf)                    size: 357553 bytes
-(epstopdf)             Output file: <fig1-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-07-18 09:12:24
-(epstopdf)                    size: 26464 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig1-eps-converted-to.pdf f
-ig1.eps>
-(epstopdf)             \includegraphics on input line 318.
-Package epstopdf Info: Output file is already uptodate.
-File: fig1-eps-converted-to.pdf Graphic file (type pdf)
-<use fig1-eps-converted-to.pdf>
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
-
- []
-
-[10]
-
-LaTeX Warning: Empty `thebibliography' environment on input line 356.
-
-
-Underfull \vbox (badness 1406) has occurred while \output is active []
-
- [11]
-Package epstopdf Info: Source file: <fig1.eps>
-(epstopdf)                    date: 2021-07-18 09:12:24
-(epstopdf)                    size: 357553 bytes
-(epstopdf)             Output file: <fig1-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-07-18 09:12:24
-(epstopdf)                    size: 26464 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig1-eps-converted-to.pdf f
-ig1.eps>
-(epstopdf)             \includegraphics on input line 402.
-Package epstopdf Info: Output file is already uptodate.
-File: fig1-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig1-eps-converted-to.pdf>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[12] [13]
+[43 <D:/#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke thuc nghiem/R_proje
+ct/BaoCaofinal/DS304_TK-PTTN/BaoCaoLatex/Rplot.png (PNG copy)>]
 ("D:\#UIT_Documents\#HK2_2020_2021\Phan tich va Thiet ke thuc nghiem\R_project\
 BaoCaofinal\DS304_TK-PTTN\BaoCaoLatex\BaoCaoDS304.aux")
 
@@ -896,35 +1222,36 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2876 strings out of 495285
- 35841 string characters out of 3180474
- 103694 words of memory out of 3000000
- 6002 multiletter control sequences out of 15000+200000
- 19988 words of font info for 45 fonts, out of 3000000 for 9000
+ 12509 strings out of 495285
+ 198370 string characters out of 3180474
+ 309659 words of memory out of 3000000
+ 15407 multiletter control sequences out of 15000+200000
+ 19476 words of font info for 45 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,10n,23p,1210b,384s stack positions out of 5000i,500n,10000p,200000b,50000s
-<E:/Program_Data/Miktex_2.8/fonts/type1/public/amsfonts/cm/cmbx7.pfb><E:/Prog
-ram_Data/Miktex_2.8/fonts/type1/public/amsfonts/cm/cmex10.pfb><E:/Program_Data/
-Miktex_2.8/fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/Program_Data/Miktex_2.
-8/fonts/type1/public/amsfonts/cm/cmmi6.pfb><E:/Program_Data/Miktex_2.8/fonts/ty
-pe1/public/amsfonts/cm/cmmi7.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/public
-/amsfonts/cm/cmmi9.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/public/amsfonts/
-cm/cmmib10.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/public/amsfonts/cm/cmr10
-.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/public/amsfonts/cm/cmr6.pfb><E:/Pr
-ogram_Data/Miktex_2.8/fonts/type1/public/amsfonts/cm/cmr7.pfb><E:/Program_Data/
-Miktex_2.8/fonts/type1/public/amsfonts/cm/cmr9.pfb><E:/Program_Data/Miktex_2.8/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/Program_Data/Miktex_2.8/fonts/typ
-e1/public/amsfonts/cm/cmsy7.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/public/
-amsfonts/cm/cmsy9.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/vntex/vnr/vnbx10.
-pfb><E:/Program_Data/Miktex_2.8/fonts/type1/vntex/vnr/vnbx12.pfb><E:/Program_Da
-ta/Miktex_2.8/fonts/type1/vntex/vnr/vnbx9.pfb><E:/Program_Data/Miktex_2.8/fonts
-/type1/vntex/vnr/vnr10.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/vntex/vnr/vn
-r9.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/vntex/vnr/vnti10.pfb><E:/Program
-_Data/Miktex_2.8/fonts/type1/vntex/vnr/vnti9.pfb><E:/Program_Data/Miktex_2.8/fo
-nts/type1/vntex/vnr/vntt9.pfb>
-Output written on BaoCaoDS304.pdf (13 pages, 305182 bytes).
+ 54i,14n,74p,1209b,1951s stack positions out of 5000i,500n,10000p,200000b,50000s
+<E:/Program_Data/Miktex_2.8/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><E:/Pr
+ogram_Data/Miktex_2.8/fonts/type1/public/amsfonts/cm/cmbx7.pfb><E:/Program_Data
+/Miktex_2.8/fonts/type1/public/amsfonts/cm/cmex10.pfb><E:/Program_Data/Miktex_2
+.8/fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/Program_Data/Miktex_2.8/fonts/
+type1/public/amsfonts/cm/cmmi6.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/publ
+ic/amsfonts/cm/cmmi7.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/public/amsfont
+s/cm/cmmi9.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/public/amsfonts/cm/cmmib
+10.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:
+/Program_Data/Miktex_2.8/fonts/type1/public/amsfonts/cm/cmr6.pfb><E:/Program_Da
+ta/Miktex_2.8/fonts/type1/public/amsfonts/cm/cmr7.pfb><E:/Program_Data/Miktex_2
+.8/fonts/type1/public/amsfonts/cm/cmr9.pfb><E:/Program_Data/Miktex_2.8/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/publi
+c/amsfonts/cm/cmsy7.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/public/amsfonts
+/cm/cmsy9.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/vntex/vnr/vnbx10.pfb><E:/
+Program_Data/Miktex_2.8/fonts/type1/vntex/vnr/vnbx12.pfb><E:/Program_Data/Mikte
+x_2.8/fonts/type1/vntex/vnr/vnbx9.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/v
+ntex/vnr/vnr10.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/vntex/vnr/vnr9.pfb><
+E:/Program_Data/Miktex_2.8/fonts/type1/vntex/vnr/vnti10.pfb><E:/Program_Data/Mi
+ktex_2.8/fonts/type1/vntex/vnr/vntt10.pfb><E:/Program_Data/Miktex_2.8/fonts/typ
+e1/vntex/vnr/vntt9.pfb>
+Output written on BaoCaoDS304.pdf (43 pages, 9454145 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
+ 272 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 98 words of extra memory for PDF output out of 10000 (max. 10000000)
 
