@@ -85,7 +85,7 @@ Khoa Khoa học và Kỹ thuật Thông tin\\
 \maketitle              % typeset the header of the contribution
 %
 \begin{abstract}
-Bệnh đái tháo đường theo giới y khoa là một trong những mối đe doạ sức khoẻ toàn cầu đối với cộng đồng có tỉ lệ người mắc ngày càng tăng đều theo từng năm với nhiều nguyên nhân ảnh hưởng, trong đó nguyên nhân chính là rối loạn chức năng chuyển hóa insulin. Nhằm tìm hiểu được các yếu tố bên trong cơ thể có tác động như thế nào đến sự rối loạn này, nhóm chúng tôi đã tìm hiểu các chỉ số y tế mang tính thống kê có liên quan bằng bộ dữ liệu có sẵn và tiến hành phân tích, xử lí và đánh giá để có được những kết quả phù hợp cho mục đích của bài nghiên cứu. Trong quá trình phân tích có sử dụng phương pháp thống kê phân tích hồi quy để tìm ra sự ảnh hưởng và tương tác lẫn nhau của các yếu tố này. Sau khi thực hiện xây dựng các mô hình hồi quy phù hợp và đánh giá chúng, kết quả thu được là <KẾT QUẢ ĐÁNH GIÁ> cho mô hình phân tích tốt nhất <MÔ HÌNH TỐT NHẤT>. <Lược ý kết luận>
+Bệnh đái tháo đường theo giới y khoa là một trong những mối đe doạ sức khoẻ toàn cầu đối với cộng đồng có tỉ lệ người mắc ngày càng tăng đều theo từng năm với nhiều nguyên nhân ảnh hưởng, trong đó nguyên nhân chính là rối loạn chức năng chuyển hóa insulin. Nhằm tìm hiểu được các yếu tố bên trong cơ thể có tác động như thế nào đến sự rối loạn này, nhóm chúng tôi đã tìm hiểu các chỉ số y tế mang tính thống kê có liên quan bằng bộ dữ liệu có sẵn và tiến hành phân tích, xử lí và đánh giá để có được những kết quả phù hợp cho mục đích của bài nghiên cứu. Trong quá trình phân tích có sử dụng phương pháp thống kê phân tích hồi quy để tìm ra sự ảnh hưởng và tương tác lẫn nhau của các yếu tố này. Sau khi thực hiện xây dựng các mô hình hồi quy phù hợp và đánh giá chúng, kết quả thu được trên độ đo đánh giá Adjusted R-Squared là 0.5795  cho mô hình phân tích tốt nhất là mô hình Multiple Linear Regression trên tập dữ liệu kiểm thử chưa qua tiền xử lý. 
 
 \keywords{Đái tháo đường \and Bệnh tiểu đường \and  Phân tích hồi quy}
 \end{abstract}
@@ -247,7 +247,7 @@ Phân bố chỉ số tiến triển của các bệnh nhân có sự biến đ�
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{Dist_BMI}
-\caption{Biểu đồ phân phối giá trị thuộc tính Y} \label{fig2}
+\caption{Biểu đồ phân phối giá trị thuộc tính BMI} \label{fig2}
 \end{figure}
 
 Dựa vào biểu đồ phân phối chỉ số BMI, đa số các bệnh nhân có chỉ số khối cơ thể ở mức bình thường và thừa cân. Phân bố các điểm dữ liệu xấp xỉ về dạng phân phối chuẩn.
@@ -1197,7 +1197,7 @@ Vì bộ dữ liệu có 10 biến độc lập nên việc chọn thuộc tính
 	\setlength{\tabcolsep}{0.5em}
 	\renewcommand{\arraystretch}{1.4}
 	\begin{center}
-		\caption{Hệ số tương quan giữa biến phụ thuộc Y và các biến độc lập}\label{tab3}
+		\caption{Hệ số tương quan giữa biến phụ thuộc Y và các biến độc lập}\label{tab:corry}
 		\begin{tabular}{|c|c|}
 			\hline
 			Biến độc lập&Hệ số tương quan\\
@@ -1225,7 +1225,7 @@ Vì bộ dữ liệu có 10 biến độc lập nên việc chọn thuộc tính
 		\end{tabular}			
 	\end{center}
 \end{table}
-Thông qua bảng~\ref{tab3}, biến độc lập được sử dụn trong mô hình là BMI với hệ số tương quan là 0.59. Quá trình xây dựng mô hình Simple Linear Regression được thực trên R - Studio thông qua hàm lm với các tham số:  lm(formula = $Y \sim BMI$, data=train)
+Thông qua bảng~\ref{tab:corry}, biến độc lập được sử dụng trong mô hình là BMI với hệ số tương quan là 0.59. 
 
 \vspace{0.5cm}
 \textbf{Phân tích hồi quy trên mô hình Simple Linear Regression ở tập train}
@@ -1299,7 +1299,7 @@ Từ kết quả phân tích, mô hình Simple Linear Regression trên tập tra
 
 \subsubsection{Multiple Linear Regression} là trường hợp khi mô hình hồi quy tuyến tính tồn tại nhiều hơn một biến độc lập. Khi đó, phương trình biểu diễn cho mô hình là: $y= \beta_0 +\beta_1*x_1+\beta_2*x_2+...+\beta_n*x_n$ với x,y,$\beta_0, \beta_1,...,\beta_n$ có ý nghĩa tương tự như mô hình Simple Linear Regression.
 
-Dựa vào phân tích ảnh hưởng các yếu tố ở mục 4.2, các thuộc tính có ảnh hưởng sẽ được sử dụng để xây dựng mô hình Multiple Linear Regressionl là AGE, BMI, BP, S3, S5. Sau đó tiếp tục phân tích hồi quy để chọn ra thuộc tính có ảnh hưởng.Các tham số thuộc tính được chọn sau khi phân tích hồi quy trong hàm lm là lm(formula = $Y\sim BMI+BP+S3+S5$,data=train).
+Dựa vào phân tích ảnh hưởng các yếu tố ở mục 4.2, các thuộc tính có ảnh hưởng sẽ được sử dụng để xây dựng mô hình Multiple Linear Regressionl là AGE, BMI, BP, S3, S5. Sau đó tiếp tục phân tích hồi quy để chọn ra thuộc tính có ảnh hưởng.
 
 \vspace{0.5cm}
 \textbf{Phân tích hồi quy trên mô hình Multiple Linear Regression ở tập train}
@@ -1387,8 +1387,7 @@ Từ kết quả phân tích, mô hình Multiple Linear Regression trên tập t
 \subsubsection{Polynomial Regression} được sử dụng khi mối quan hệ giữa biến độc lập và biến phụ thuộc không thể trực quan trên một đường thẳng tuyến tính. Khi đó phương trình biểu diễn mô hình sẽ có dạng $y= \beta_0 +\beta_1*x_1+\beta_2*x^2+...+\beta_n*x^n$ với x,y,$\beta_0, \beta_1,...,\beta_n$
 có ý nghĩa tương tự như mô hình Simple Linear Regression.
 
-Thông qua phân tích ảnh hưởng các yếu tố ở mục 4.2 và tương tác giữa các yếu tố ở mục 4.3, các tham số được lựa chọn để xây dựng mô hình Polynomial Regression, sau đó thực hiện phân tích hồi quy để chọn ra tham số giúp mô hình đạt hiệu suất tốt nhất. Những tham số được chọn sau cùng trong hàm lm là
-lm(formula = $Y\sim $,data=train).
+Thông qua phân tích ảnh hưởng các yếu tố và tương tác giữa các yếu tố ở mục 4.2, các tham số được lựa chọn để xây dựng mô hình Polynomial Regression, sau đó thực hiện phân tích hồi quy để chọn ra tham số giúp mô hình đạt hiệu suất tốt nhất. 
 
 \vspace{0.5cm}
 \textbf{Phân tích hồi quy trên mô hình Polynomial Regression ở tập train}
@@ -1665,7 +1664,7 @@ S6             0.26372880
 
 \textbf{R-squared} = 0.469
 
-\textbf{Adjusted R-squared} = 0.4674
+\textbf{Adjusted R-squared} = 0.4674 
 
 
 \section{Đánh giá mô hình hồi quy}
@@ -1685,7 +1684,7 @@ Sau đây là bảng kết quả đánh giá tổng hợp trên tập huấn luy
 			\hline
 			Simple Linear Regression&0.318&0.2883\\
 			\hline
-			Multipple Linear Regresson&0.4871&0.4741\\
+			Multiple Linear Regresson&0.4871&0.4741\\
 			\hline
 			Polynomial Regresson&0.5213&0.4964\\
 			\hline
@@ -1699,7 +1698,13 @@ Sau đây là bảng kết quả đánh giá tổng hợp trên tập huấn luy
 	\end{center}
 \end{table}
 
-\textbf{Nhận xét}
+\textbf{Nhận xét:} 
+\begin{itemize}
+	\item Các mô hình trên tập dữ liệu huấn luyện trước khi tiền xử lí có kết quả tốt hơn so với sau khi tiền xử lí.
+	\item Độ đo đánh giá Adjusted R-Squared cao nhất trước và sau khi tiền xử lí trên tập dữ liệu huấn luyện đều thuộc về mô hình Polynomial Regression với kết quả lần lượt  là 0.5213 và 0.4964. Điều đó cho thấy mô hình Polynomial Regression có mức độ tương thích tốt hơn so với các mô hình còn lại trên tập dữ liệu huấn luyện.
+	\item Độ đo đánh giá Adjusted R-Squared thấp nhất trước và sau khi tiền xử lí trên tập dữ liệu huấn luyện đều thuộc về mô hình Simple Linear Regression với kết quả lần lượt là 0.318 và 0.2883. Điều đó cho thấy mô hình Simple Linear Regression không phù hợp trên tập dữ liệu huấn luyện. 
+	
+\end{itemize}
 
 \begin{table}[H]
 	\setlength{\tabcolsep}{0.5em}
@@ -1712,7 +1717,7 @@ Sau đây là bảng kết quả đánh giá tổng hợp trên tập huấn luy
 			\hline
 			Simple Linear Regression&0.4334&0.5099\\
 			\hline
-			Multipple Linear Regresson&0.5795&0.4998\\
+			Multiple Linear Regresson&0.5795&0.4998\\
 			\hline
 			Polynomial Regresson&0.5499&0.5669\\
 			\hline
@@ -1726,11 +1731,16 @@ Sau đây là bảng kết quả đánh giá tổng hợp trên tập huấn luy
 	\end{center}
 \end{table}
 
-\textbf{Nhận xét}
+\textbf{Nhận xét:}
+\begin{itemize}
+	\item Đa số mô hình trên tập dữ liệu kiểm thử trước khi tiền xử lí có kết quả tốt hơn so với sau khi tiền xử lí, riêng mô hình Simple Linear Regression và Polynomial Regression sau khi tiền xử lí lại có hiệu suất cao hơn so với trước khi tiền xử lí.
+	\item Độ đo đánh giá Adjusted R-Squared cao nhất trên tập dữ liệu kiểm thử trước khi tiền xử lí thuộc về mô hình Multiple Linear Regression với kết quả là 0.5795 và sau khi tiền xử lí thuộc về mô hình Polynomial Regression với kết quả là 0.5669.
+	\item Độ đo đánh giá Adjusted R-Squared thấp nhất trên tập dữ liệu kiểm thử trước khi tiền xử lí thuộc về mô hình Simple Linear Regression với kết quả là 0.4334 và sau khi tiền xử lí thuộc về mô hình Lasso Regression với kết quả là 0.4792.
+\end{itemize}
 
 
 \subsection{Mô hình tốt nhất}
-Mô hình đạt hiệu suất tốt nhất trên tập kiểm thử là mô hình Multiple Linear Regression trên tập dữ liệu chưa quan tiền xử lý.
+Mô hình đạt hiệu suất tốt nhất trên tập kiểm thử là mô hình Multiple Linear Regression trên tập dữ liệu chưa qua tiền xử lý.
 
 \begin{center}
 	$\textbf{Y}=  -320.7058 -21.9590* \textbf{SEX} + 4.9575*\textbf{BMI} +  1.0507*\textbf{BP} -
@@ -1744,6 +1754,7 @@ Mô hình đạt hiệu suất tốt nhất trên tập kiểm thử là mô hì
 \end{figure}
 
 \section{Kết luận}
+ Những kết quả đạt được thông quá trình phân tích ảnh hưởng của yếu tố, tương tác giữa các yếu tố và phân tích hồi quy trên bộ dữ liệu trước và sau khi tiền xử lí cho thấy rằng việc loại bỏ các điểm dữ liệu bất thường có thể giảm hiệu suất của mô hình. Ngoài ra, trong quá trình xây dưng mô hình không chỉ cần chú ý tới các yếu tố có sức ảnh hưởng mà cần phải quan tâm cả tới những tương tác giữa các yếu tố mặc dù những yếu tố đó khi sử dụng đơn lẻ thì không có ảnh hưởng, điển hình trong bộ dữ liệu chính là hai thuộc tính SEX và S4. Vậy nên để mô hình đạt hiệu suất cao thì cần phải liên tục thực nghiệm trên nhiều yếu tố và tương tác khác nhau, cân nhắc xử lí các điểm dữ liệu bất thường,...
 
 \begin{thebibliography}{5}
 
