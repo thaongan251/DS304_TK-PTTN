@@ -4,6 +4,7 @@
 %
 
 \documentclass[runningheads]{llncs}
+\raggedbottom
 %
 \usepackage[utf8]{inputenc}
 \usepackage[utf8]{vietnam}
@@ -14,6 +15,7 @@
 \usepackage{multirow}
 \usepackage{ulem}
 \usepackage[hyphens]{url}
+\usepackage{todonotes}
 
 % Used for displaying a sample figure. If possible, figure files should
 % be included in EPS format.
@@ -46,10 +48,11 @@ Khoa Khoa học và Kỹ thuật Thông tin\\
 {\inst{4}hopdt}@uit.edu.vn}}
 
 %
+\titlerunning{Phân tích ảnh hưởng của các chỉ số sức khỏe đến bệnh tiểu đường}
 \maketitle              % typeset the header of the contribution
 %
 \begin{abstract}
-Bệnh đái tháo đường theo giới y khoa là một trong những mối đe doạ sức khoẻ toàn cầu đối với cộng đồng có tỉ lệ người mắc ngày càng tăng đều theo từng năm với nhiều nguyên nhân ảnh hưởng, trong đó nguyên nhân chính là rối loạn chức năng chuyển hóa insulin. Nhằm tìm hiểu được các yếu tố bên trong cơ thể có tác động như thế nào đến sự rối loạn này, nhóm chúng tôi đã tìm hiểu các chỉ số y tế mang tính thống kê có liên quan bằng bộ dữ liệu có sẵn và tiến hành phân tích, xử lí và đánh giá để có được những kết quả phù hợp cho mục đích của bài nghiên cứu. Trong quá trình phân tích có sử dụng phương pháp thống kê phân tích hồi quy để tìm ra sự ảnh hưởng và tương tác lẫn nhau của các yếu tố này. Sau khi thực hiện xây dựng các mô hình máy học phù hợp và đánh giá chúng, kết quả thu được là <KẾT QUẢ ĐÁNH GIÁ> cho mô hình phân tích tốt nhất <MÔ HÌNH TỐT NHẤT>. <Lược ý kết luận>
+Bệnh đái tháo đường theo giới y khoa là một trong những mối đe doạ sức khoẻ toàn cầu đối với cộng đồng có tỉ lệ người mắc ngày càng tăng đều theo từng năm với nhiều nguyên nhân ảnh hưởng, trong đó nguyên nhân chính là rối loạn chức năng chuyển hóa insulin. Nhằm tìm hiểu được các yếu tố bên trong cơ thể có tác động như thế nào đến sự rối loạn này, nhóm chúng tôi đã tìm hiểu các chỉ số y tế mang tính thống kê có liên quan bằng bộ dữ liệu có sẵn và tiến hành phân tích, xử lí và đánh giá để có được những kết quả phù hợp cho mục đích của bài nghiên cứu. Trong quá trình phân tích có sử dụng phương pháp thống kê phân tích hồi quy để tìm ra sự ảnh hưởng và tương tác lẫn nhau của các yếu tố này. Sau khi thực hiện xây dựng các mô hình hồi quy phù hợp và đánh giá chúng, kết quả thu được là <KẾT QUẢ ĐÁNH GIÁ> cho mô hình phân tích tốt nhất <MÔ HÌNH TỐT NHẤT>. <Lược ý kết luận>
 
 \keywords{Đái tháo đường \and Bệnh tiểu đường \and  Phân tích hồi quy}
 \end{abstract}
@@ -126,20 +129,177 @@ Bộ dữ liệu được xây dựng bao gồm  thuộc tính cơ bản của 4
 								&\textbf{S6:}  chỉ số mức đường huyết (glu - blood sugar level)\\
 								&\textbf{Y:} giá trị định lượng về tiến triển bệnh của bệnh nhân sau 1 năm kể từ thời điểm ghi nhận\\
 								\hline
-			Tác giả & Bradley Efron, Trevor Hastie, Iain Johnstone và Robert Tibshirani, Đại học Stanford\\
+			Tác giả & Bradley Efron, Trevor Hastie, Iain Johnstone và Robert Tibshirani, Đại học Stanford, Mĩ\\
 			\hline
 			\end{tabular}
 		\end{center}
-	\end{table}
-\subsection{Phân tích và trực quan bộ dữ liệu}
+\end{table}
 
+\subsection{Trực quan bộ dữ liệu}
+
+Trước khi tiến hành phân tích các ảnh hưởng, việc trực quan hóa dữ liệu sẽ giúp chúng ta hiểu rõ phân bố của các điểm dữ liệu và mối quan hệ giữa các thuộc tính, hoặc có thể từ đó xem xét một thuộc tính có ý nghĩa thống kê hay không. Trực quan hóa giúp mô tả các dữ liệu thô thành hình ảnh dễ quan sát, dễ hiểu để truyền đạt rõ ràng những hiểu biết đầy đủ (insights) từ dữ liệu đến người xem, người đọc. Nếu không có sự trình bày trực quan này, người xem có thể khó nắm bắt được ý nghĩa thực sự của những phát hiện.
+
+\pagebreak
+
+\vspace{0.5cm}
+\textbf{Thống kê mô tả các thuộc tính của bộ dữ liệu}
+\begin{figure}[htb]
+\includegraphics[width=1\textwidth]{describe}
+\caption{Thống kê mô tả bộ dữ liệu} \label{fig1}
+\end{figure}
+
+\textbf{Biểu đồ phân tán của các thuộc tính so với thuộc tính Y}
+
+\begin{figure}[H]
+\includegraphics[width=0.955\textwidth]{Scatter_Y}
+\caption{Biểu đồ phân tán của các thuộc tính so với thuộc tính Y} \label{fig2}
+\end{figure}
+
+
+Thông qua biểu đồ phân tán, chúng tôi nhận thấy ở các thuộc tính BMI và S5 phân bố điểm dữ liệu có xu hướng hội tụ về dạng đường thẳng. Các thuộc tính còn lại hầu như phân bố hỗn loạn và ít có quan hệ tuyến tính với thuộc tính Y.
+
+Bên cạnh đó, biểu đồ phân tán cũng cho thấy được các điểm dữ liệu ngoại lệ ở thuộc tính S2 và S4, có thể ảnh hưởng đến hiệu suất của các mô hình hồi quy.
+
+\vspace{0.5cm}
+\textbf{Biểu đồ phân tán giữa các thuộc tính định lượng}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{Scatter_factors}
+\caption{Biểu đồ phân tán giữa các thuộc tính định lượng} \label{fig2}
+\end{figure}
+
+Qua biểu đồ có thể thấy thuộc tính S1 có quan hệ tuyến tính rõ rệt với S2. Một số thuộc tính khác có quan hệ tuyến tính nhưng không nhiều như S2 và S4, S3 và S4, S6 và S5. Các biểu đồ còn lại đa số các điểm dữ liệu phân bố hỗn loạn không theo một quy luật cụ thể.
+
+Ngoài ra, tương tác giữa các thuộc tính có những ảnh hưởng khác nhau giữa đến tiển triển bệnh. Ví dụ như ở biểu đồ của S5 so với BMI cho thấy những bệnh nhân có chỉ số BMi và S5 thấp thì tiến triển bệnh chậm, khi hai chỉ số này cùng tăng thì bệnh có khả năng thể tiến triển nhanh hơn. Mặt khác, ở biểu đồ của S3 so vớ BP, S3 cao nhưng BP thấp thì bệnh tiến triển nhẹ, S3 thấp nhưng BP cao cho thấy bệnh tiến triển nhanh.
+
+\vspace{0.5cm}
+\textbf{Biểu đồ hệ số tương quan}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{Corr}
+\caption{Biểu đồ hệ số tương quan} \label{fig2}
+\end{figure}
+
+Biểu đồ hệ số tương quan là công cụ giúp chúng ta có cái nhìn trực quan và rõ ràng hơn về sự tương tác của các thuộc tính với nhau thông qua hệ số tương quan của những cặp thuộc tính. 
+
+Hệ số tương quan là một thước đo thống kê về độ mạnh yếu của mối quan hệ giữa các chuyển động tương đối của hai biến. Có một số loại hệ số tương quan, nhưng loại phổ biến nhất là hệ số tương quan Pearson (R). Hệ số này chỉ ra độ mạnh và hướng của quan hệ tuyến tính giữa hai biến và có giá trị từ -1.0 đến 1.0. Trong đó, nếu:
+\begin{itemize}
+\item Hệ số tương quan dương: cho thấy mối quan hệ đồng biến hoặc tương quan dương (đồng biến tuyệt đối khi giá trị bằng 1.0).
+\item Hệ số tương quan bằng 0: không có quan hệ tuyến tính giữa hai biến.
+\item Hệ số tương quan âm: các biến có mối quan hệ nghịch biến hoặc tương quan âm (nghịch biến tuyệt đối khi giá trị bằng -1.0).
+\end{itemize}
+
+Qua biểu đồ hệ số tương quan, chúng tôi nhận thấy thuộc tính Y tương quan mạnh với thuộc tính BMI và S5 với hệ số tương quan lần lượt là 0.59 và 0.57. 
+
+Hai thuộc tính tương quan dương rất mạnh với nhau là thuộc tính S1 và S2 với hệ số tương quan là 0.9, một số thuộc tính cũng có độ tương quan cao như S2 và S4 (coef = 0.66), S4 và S5 (coef = 0.62),...
+
+Thuộc tính S3 có quan hệ nghịch biến (tương quan âm) với các thuộc tính còn lại, trong đó tương quan âm mạnh nhất là với thuộc tính S4 với hệ số tương quan là -0.74.
+Điều này có thể ảnh hưởng không tốt đến các mô hình hồi quy, đặc biệt là mô hình hồi quy đa biến.
+
+\vspace{0.5cm}
+\textbf{Phân phối giá trị của thuộc tính Y}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{Dist_Y}
+\caption{Biểu đồ phân phối giá trị thuộc tính Y} \label{fig2}
+\end{figure}
+
+Phân bố chỉ số tiến triển của các bệnh nhân có sự biến động nhưng không lớn, tiến triển bệnh tập trung nhiều từ chỉ số 100 trở lại. Hình dạng của biểu đồ bị lệch về bên trái cho thấy nhiều bệnh nhân đang ở giai đoạn đầu của bệnh đái tháo đường.
+
+
+\vspace{0.5cm}
+\textbf{Phân phối giá trị của thuộc tính BMI}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{Dist_BMI}
+\caption{Biểu đồ phân phối giá trị thuộc tính Y} \label{fig2}
+\end{figure}
+
+Dựa vào biểu đồ phân phối chỉ số BMI, đa số các bệnh nhân có chỉ số khối cơ thể ở mức bình thường và thừa cân. Phân bố các điểm dữ liệu xấp xỉ về dạng phân phối chuẩn.
+
+Chỉ có khoảng 0.68\% bệnh nhân được phân vào mức gầy và thiếu cân nhưng có tới 21,49\% bệnh nhân được xác định là béo phì. Đây là tình trạng rất phổ biến tại các quốc gia phát triển, trong trường hợp này là nước Mỹ, nơi các bệnh nhân được lấy mẫu.
+
+
+\pagebreak
 \section{Tiền xử lý dữ liệu}
-
 \subsection{Xử lý ngoại lệ}
 
-\subsection{Chuyển đổi dữ liệu}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{box}
+\caption{Biểu đồ hộp của các thuộc tính định lượng} \label{fig2}
+\end{figure}
+
+Trong quá trình xử lý dữ liệu ngoại lệ (outlier), biểu đồ hộp là một công cụ quan trọng giúp chúng ta thấy rõ được các outlier cần được xử lý. Đặc điểm của biểu đồ hộp là thể hiện được các đại lượng quan trọng của một thuộc tính, bao gồm giá trị nhỏ nhất (min), giá trị lớn nhất (max), tứ phân vị (quartile), khoảng biến thiên tứ phân vị (Interquartile Range) một cách trực quan, dễ hiểu. Từ đó, nó cho thấy những điểm dữ liệu bất thường nằm xa phạm vi các giá trị trên.
+
+Dựa vào biểu đồ hộp của các thuộc tính định lượng có thể dễ nhận thấy ở các thuộc tính BMI, S1, S2, S3, S4, S5 và S6 xuất hiện những điểm dữ liệu bất thường. Để loại bỏ chúng, chúng tôi dựa vào công thức rút ra từ biểu đồ hộp và tiến hành như sau:
+\begin{itemize}
+\item Đối với outlier bên trái biểu đồ hộp: Loại bỏ các điểm dữ liệu nhỏ hơn $Q1-1.5*IQR$
+\item Đối với outlier bên phải biểu đồ hộp: Loại bỏ các điểm dữ liệu lớn hơn $Q3+1.5*IQR$
+\end{itemize}
+Trong đó: Q1 là tứ phân vị thứ 25, Q3 là tứ phân vị thứ 75, IQR là hiệu của Q3 và Q1. Sau đây là so sánh biểu đồ phân tán của các thuộc tính trước và sau khi loại bỏ ngoại lệ.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{AGEOR}
+\caption{Biểu đồ phân tán của thuộc tính AGE so với Y trước và sau khi tiền xử lý} \label{fig2}
+\vspace{0.5cm}
+\includegraphics[width=0.9\textwidth]{BMIOR}
+\caption{Biểu đồ phân tán của thuộc tính BMI so với Y trước và sau khi tiền xử lý} \label{fig2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{BPOR}
+\caption{Biểu đồ phân tán của thuộc tính BP so với Y trước và sau khi tiền xử lý} \label{fig2}
+\vspace{0.5cm}
+\includegraphics[width=0.9\textwidth]{S1OR}
+\caption{Biểu đồ phân tán của thuộc tính S1 so với Y trước và sau khi tiền xử lý} \label{fig2}
+\vspace{0.5cm}
+\includegraphics[width=0.9\textwidth]{S2OR}
+\caption{Biểu đồ phân tán của thuộc tính S2 so với Y trước và sau khi tiền xử lý} \label{fig2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{S3OR}
+\caption{Biểu đồ phân tán của thuộc tính S3 so với Y trước và sau khi tiền xử lý} \label{fig2}
+\vspace{0.5cm}
+\includegraphics[width=0.9\textwidth]{S4OR}
+\caption{Biểu đồ phân tán của thuộc tính S4 so với Y trước và sau khi tiền xử lý} \label{fig2}
+\vspace{0.5cm}
+\includegraphics[width=0.9\textwidth]{S5OR}
+\caption{Biểu đồ phân tán của thuộc tính S5 so với Y trước và sau khi tiền xử lý} \label{fig2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{S6OR}
+\caption{Biểu đồ phân tán của thuộc tính S6 so với Y trước và sau khi tiền xử lý} \label{fig2}
+\end{figure}
 
 \subsection{Phân chia tập train và test}
+
+Ở mỗi bộ dữ liệu trước và sau khi tiền xử lý, chúng tôi tiến hành chia dữ liệu thành hai tập train và test để phục vụ việc phân tích hồi quy và so sánh kết quả mô hình. Việc chia train test giúp các mô hình tránh overfiting và giúp đánh giá hiệu suất mô hình hiệu quả hơn. Sử dụng hàm createDataPartition có sẵn trong R, các tập train và test được chia theo tỉ lệ 8:2. Sau đây là kích thước của các tập dữ liệu.
+
+\begin{table}
+	\setlength{\tabcolsep}{0.5em}
+	\renewcommand{\arraystretch}{1.4}
+	\begin{center}
+		\caption{Kích thước của các tập dữ liệu sau khi chia train test}\label{tab3}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			Bộ dữ liệu&Kích thước tập train&Kích thước tập test\\
+			\hline
+			Trước khi tiền xử lý&355&87\\
+			\hline
+			Sau khi tiền xử lý&327&80\\
+			\hline
+		\end{tabular}			
+	\end{center}
+\end{table}
 
 \section{Phân tích hồi quy}
 
@@ -159,6 +319,7 @@ Phân tích hồi quy là một phương pháp thống kê mạnh mẽ cho phép
 \subsection{Tương tác giữa các yếu tố}
 
 \subsection{Các độ đo đánh giá mô hình hồi quy}
+
 Đánh giá mô hình là một bước quan trọng không thể thiếu trong quá trình xây dựng mô hình máy học. Đánh giá mô hình hỗ trợ trong việc đánh giá hiệu suất của mô hình trên dữ liệu huấn luyện và phát hiện ra những trường hợp gây ảnh hưởnng tới mô hình như over-fitting (hiện tượng mô hình thể hiện chính xác các điểm dữ liệu huấn luyện) hay under-fitting (hiện tượng mô hình không hoàn toàn có mối liên hệ nào với bộ dữ liệu huấn luyện), từ đó cải thiện chất lượng hiệu suất của mô hình và giúp mô hình đưa ra kết quả khả quan hơn khi xuất hiện bộ dữ liệu mới trong tương lai. Độ đo được sử đụng để đánh giá cho các mô hình máy học hồi quy trong bài báo cáo là Adjusted R-Squared.
 
 
@@ -189,6 +350,7 @@ Trong đó: \\
 
 
 \subsection{Xây dựng mô hình hồi quy}
+
 \subsubsection{Simple Linear Regression}
 là mô hình hồi quy tuyến tính đơn biến, nghĩa là mô hình chỉ có duy nhất một biến độc lập. Mô hình được biểu diễn qua phương trình: $y= \beta_0 +\beta_1x$, trong đó y là biến phụ thuộc, x là biến độc lập và $\beta_0, \beta_1$ là các tham số mô hình. Đặc trưng của mô hình là một đường thẳng tuyến tính giúp đánh giá mối quan hệ giữa biến độc lập và biến phụ thuộc. 
 
@@ -226,7 +388,7 @@ Vì bộ dữ liệu có 10 biến độc lập nên việc chọn thuộc tính
 		\end{tabular}			
 	\end{center}
 \end{table}
-Thông qua bảng~\ref{tab3}, biến độc lập được sử dụn trong mô hình là BMI với hệ số tương quan là 0.59. Quá trình xây dựng mô hình Simple Linear Regression được thực trên R - Studio thông qua hàm lm với các tham số:  lm(formula = $Y \sim BMI$,data=train)
+Thông qua bảng~\ref{tab3}, biến độc lập được sử dụn trong mô hình là BMI với hệ số tương quan là 0.59. Quá trình xây dựng mô hình Simple Linear Regression được thực trên R - Studio thông qua hàm lm với các tham số:  lm(formula = $Y \sim BMI$, data=train)
 
 
 \begin{figure}[H]
@@ -343,6 +505,7 @@ là sự kết hợp của cả hai mô hình Ridge Regression và Lasso Regress
 	\begin{equation}
 		L_{enet}(\hat{\beta})=\frac{\sum^{n}_{i=1}{(y_i-x'_i\hat{\beta})^2}}{2n}+\lambda(\frac{1-\alpha}{2}\sum^{m}_{j=1}{\hat{\beta}^2_j+\alpha\sum^{m}_{j=1}{|\hat{\beta}_j|}})
 	\end{equation}
+
 \section{Đánh giá mô hình hồi quy}
 
 \subsection{Kết quả đánh giá mô hình}
@@ -396,13 +559,13 @@ x + y = z
 \end{equation}
 Please try to avoid rasterized images for line-art diagrams and
 schemas. Whenever possible, use vector graphics instead (see
-Fig.~\ref{fig1}).
+Fig.~\ref{fig2000}).
 
 \begin{figure}[h]
 \includegraphics[width=\textwidth]{fig1.eps}
 \caption{A figure caption is always placed below the illustration.
 Please note that short captions are centered, while long ones are
-justified by the macro package automatically.} \label{fig1}
+justified by the macro package automatically.} \label{fig2000}
 \end{figure}
 
 \begin{theorem}
