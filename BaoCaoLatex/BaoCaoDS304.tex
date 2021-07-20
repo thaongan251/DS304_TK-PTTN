@@ -87,7 +87,7 @@ Khoa Khoa học và Kỹ thuật Thông tin\\
 \begin{abstract}
 Bệnh đái tháo đường theo giới y khoa là một trong những mối đe doạ sức khoẻ toàn cầu đối với cộng đồng có tỉ lệ người mắc ngày càng tăng đều theo từng năm với nhiều nguyên nhân ảnh hưởng, trong đó nguyên nhân chính là rối loạn chức năng chuyển hóa insulin. Nhằm tìm hiểu được các yếu tố bên trong cơ thể có tác động như thế nào đến sự rối loạn này, nhóm chúng tôi đã tìm hiểu các chỉ số y tế mang tính thống kê có liên quan bằng bộ dữ liệu có sẵn và tiến hành phân tích, xử lí và đánh giá để có được những kết quả phù hợp cho mục đích của bài nghiên cứu. Trong quá trình phân tích có sử dụng phương pháp thống kê phân tích hồi quy để tìm ra sự ảnh hưởng và tương tác lẫn nhau của các yếu tố này. Sau khi thực hiện xây dựng các mô hình hồi quy phù hợp và đánh giá chúng, kết quả thu được trên độ đo đánh giá Adjusted R-Squared là 0.5795  cho mô hình phân tích tốt nhất là mô hình Multiple Linear Regression trên tập dữ liệu kiểm thử chưa qua tiền xử lý. 
 
-\keywords{Đái tháo đường \and Bệnh tiểu đường \and  Phân tích hồi quy}
+\keywords{Bệnh đái tháo đường \and Bệnh tiểu đường \and  Phân tích hồi quy}
 \end{abstract}
 %
 %
@@ -96,12 +96,12 @@ Bệnh đái tháo đường theo giới y khoa là một trong những mối đ
 
 Đái tháo đường được xem là một căn bệnh phổ biến trong cộng đồng, đặc biệt là Mỹ với xu hướng gia tăng ngày càng cao với con số ước tính lên đến 79 triệu người trưởng thành mắc bệnh và trong đó 50\% người mắc đái tháo đường không biết mình có bệnh vì chưa có triệu chứng rõ ràng. 
 
-Đái tháo đường là một căn bệnh liên quan đến sự rối loạn chuyển hóa trong hormone tuyến tuỵ dẫn đến thiếu hụt lượng insuline trong máu. Các tiêu chuẩn để xác định, chuẩn đoán bệnh đái tháo đường hiện nay được Hiệp hội Đái tháo đường Mỹ công bố cần dựa vào nhiều chỉ số và quá trình phức tạp. Ví dụ khi kiểm tra chỉ số HbA1c của bệnh nhân cần được thực hiện ở phòng thí nghiệm được chuẩn hóa cao. Tuy nhiên, cũng nhờ đó mà việc chuẩn đoán đái tháo đường hay tiền đái tháo đường sẽ phần lớn phụ thuộc vào các chỉ số này từ cơ thể. 
+Đái tháo đường là một căn bệnh liên quan đến sự rối loạn chuyển hóa trong hormone tuyến tuỵ dẫn đến thiếu hụt lượng insuline trong máu. Các tiêu chuẩn để xác định, chẩn đoán bệnh đái tháo đường hiện nay được Hiệp hội Đái tháo đường Mỹ công bố cần dựa vào nhiều chỉ số và quá trình phức tạp. Ví dụ khi kiểm tra chỉ số HbA1c của bệnh nhân cần được thực hiện ở phòng thí nghiệm được chuẩn hóa cao. Tuy nhiên, cũng nhờ đó mà việc chẩn đoán đái tháo đường hay tiền đái tháo đường sẽ phần lớn phụ thuộc vào các chỉ số này từ cơ thể. 
 Chính vì đó, ta cần phải có được một bộ dữ liệu với các chỉ số y tế liên quan để có thể đánh giá phần nào tình trạng hiện tại của bệnh, giúp tăng hiệu quả cũng như giảm đi chi phí cho quá trình chuẩn đoán. 
 
-Trong bài nghiên cứu này, chúng tôi phân tích ảnh hưởng giữa các yếu tố là chỉ số y tế liên quan lên tiến triển bệnh và tương tác giữa các yếu tố này được thu thập từ các bệnh nhân đái tháo trong bộ dữ liệu sẵn. Sau đó chúng tôi xây dựng các mô hình hồi quy và đánh giá kết quả dự đoán của các mô hình. Từ đó không chỉ hỗ trợ tích cực cho việc chuẩn đoán mà còn phân tích được tiến triển của bệnh qua các chỉ số trên.
+Trong bài nghiên cứu này, chúng tôi phân tích ảnh hưởng giữa các yếu tố là chỉ số y tế liên quan lên tiến triển bệnh và tương tác giữa các yếu tố này được thu thập từ các bệnh nhân đái tháo trong bộ dữ liệu sẵn. Sau đó chúng tôi xây dựng các mô hình hồi quy và đánh giá kết quả dự đoán của các mô hình. Từ đó không chỉ hỗ trợ tích cực cho việc chẩn đoán mà còn phân tích được tiến triển của bệnh qua các chỉ số trên.
 
-Cấu trúc bài báo cáo được trình bày như sau: Ở mục 2, chúng tôi trình bày thông tin chi tiết của bộ dữ liệu được sử dụng trong bài nghiên cứu. Ở mục 3, chúng tôi tiếp cận bộ dữ liệu và thực hiện tiền xử lý dữ liệu. Sau khi bộ dữ liệu đã được xử lí, chúng tôi sẽ phân tích ảnh hưởng và tương tác yếu tố trong bộ dữ liệu và chúng sẽ được đưa vào phân tích bằng các mô hình hồi quy khác nhau, quá trình này sẽ được trình bày ở mục 4. Mục 5 sẽ trình bày kết quả đánh giá các mô hình, từ đó có được mô hình tốt nhất trên bộ dữ liệu. Và cuối cùng ở mục 6 là kết luận và hướng phát triển.
+Cấu trúc bài báo cáo được trình bày như sau: Ở mục 2, chúng tôi trình bày thông tin chi tiết của bộ dữ liệu được sử dụng trong bài nghiên cứu. Ở mục 3, chúng tôi tiếp cận bộ dữ liệu và thực hiện tiền xử lý dữ liệu. Sau khi bộ dữ liệu đã được xử lý, chúng tôi sẽ phân tích ảnh hưởng và tương tác yếu tố trong bộ dữ liệu và chúng sẽ được đưa vào phân tích bằng các mô hình hồi quy khác nhau, quá trình này sẽ được trình bày ở mục 4. Mục 5 sẽ trình bày kết quả đánh giá các mô hình, từ đó có được mô hình tốt nhất trên bộ dữ liệu. Và cuối cùng ở mục 6 là kết luận và hướng phát triển.
 
 \section{Tổng quan bộ dữ liệu}
 
@@ -151,18 +151,18 @@ Bộ dữ liệu được xây dựng bao gồm  thuộc tính cơ bản của 4
 			{Thông tin thuộc tính} & \textbf{AGE:} độ tuổi của bệnh nhân\\
 								&\textbf{SEX:} giới tính của bệnh nhân \\
 								& -  Giá trị 1 tương ứng với giới tính là Nam\\
-								& -  Gái trị 2 tương ứng với giới tính là Nữ\\
+								& -  Giá trị 2 tương ứng với giới tính là Nữ\\
 								&\textbf{BMI:} Body Mass Index (chỉ số khối cơ thể)\\
 								&\textbf{BP:}  average blood pressure (giá trị huyết áp trung bình)\\
 								&\textbf{S1:} tổng lượng cholesterol trong huyết thanh (tc - total serum cholesterol)\\
 								&\textbf{S2:} giá trị lipoprotein tỷ trọng thấp (ldl - low-density lipoproteins) \\
 								&\textbf{S3:} giá trị lipoprotein tỷ trọng cao (hdl - high-density lipoproteins)\\
 								&\textbf{S4:} tỉ lệ giữa  cholesterol toàn phần so với lượng HDL (tch - total cholesterol / HDL) \\
-								&\textbf{S5:} mức triglyceries có trong huyết thanh có thể ghi nhận (ltg - possibly log of serum triglycerides level)\\
+								&\textbf{S5:} mức triglycerides có trong huyết thanh có thể ghi nhận (ltg - possibly log of serum triglycerides level)\\
 								&\textbf{S6:}  chỉ số mức đường huyết (glu - blood sugar level)\\
 								&\textbf{Y:} giá trị định lượng về tiến triển bệnh của bệnh nhân sau 1 năm kể từ thời điểm ghi nhận\\
 								\hline
-			Tác giả & Bradley Efron, Trevor Hastie, Iain Johnstone và Robert Tibshirani, Đại học Stanford, Mĩ\\
+			Tác giả & Bradley Efron, Trevor Hastie, Iain Johnstone và Robert Tibshirani, Đại học Stanford, Hoa Kỳ\\
 			\hline
 			\end{tabular}
 		\end{center}
@@ -204,7 +204,7 @@ Bên cạnh đó, biểu đồ phân tán cũng cho thấy được các điểm
 
 Qua biểu đồ có thể thấy thuộc tính S1 có quan hệ tuyến tính rõ rệt với S2. Một số thuộc tính khác có quan hệ tuyến tính nhưng không nhiều như S2 và S4, S3 và S4, S6 và S5. Các biểu đồ còn lại đa số các điểm dữ liệu phân bố hỗn loạn không theo một quy luật cụ thể.
 
-Ngoài ra, tương tác giữa các thuộc tính có những ảnh hưởng khác nhau giữa đến tiển triển bệnh. Ví dụ như ở biểu đồ của S5 so với BMI cho thấy những bệnh nhân có chỉ số BMi và S5 thấp thì tiến triển bệnh chậm, khi hai chỉ số này cùng tăng thì bệnh có khả năng thể tiến triển nhanh hơn. Mặt khác, ở biểu đồ của S3 so vớ BP, S3 cao nhưng BP thấp thì bệnh tiến triển nhẹ, S3 thấp nhưng BP cao cho thấy bệnh tiến triển nhanh.
+Ngoài ra, tương tác giữa các thuộc tính có những ảnh hưởng khác nhau giữa đến tiến triển bệnh. Ví dụ như ở biểu đồ của S5 so với BMI cho thấy những bệnh nhân có chỉ số BMi và S5 thấp thì tiến triển bệnh chậm, khi hai chỉ số này cùng tăng thì bệnh có khả năng thể tiến triển nhanh hơn. Mặt khác, ở biểu đồ của S3 so vớ BP, S3 cao nhưng BP thấp thì bệnh tiến triển nhẹ, S3 thấp nhưng BP cao cho thấy bệnh tiến triển nhanh.
 
 \vspace{0.5cm}
 \textbf{Biểu đồ hệ số tương quan}
@@ -315,7 +315,7 @@ Trong đó: Q1 là tứ phân vị thứ 25, Q3 là tứ phân vị thứ 75, IQ
 
 \subsection{Phân chia tập train và test}
 
-Ở mỗi bộ dữ liệu trước và sau khi tiền xử lý, chúng tôi tiến hành chia dữ liệu thành hai tập train và test để phục vụ việc phân tích hồi quy và so sánh kết quả mô hình. Việc chia train test giúp các mô hình tránh overfiting và giúp đánh giá hiệu suất mô hình hiệu quả hơn. Sử dụng hàm createDataPartition có sẵn trong R, các tập train và test được chia theo tỉ lệ 8:2. Sau đây là kích thước của các tập dữ liệu.
+Ở mỗi bộ dữ liệu trước và sau khi tiền xử lý, chúng tôi tiến hành chia dữ liệu thành hai tập train và test để phục vụ việc phân tích hồi quy và so sánh kết quả mô hình. Việc chia train test giúp các mô hình tránh overfitting và giúp đánh giá hiệu suất mô hình hiệu quả hơn. Sử dụng hàm createDataPartition có sẵn trong R, các tập train và test được chia theo tỉ lệ 8:2. Sau đây là kích thước của các tập dữ liệu.
 
 \begin{table}
 	\setlength{\tabcolsep}{0.5em}
@@ -414,7 +414,7 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 \vspace{0.5cm}
 
 \textbf{Nhận xét:}
-Qua bảng ANOVA, hai thuộc tính SEX và S4 đều cho giá tri p\_value lớn hơn các thuộc tính còn lại, lần lượt là 0.772 và 0.525 ở tập train, 0.98169 và 0.72744 ở tập train\_p. Các giá trị này đều lớn hơn mức ý nghĩa alpha 0.05, cho thấy khi không xảy ra tương tác thì 2 thuộc tính này không ảnh hưởng đển tiến triển bệnh tiểu đường (Y). Ngoài ra còn những yếu tố khác không ảnh hưởng tiến triển bệnh như S1, S2 và S6.
+Qua bảng ANOVA, hai thuộc tính SEX và S4 đều cho giá tri p\_value lớn hơn các thuộc tính còn lại, lần lượt là 0.772 và 0.525 ở tập train, 0.98169 và 0.72744 ở tập train\_p. Các giá trị này đều lớn hơn mức ý nghĩa alpha 0.05, cho thấy khi không xảy ra tương tác thì 2 thuộc tính này không ảnh hưởng đến tiến triển bệnh tiểu đường (Y). Ngoài ra còn những yếu tố khác không ảnh hưởng tiến triển bệnh như S1, S2 và S6.
 
 \subsubsection{Phân tích ảnh hưởng của các yếu tố khi có tương tác với SEX}:
 \vspace{0.5cm}
@@ -1157,7 +1157,7 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 
 \subsection{Các độ đo đánh giá mô hình hồi quy}
 
-Đánh giá mô hình là một bước quan trọng không thể thiếu trong quá trình xây dựng mô hình máy học. Đánh giá mô hình hỗ trợ trong việc đánh giá hiệu suất của mô hình trên dữ liệu huấn luyện và phát hiện ra những trường hợp gây ảnh hưởnng tới mô hình như over-fitting (hiện tượng mô hình thể hiện chính xác các điểm dữ liệu huấn luyện) hay under-fitting (hiện tượng mô hình không hoàn toàn có mối liên hệ nào với bộ dữ liệu huấn luyện), từ đó cải thiện chất lượng hiệu suất của mô hình và giúp mô hình đưa ra kết quả khả quan hơn khi xuất hiện bộ dữ liệu mới trong tương lai. Độ đo được sử đụng để đánh giá cho các mô hình máy học hồi quy trong bài báo cáo là Adjusted R-Squared.
+Đánh giá mô hình là một bước quan trọng không thể thiếu trong quá trình xây dựng mô hình máy học. Đánh giá mô hình hỗ trợ trong việc đánh giá hiệu suất của mô hình trên dữ liệu huấn luyện và phát hiện ra những trường hợp gây ảnh hưởng tới mô hình như overfitting (hiện tượng mô hình thể hiện chính xác các điểm dữ liệu huấn luyện) hay under-fitting (hiện tượng mô hình không hoàn toàn có mối liên hệ nào với bộ dữ liệu huấn luyện), từ đó cải thiện chất lượng hiệu suất của mô hình và giúp mô hình đưa ra kết quả khả quan hơn khi xuất hiện bộ dữ liệu mới trong tương lai. Độ đo được sử dụng để đánh giá cho các mô hình máy học hồi quy trong bài báo cáo là Adjusted R-Squared.
 
 
 \subsubsection{R-Squared}
@@ -1299,7 +1299,7 @@ Từ kết quả phân tích, mô hình Simple Linear Regression trên tập tra
 
 \subsubsection{Multiple Linear Regression} là trường hợp khi mô hình hồi quy tuyến tính tồn tại nhiều hơn một biến độc lập. Khi đó, phương trình biểu diễn cho mô hình là: $y= \beta_0 +\beta_1*x_1+\beta_2*x_2+...+\beta_n*x_n$ với x,y,$\beta_0, \beta_1,...,\beta_n$ có ý nghĩa tương tự như mô hình Simple Linear Regression.
 
-Dựa vào phân tích ảnh hưởng các yếu tố ở mục 4.2, các thuộc tính có ảnh hưởng sẽ được sử dụng để xây dựng mô hình Multiple Linear Regressionl là AGE, BMI, BP, S3, S5. Sau đó tiếp tục phân tích hồi quy để chọn ra thuộc tính có ảnh hưởng.
+Dựa vào phân tích ảnh hưởng các yếu tố ở mục 4.2, các thuộc tính có ảnh hưởng sẽ được sử dụng để xây dựng mô hình Multiple Linear Regression là AGE, BMI, BP, S3, S5. Sau đó tiếp tục phân tích hồi quy để chọn ra thuộc tính có ảnh hưởng.
 
 \vspace{0.5cm}
 \textbf{Phân tích hồi quy trên mô hình Multiple Linear Regression ở tập train}
@@ -1553,7 +1553,7 @@ S6           3.586102e-01
 \textbf{Adjusted R-squared} = 0.4667
 
 \subsubsection{Lasso Regression}
-là một phương phá dùng để giảm số lượng biến độc lập tring mô hình hồi quy nhưng sử dụng tổng các giá trị tuyệt đối của hệ số bên trong biểu thức. Vì về bản chất, Lasso Regression không chỉ giảm giá trị của hệ số mà thậm chí cố gắng loại bỏ nó. Sự khác biệt của Ridge và Lasso là Ridge sẽ không bao giờ cho giá trị của hệ số bằng 0. Hạn chế chính là không phù hợp cho một số loại dữ liệu.
+là một phương pháp dùng để giảm số lượng biến độc lập trong mô hình hồi quy nhưng sử dụng tổng các giá trị tuyệt đối của hệ số bên trong biểu thức. Vì về bản chất, Lasso Regression không chỉ giảm giá trị của hệ số mà thậm chí cố gắng loại bỏ nó. Sự khác biệt của Ridge và Lasso là Ridge sẽ không bao giờ cho giá trị của hệ số bằng 0. Hạn chế chính là không phù hợp cho một số loại dữ liệu.
 	\begin{equation}
 	L_{lasso}(\hat{\beta})=\sum^{n}_{i=1}{(y_i-x'_i\hat{\beta})^2}+\lambda\sum^{m}_{j=1}{|\hat{\beta}_j|}
 	\end{equation}
@@ -1684,15 +1684,15 @@ Sau đây là bảng kết quả đánh giá tổng hợp trên tập huấn luy
 			\hline
 			Simple Linear Regression&0.318&0.2883\\
 			\hline
-			Multiple Linear Regresson&0.4871&0.4741\\
+			Multiple Linear Regression&0.4871&0.4741\\
 			\hline
-			Polynomial Regresson&0.5213&0.4964\\
+			Polynomial Regression&0.5213&0.4964\\
 			\hline
-			Ridge Regresson&0.4748&0.4667\\
+			Ridge Regression&0.4748&0.4667\\
 			\hline
-			Lasso Regresson&0.4683&0.4575\\
+			Lasso Regression&0.4683&0.4575\\
 			\hline
-			Elastic Net Regresson&0.4759&0.4674\\
+			Elastic Net Regression&0.4759&0.4674\\
 			\hline
 		\end{tabular}			
 	\end{center}
@@ -1700,8 +1700,8 @@ Sau đây là bảng kết quả đánh giá tổng hợp trên tập huấn luy
 
 \textbf{Nhận xét:} 
 \begin{itemize}
-	\item Các mô hình trên tập dữ liệu huấn luyện trước khi tiền xử lí có kết quả tốt hơn so với sau khi tiền xử lí.
-	\item Độ đo đánh giá Adjusted R-Squared cao nhất trước và sau khi tiền xử lí trên tập dữ liệu huấn luyện đều thuộc về mô hình Polynomial Regression với kết quả lần lượt  là 0.5213 và 0.4964. Điều đó cho thấy mô hình Polynomial Regression có mức độ tương thích tốt hơn so với các mô hình còn lại trên tập dữ liệu huấn luyện.
+	\item Các mô hình trên tập dữ liệu huấn luyện trước khi tiền xử lý có kết quả tốt hơn so với sau khi tiền xử lý.
+	\item Độ đo đánh giá \textbf{Adjusted R-Squared cao nhất} trước và sau khi tiền xử lý trên tập dữ liệu huấn luyện đều thuộc về mô hình \textbf{Polynomial Regression} với kết quả lần lượt  là \textbf{0.5213} và \textbf{0.4964}. Điều đó cho thấy mô hình Polynomial Regression có mức độ tương thích tốt hơn so với các mô hình còn lại trên tập dữ liệu huấn luyện.
 	\item Độ đo đánh giá Adjusted R-Squared thấp nhất trước và sau khi tiền xử lí trên tập dữ liệu huấn luyện đều thuộc về mô hình Simple Linear Regression với kết quả lần lượt là 0.318 và 0.2883. Điều đó cho thấy mô hình Simple Linear Regression không phù hợp trên tập dữ liệu huấn luyện. 
 	
 \end{itemize}
@@ -1717,15 +1717,15 @@ Sau đây là bảng kết quả đánh giá tổng hợp trên tập huấn luy
 			\hline
 			Simple Linear Regression&0.4334&0.5099\\
 			\hline
-			Multiple Linear Regresson&0.5795&0.4998\\
+			Multiple Linear Regression&0.5795&0.4998\\
 			\hline
-			Polynomial Regresson&0.5499&0.5669\\
+			Polynomial Regression&0.5499&0.5669\\
 			\hline
-			Ridge Regresson&0.5354&0.4833\\
+			Ridge Regression&0.5354&0.4833\\
 			\hline
-			Lasso Regresson&0.5486&0.4792\\
+			Lasso Regression&0.5486&0.4792\\
 			\hline
-			Elastic Net Regresson&0.5395&0.4863\\
+			Elastic Net Regression&0.5395&0.4863\\
 			\hline
 		\end{tabular}			
 	\end{center}
@@ -1733,9 +1733,9 @@ Sau đây là bảng kết quả đánh giá tổng hợp trên tập huấn luy
 
 \textbf{Nhận xét:}
 \begin{itemize}
-	\item Đa số mô hình trên tập dữ liệu kiểm thử trước khi tiền xử lí có kết quả tốt hơn so với sau khi tiền xử lí, riêng mô hình Simple Linear Regression và Polynomial Regression sau khi tiền xử lí lại có hiệu suất cao hơn so với trước khi tiền xử lí.
-	\item Độ đo đánh giá Adjusted R-Squared cao nhất trên tập dữ liệu kiểm thử trước khi tiền xử lí thuộc về mô hình Multiple Linear Regression với kết quả là 0.5795 và sau khi tiền xử lí thuộc về mô hình Polynomial Regression với kết quả là 0.5669.
-	\item Độ đo đánh giá Adjusted R-Squared thấp nhất trên tập dữ liệu kiểm thử trước khi tiền xử lí thuộc về mô hình Simple Linear Regression với kết quả là 0.4334 và sau khi tiền xử lí thuộc về mô hình Lasso Regression với kết quả là 0.4792.
+	\item Đa số mô hình trên tập dữ liệu kiểm thử trước khi tiền xử lý có kết quả tốt hơn so với sau khi tiền xử lý, riêng mô hình Simple Linear Regression và Polynomial Regression sau khi tiền xử lý lại có hiệu suất cao hơn so với trước khi tiền xử lý.
+	\item Độ đo đánh giá \textbf{Adjusted R-Squared} cao nhất trên tập dữ liệu kiểm thử \textbf{trước khi tiền xử lý} thuộc về mô hình \textbf{Multiple Linear Regression} với kết quả là \textbf{0.5795} và \textbf{sau khi tiền xử lý} thuộc về mô hình \textbf{Polynomial Regression} với kết quả là \textbf{0.5669}.
+	\item Độ đo đánh giá Adjusted R-Squared thấp nhất trên tập dữ liệu kiểm thử trước khi tiền xử lý thuộc về mô hình Simple Linear Regression với kết quả là 0.4334 và sau khi tiền xử lý thuộc về mô hình Lasso Regression với kết quả là 0.4792.
 \end{itemize}
 
 
@@ -1754,9 +1754,10 @@ Mô hình đạt hiệu suất tốt nhất trên tập kiểm thử là mô hì
 \end{figure}
 
 \section{Kết luận}
- Những kết quả đạt được thông quá trình phân tích ảnh hưởng của yếu tố, tương tác giữa các yếu tố và phân tích hồi quy trên bộ dữ liệu trước và sau khi tiền xử lí cho thấy rằng việc loại bỏ các điểm dữ liệu bất thường có thể giảm hiệu suất của mô hình. Ngoài ra, trong quá trình xây dưng mô hình không chỉ cần chú ý tới các yếu tố có sức ảnh hưởng mà cần phải quan tâm cả tới những tương tác giữa các yếu tố mặc dù những yếu tố đó khi sử dụng đơn lẻ thì không có ảnh hưởng, điển hình trong bộ dữ liệu chính là hai thuộc tính SEX và S4. Vậy nên để mô hình đạt hiệu suất cao thì cần phải liên tục thực nghiệm trên nhiều yếu tố và tương tác khác nhau, cân nhắc xử lí các điểm dữ liệu bất thường,...
+ Kết quả đạt được thông qua quá trình phân tích ảnh hưởng của yếu tố lên kết quả, tương tác giữa các yếu tố và phân tích hồi quy trên bộ dữ liệu trước và sau khi tiền xử lý cho thấy rằng việc loại bỏ các điểm dữ liệu bất thường có thể làm giảm hiệu suất của mô hình. Ngoài ra, trong quá trình xây dựng mô hình, chúng tôi rút được rằng  không chỉ cần chú ý tới các yếu tố có sức ảnh hưởng lên kết quả mà cần phải quan tâm cả tới những tương tác giữa các yếu tố mặc dù những yếu tố đó khi sử dụng đơn lẻ thì không có ảnh hưởng, điển hình trong bộ dữ liệu chính là hai thuộc tính SEX và S4. Vậy nên để mô hình đạt hiệu suất cao thì cần phải liên tục thực nghiệm trên nhiều yếu tố và tương tác khác nhau, cân nhắc xử lý các điểm dữ liệu bất thường,...
 
 \begin{thebibliography}{5}
-
+\bibitem{ref_url1}
+Regularization: Ridge, Lasso and Elastic Net, \url{https://www.datacamp.com/community/tutorials/tutorial-ridge-lasso-elastic-net}.
 \end{thebibliography}
 \end{document}

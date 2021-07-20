@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2021.6.7)  19 JUL 2021 00:14
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2021.6.6)  20 JUL 2021 18:47
 entering extended mode
 **BaoCaoDS304.tex
-("E:\tai lieu\ds304\Do_an\BaoCaoDS304.tex"
+(D:\__UIT\HK4\DS304_TK&PTTN\DS304_TK-PTTN\BaoCaoLatex\BaoCaoDS304.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
 rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
-("E:\tai lieu\ds304\Do_an\llncs.cls"
+(D:\__UIT\HK4\DS304_TK&PTTN\DS304_TK-PTTN\BaoCaoLatex\llncs.cls
 Document Class: llncs 2018/03/10 v2.20 
  LaTeX document class for Lecture Notes in Computer Science
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\article.cls"
@@ -954,7 +954,7 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \ps@tempdima=\dimen182
 \ps@tempboxa=\box71
 )
-("E:\tai lieu\ds304\Do_an\BaoCaoDS304.aux"
+(D:\__UIT\HK4\DS304_TK&PTTN\DS304_TK-PTTN\BaoCaoLatex\BaoCaoDS304.aux
 
 LaTeX Warning: Label `fig2' multiply defined.
 
@@ -1088,26 +1088,30 @@ File: describe.png Graphic file (type png)
  <use describe.png>
 <Scatter_Y.png, id=27, 901.6887pt x 864.1083pt>
 File: Scatter_Y.png Graphic file (type png)
- <use Scatter_Y.png> [4 <E:/tai lieu/ds304/Do_an/describe.png> <E:/tai lieu/ds3
-04/Do_an/Scatter_Y.png>]
+ <use Scatter_Y.png> [4 <D:/__UIT/HK4/DS304_TK&PTTN/DS304_TK-PTTN/BaoCaoLatex/d
+escribe.png> <D:/__UIT/HK4/DS304_TK&PTTN/DS304_TK-PTTN/BaoCaoLatex/Scatter_Y.pn
+g>]
 <Scatter_factors.png, id=33, 1754.9565pt x 1608.2484pt>
 File: Scatter_factors.png Graphic file (type png)
 
-<use Scatter_factors.png> [5 <E:/tai lieu/ds304/Do_an/Scatter_factors.png>]
-<Corr.png, id=38, 672.111pt x 581.0508pt>
+<use Scatter_factors.png> [5 <D:/__UIT/HK4/DS304_TK&PTTN/DS304_TK-PTTN/BaoCaoLa
+tex/Scatter_factors.png>] <Corr.png, id=38, 672.111pt x 581.0508pt>
 File: Corr.png Graphic file (type png)
- <use Corr.png> [6 <E:/tai lieu/ds304/Do_an/Corr.png>] <Dist_Y.png, id=43, 960.
-4683pt x 558.1653pt>
+
+<use Corr.png> [6 <D:/__UIT/HK4/DS304_TK&PTTN/DS304_TK-PTTN/BaoCaoLatex/Corr.pn
+g>] <Dist_Y.png, id=43, 960.4683pt x 558.1653pt>
 File: Dist_Y.png Graphic file (type png)
  <use Dist_Y.png>
 <Dist_BMI.png, id=44, 1184.5053pt x 721.7364pt>
 File: Dist_BMI.png Graphic file (type png)
- <use Dist_BMI.png> [7 <E:/tai lieu/ds304/Do_an/Dist_Y.png>] [8 <E:/tai lieu/ds
-304/Do_an/Dist_BMI.png>]
+ <use Dist_BMI.png> [7 <D:/__UIT/HK4/DS304_TK&PTTN/DS304_TK-PTTN/BaoCaoLatex/Di
+st_Y.png>] [8 <D:/__UIT/HK4/DS304_TK&PTTN/DS304_TK-PTTN/BaoCaoLatex/Dist_BMI.pn
+g>]
 <box.png, id=54, 2477.255pt x 2477.255pt>
 File: box.png Graphic file (type png)
- <use box.png> [9 <E:/tai lieu/ds304/Do_an/box.png>] <AGEOR.png, id=59, 1003.75
-pt x 548.0475pt>
+ <use box.png> [9 <D:/__UIT/HK4/DS304_TK&PTTN/DS304_TK-PTTN/BaoCaoLatex/box.png
+>]
+<AGEOR.png, id=59, 1003.75pt x 548.0475pt>
 File: AGEOR.png Graphic file (type png)
  <use AGEOR.png>
 <BMIOR.png, id=60, 1003.75pt x 548.0475pt>
@@ -1121,16 +1125,18 @@ File: S1OR.png Graphic file (type png)
  <use S1OR.png>
 <S2OR.png, id=63, 1003.75pt x 548.0475pt>
 File: S2OR.png Graphic file (type png)
- <use S2OR.png> [10 <E:/tai lieu/ds304/Do_an/AGEOR.png> <E:/tai lieu/ds304/Do_a
-n/BMIOR.png>]
+ <use S2OR.png> [10 <D:/__UIT/HK4/DS304_TK&PTTN/DS304_TK-PTTN/BaoCaoLatex/AGEOR
+.png> <D:/__UIT/HK4/DS304_TK&PTTN/DS304_TK-PTTN/BaoCaoLatex/BMIOR.png>]
 Overfull \vbox (61.29924pt too high) has occurred while \output is active []
 
 
-[11 <E:/tai lieu/ds304/Do_an/BPOR.png> <E:/tai lieu/ds304/Do_an/S1OR.png> <E:/t
-ai lieu/ds304/Do_an/S2OR.png>] <S3OR.png, id=78, 1003.75pt x 548.0475pt>
+[11 <D:/__UIT/HK4/DS304_TK&PTTN/DS304_TK-PTTN/BaoCaoLatex/BPOR.png> <D:/__UIT/H
+K4/DS304_TK&PTTN/DS304_TK-PTTN/BaoCaoLatex/S1OR.png> <D:/__UIT/HK4/DS304_TK&PTT
+N/DS304_TK-PTTN/BaoCaoLatex/S2OR.png>]
+<S3OR.png, id=78, 1003.75pt x 548.0475pt>
 File: S3OR.png Graphic file (type png)
-
-<use S3OR.png> <S4OR.png, id=79, 1003.75pt x 548.0475pt>
+ <use S3OR.png>
+<S4OR.png, id=79, 1003.75pt x 548.0475pt>
 File: S4OR.png Graphic file (type png)
  <use S4OR.png>
 <S5OR.png, id=80, 1003.75pt x 548.0475pt>
@@ -1139,11 +1145,13 @@ File: S5OR.png Graphic file (type png)
 Overfull \vbox (61.29924pt too high) has occurred while \output is active []
 
 
-[12 <E:/tai lieu/ds304/Do_an/S3OR.png> <E:/tai lieu/ds304/Do_an/S4OR.png> <E:/t
-ai lieu/ds304/Do_an/S5OR.png>] <S6OR.png, id=87, 1003.75pt x 548.0475pt>
+[12 <D:/__UIT/HK4/DS304_TK&PTTN/DS304_TK-PTTN/BaoCaoLatex/S3OR.png> <D:/__UIT/H
+K4/DS304_TK&PTTN/DS304_TK-PTTN/BaoCaoLatex/S4OR.png> <D:/__UIT/HK4/DS304_TK&PTT
+N/DS304_TK-PTTN/BaoCaoLatex/S5OR.png>]
+<S6OR.png, id=87, 1003.75pt x 548.0475pt>
 File: S6OR.png Graphic file (type png)
-
-<use S6OR.png> [13 <E:/tai lieu/ds304/Do_an/S6OR.png>]
+ <use S6OR.png> [13 <D:/__UIT/HK4/DS304_TK&PTTN/DS304_TK-PTTN/BaoCaoLatex/S6OR.
+png>]
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
@@ -1204,20 +1212,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 1183--1184
 [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42]
 <Rplot.png, id=193, 432.86719pt x 343.2825pt>
 File: Rplot.png Graphic file (type png)
- <use Rplot.png> [43 <E:/tai lieu/ds304/Do_an/Rplot.png (PNG copy)>]
+ <use Rplot.png> [43 <D:/__UIT/HK4/DS304_TK&PTTN/DS304_TK-PTTN/BaoCaoLatex/Rplo
+t.png (PNG copy)>]
+Underfull \hbox (badness 3199) in paragraph at lines 1761--1762
+[]\T5/cmr/m/n/9 Regularization: Ridge, Lasso and Elas-tic Net, $\T5/cmtt/m/n/9 
+https : / / www . datacamp . com /$
+ []
 
-LaTeX Warning: Empty `thebibliography' environment on input line 1761.
-
-[44] ("E:\tai lieu\ds304\Do_an\BaoCaoDS304.aux")
+[44] (D:\__UIT\HK4\DS304_TK&PTTN\DS304_TK-PTTN\BaoCaoLatex\BaoCaoDS304.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12504 strings out of 495285
- 199183 string characters out of 3179888
- 309641 words of memory out of 3000000
- 15402 multiletter control sequences out of 15000+200000
+ 12505 strings out of 495285
+ 199454 string characters out of 3179870
+ 309646 words of memory out of 3000000
+ 15403 multiletter control sequences out of 15000+200000
  19476 words of font info for 45 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  54i,14n,74p,1291b,1951s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1243,7 +1254,7 @@ ogram Files (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnr9.pfb><C:/Program Files (
 x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnti10.pfb><C:/Program Files (x86)/MiKTeX
  2.8/fonts/type1/vntex/vnr/vntt10.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/
 type1/vntex/vnr/vntt9.pfb>
-Output written on BaoCaoDS304.pdf (44 pages, 9453880 bytes).
+Output written on BaoCaoDS304.pdf (44 pages, 9455323 bytes).
 PDF statistics:
  275 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
