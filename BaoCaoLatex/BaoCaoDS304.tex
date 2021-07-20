@@ -78,7 +78,7 @@ Võ Tuấn Anh\inst{3} \and
 \institute{Trường Đại học Công nghệ thông tin, Đại học quốc gia Thành phố Hồ Chí Minh \and
 Khoa Khoa học và Kỹ thuật Thông tin\\
 \email{\{\inst{1}19522397,\inst{2}19521882,\inst{3}19521226\}@gm.uit.edu.vn\\
-{\inst{4}hopdt}@uit.edu.vn}}
+{\inst{4}hopdt}@uit.edu.vn}\\Nhóm 9}
 
 %
 \titlerunning{Phân tích ảnh hưởng của các chỉ số sức khỏe đến bệnh tiểu đường}
@@ -1262,6 +1262,8 @@ Qua kết quả phân tích, mô hình Simple Linear Regression trên tập trai
 
 \textbf{Adjusted R-squared} = 0.318
 
+\textbf{RMSE} = 62.7097
+
 \vspace{0.5cm}
 \textbf{Phân tích hồi quy trên mô hình Simple Linear Regression ở tập train\_p}
 \vspace{0.5cm}
@@ -1297,9 +1299,11 @@ Từ kết quả phân tích, mô hình Simple Linear Regression trên tập tra
 
 \textbf{Adjusted R-squared} = 0.2883
 
+\textbf{RMSE} = 62.5494
+
 \subsubsection{Multiple Linear Regression} là trường hợp khi mô hình hồi quy tuyến tính tồn tại nhiều hơn một biến độc lập. Khi đó, phương trình biểu diễn cho mô hình là: $y= \beta_0 +\beta_1*x_1+\beta_2*x_2+...+\beta_n*x_n$ với x,y,$\beta_0, \beta_1,...,\beta_n$ có ý nghĩa tương tự như mô hình Simple Linear Regression.
 
-Dựa vào phân tích ảnh hưởng các yếu tố ở mục 4.2, các thuộc tính có ảnh hưởng sẽ được sử dụng để xây dựng mô hình Multiple Linear Regression là AGE, BMI, BP, S3, S5. Sau đó tiếp tục phân tích hồi quy để chọn ra thuộc tính có ảnh hưởng.
+Dựa vào phân tích ảnh hưởng các yếu tố ở mục 4.2, các thuộc tính có ảnh hưởng sẽ được sử dụng để xây dựng mô hình Multiple Linear Regression là AGE, BMI, BP, S3, S5. Sau đó tiếp tục phân tích hồi quy để loại bỏ hoặc bổ sung thêm các thuộc tính khác sao cho mô hình đạt hiệu suất Adjusted R Squared cao nhất.
 
 \vspace{0.5cm}
 \textbf{Phân tích hồi quy trên mô hình Multiple Linear Regression ở tập train}
@@ -1343,6 +1347,8 @@ Từ kết quả phân tích, mô hình Multiple Linear Regression trên tập t
 
 \textbf{Adjusted R-squared} = 0.4871
 
+\textbf{RMSE} = 53.9186
+
 \vspace{0.5cm}
 \textbf{Phân tích hồi quy trên mô hình Multiple Linear Regression ở tập train\_p}
 \vspace{0.5cm}
@@ -1383,6 +1389,8 @@ Từ kết quả phân tích, mô hình Multiple Linear Regression trên tập t
 \textbf{R-squared} = 0.4838
 
 \textbf{Adjusted R-squared} = 0.4741
+
+\textbf{RMSE} = 53.3535
 
 \subsubsection{Polynomial Regression} được sử dụng khi mối quan hệ giữa biến độc lập và biến phụ thuộc không thể trực quan trên một đường thẳng tuyến tính. Khi đó phương trình biểu diễn mô hình sẽ có dạng $y= \beta_0 +\beta_1*x_1+\beta_2*x^2+...+\beta_n*x^n$ với x,y,$\beta_0, \beta_1,...,\beta_n$
 có ý nghĩa tương tự như mô hình Simple Linear Regression.
@@ -1444,6 +1452,8 @@ Từ kết quả phân tích, mô hình Polynomial Regression trên tập train 
 
 \textbf{Adjusted R-squared} = 0.5213
 
+\textbf{RMSE} = 51.4093
+
 \vspace{0.5cm}
 \textbf{Phân tích hồi quy trên mô hình Polynomial Regression ở tập train\_p}
 \vspace{0.5cm}
@@ -1494,6 +1504,8 @@ Từ kết quả phân tích, mô hình Multiple Linear Regression trên tập t
 
 \textbf{Adjusted R-squared} = 0.4964
 
+\textbf{RMSE} = 51.7186
+
 \subsubsection{Ridge Regression}
 là phương pháp xác định hệ số của mô hình hồi quy đa biến trong điều kiện biến độc lập có sự tương quan chặt chẽ với nhau. Được xem là dạng chính quy (regularization) của hồi quy tuyến tính. Dùng để giảm số lượng biến độc lập trong mô hình hồi quy, nhằm giảm các vấn đề Overfitting và Underfitting.
 	\begin{equation}
@@ -1526,6 +1538,8 @@ S6             0.49832477
 
 \textbf{Adjusted R-squared} = 0.4748
 
+\textbf{RMSE} = 56.5607
+
 \vspace{0.5cm}
 \textbf{Hệ số mô hình Ridge Regression trên tập train\_p:}
 \begin{lcverbatim}
@@ -1533,8 +1547,6 @@ S6             0.49832477
                        s1
 (Intercept) -1.447451e+02
 AGE          1.147955e-01
-\end{lcverbatim}
-\begin{lcverbatim}
 SEX         -9.351097e+00
 BMI          3.051928e+00
 BP           8.154471e-01
@@ -1551,6 +1563,8 @@ S6           3.586102e-01
 \textbf{R-squared} = 0.4684
 
 \textbf{Adjusted R-squared} = 0.4667
+
+\textbf{RMSE} = 55.5186
 
 \subsubsection{Lasso Regression}
 là một phương pháp dùng để giảm số lượng biến độc lập trong mô hình hồi quy nhưng sử dụng tổng các giá trị tuyệt đối của hệ số bên trong biểu thức. Vì về bản chất, Lasso Regression không chỉ giảm giá trị của hệ số mà thậm chí cố gắng loại bỏ nó. Sự khác biệt của Ridge và Lasso là Ridge sẽ không bao giờ cho giá trị của hệ số bằng 0. Hạn chế chính là không phù hợp cho một số loại dữ liệu.
@@ -1572,6 +1586,8 @@ BMI            4.7320556
 BP             0.5720361
 S1             .        
 S2             .        
+\end{lcverbatim}
+\begin{lcverbatim}
 S3            -0.2404157
 S4             .        
 S5            39.4848485
@@ -1583,6 +1599,9 @@ S6             .
 \textbf{R-squared} = 0.4698
 
 \textbf{Adjusted R-squared} = 0.4683
+
+\textbf{RMSE} = 56.5129
+
 
 \vspace{0.5cm}
 \textbf{Hệ số mô hình Lasso Regression trên tập train\_p:}
@@ -1608,6 +1627,8 @@ S6             .
 
 \textbf{Adjusted R-squared} = 0.4575
 
+\textbf{RMSE} = 55.5805
+
 \subsubsection{Elastic Net Regression}
 là sự kết hợp của cả hai mô hình Ridge Regression và Lasso Regression. Ưu điểm của mô hình này là không dễ dàng loại bỏ hệ số cộng tuyến.
 	\begin{equation}
@@ -1626,8 +1647,6 @@ AGE            0.0137974
 SEX           -5.9714328
 BMI            3.4987943
 BP             0.7256636
-\end{lcverbatim}
-\begin{lcverbatim}
 S1             .        
 S2             .        
 S3            -0.4931234
@@ -1641,6 +1660,8 @@ S6             0.4366859
 \textbf{R-squared} = 0.4774
 
 \textbf{Adjusted R-squared} = 0.4759
+
+\textbf{RMSE} = 56.5372
 
 \vspace{0.5cm}
 \textbf{Hệ số mô hình Elastic Net Regression trên tập train\_p:}
@@ -1666,33 +1687,37 @@ S6             0.26372880
 
 \textbf{Adjusted R-squared} = 0.4674 
 
+\textbf{RMSE} = 55.3056
 
 \section{Đánh giá mô hình hồi quy}
 
 \subsection{Kết quả đánh giá mô hình}
 
-Sau đây là bảng kết quả đánh giá tổng hợp trên tập huấn luyện và tập kiểm thử
+Sau đây là bảng kết quả đánh giá tổng hợp của các mô hình hồi quy trên tập huấn luyện và tập kiểm thử.
 
 \begin{table}[H]
+	\scriptsize
 	\setlength{\tabcolsep}{0.5em}
-	\renewcommand{\arraystretch}{1.2}
+	\renewcommand{\arraystretch}{1.5}
 	\begin{center}
-		\caption{Kết quả đánh giá Adjusted R-squared của các mô hình trên tập huấn luyện}\label{tab3}
-		\begin{tabular}{|c|c|c|}
+		\caption{Kết quả đánh giá hiệu suất của các mô hình hồi quy trên tập huấn luyện}\label{tab3}
+		\begin{tabular}{|c|c|c|c|c|}
 			\hline
-			Tên mô hình&Trước khi tiền xử lý&Sau khi tiền xử lý\\
+			\multirow{2}{*}{Tên mô hình} & \multicolumn{2}{c|}{\textbf{Adjusted R-Squared}} & \multicolumn{2}{c|}{\textbf{RMSE}}\\ \cline{2-5}
+										 & \multicolumn{1}{c|}{Trước tiền xử lý} & \multicolumn{1}{c|}{Sau tiền xử lý}
+										 & \multicolumn{1}{c|}{Trước tiền xử lý} & \multicolumn{1}{c|}{Sau tiền xử lý}\\
 			\hline
-			Simple Linear Regression&0.318&0.2883\\
+			Simple Linear Regression&0.3180&0.2883&62.7097&62.5494\\
 			\hline
-			Multiple Linear Regression&0.4871&0.4741\\
+			Multiple Linear Regression&0.4871&0.4741&53.9186&53.3535\\
 			\hline
-			Polynomial Regression&0.5213&0.4964\\
+			Polynomial Regression&\textbf{0.5213}&\textbf{0.4964}&\textbf{51.4093}&\textbf{51.7186}\\
 			\hline
-			Ridge Regression&0.4748&0.4667\\
+			Ridge Regression&0.4748&0.4667&56.5607&55.5186\\
 			\hline
-			Lasso Regression&0.4683&0.4575\\
+			Lasso Regression&0.4683&0.4575&56.5129&55.5805\\
 			\hline
-			Elastic Net Regression&0.4759&0.4674\\
+			Elastic Net Regression&0.4759&0.4674&56.5372&55.3056\\
 			\hline
 		\end{tabular}			
 	\end{center}
@@ -1700,32 +1725,40 @@ Sau đây là bảng kết quả đánh giá tổng hợp trên tập huấn luy
 
 \textbf{Nhận xét:} 
 \begin{itemize}
-	\item Các mô hình trên tập dữ liệu huấn luyện trước khi tiền xử lý có kết quả tốt hơn so với sau khi tiền xử lý.
-	\item Độ đo đánh giá \textbf{Adjusted R-Squared cao nhất} trước và sau khi tiền xử lý trên tập dữ liệu huấn luyện đều thuộc về mô hình \textbf{Polynomial Regression} với kết quả lần lượt  là \textbf{0.5213} và \textbf{0.4964}. Điều đó cho thấy mô hình Polynomial Regression có mức độ tương thích tốt hơn so với các mô hình còn lại trên tập dữ liệu huấn luyện.
-	\item Độ đo đánh giá Adjusted R-Squared thấp nhất trước và sau khi tiền xử lí trên tập dữ liệu huấn luyện đều thuộc về mô hình Simple Linear Regression với kết quả lần lượt là 0.318 và 0.2883. Điều đó cho thấy mô hình Simple Linear Regression không phù hợp trên tập dữ liệu huấn luyện. 
-	
+	\item Các mô hình trên tập dữ liệu huấn luyện trước khi tiền xử lý có kết quả Adjusted R-Squared tốt hơn so với sau khi tiền xử lý. Khi xét độ đo RMSE thì hầu hết mô hình phạm ít lỗi hơn khi sử dụng dữ liệu đã qua xử lý.
+	\item Độ đo Adjusted R-Squared và RMSE tốt nhất trước và sau khi tiền xử lý trên tập huấn luyện đều thuộc về mô hình \textbf{Polynomial Regression} với Adjusted R-Squared lần lượt là \textbf{0.5213} và \textbf{0.4964}, RMSE lần lượt là \textbf{51.403} và \textbf{51.786}. Điều đó cho thấy mô hình Polynomial Regression có mức độ tương thích tốt hơn so với các mô hình còn lại trên tập huấn luyện.
+	\item Mô hình Simple Linear Regression cho kết quả thấp nhất trên cả hai bộ dữ liệu với Adjusted R-Squared lần lượt là \textbf{0.3180} và \textbf{0.2883}, RMSE lần lượt là \textbf{62.7097} và \textbf{62.5494}.
 \end{itemize}
 
 \begin{table}[H]
+	\scriptsize
 	\setlength{\tabcolsep}{0.5em}
-	\renewcommand{\arraystretch}{1.2}
+	\renewcommand{\arraystretch}{1.5}
 	\begin{center}
-		\caption{Kết quả đánh giá Adjusted R-squared của các mô hình trên tập kiểm thử}\label{tab3}
-		\begin{tabular}{|c|c|c|}
+		\caption{Kết quả đánh giá hiệu suất của các mô hình hồi quy trên tập kiểm thử}\label{tab3}
+		\begin{tabular}{|c|c|c|c|c|}
 			\hline
-			Tên mô hình&Trước khi tiền xử lý&Sau khi tiền xử lý\\
+			\multirow{2}{*}{Tên mô hình} & \multicolumn{2}{c|}{\textbf{Adjusted R-Squared}} & \multicolumn{2}{c|}{\textbf{RMSE}}\\ \cline{2-5}
+										 & \multicolumn{1}{c|}{Trước tiền xử lý} & \multicolumn{1}{c|}{Sau tiền xử lý}
+										 & \multicolumn{1}{c|}{Trước tiền xử lý} & \multicolumn{1}{c|}{Sau tiền xử lý}\\
 			\hline
-			Simple Linear Regression&0.4334&0.5099\\
+			Simple Linear Regression&0.4334&0.5099&61.1129&59.0436\\
+			
 			\hline
-			Multiple Linear Regression&0.5795&0.4998\\
+			Multiple Linear Regression&\textbf{0.5795}&0.4998&\textbf{52.5026}&56.5038\\
+			
 			\hline
-			Polynomial Regression&0.5499&0.5669\\
+			Polynomial Regression&0.5499&\textbf{0.5669}&53.9409&\textbf{52.7150}\\
+			
 			\hline
-			Ridge Regression&0.5354&0.4833\\
+			Ridge Regression&0.5354&0.4833&58.0027&59.6312\\
+			
+			
 			\hline
-			Lasso Regression&0.5486&0.4792\\
+			Lasso Regression&0.5486&0.4792&56.9988&58.5861\\
+			
 			\hline
-			Elastic Net Regression&0.5395&0.4863\\
+			Elastic Net Regression&0.5395&0.4863&57.8680&59.2369\\
 			\hline
 		\end{tabular}			
 	\end{center}
@@ -1738,7 +1771,6 @@ Sau đây là bảng kết quả đánh giá tổng hợp trên tập huấn luy
 	\item Độ đo đánh giá Adjusted R-Squared thấp nhất trên tập dữ liệu kiểm thử trước khi tiền xử lý thuộc về mô hình Simple Linear Regression với kết quả là 0.4334 và sau khi tiền xử lý thuộc về mô hình Lasso Regression với kết quả là 0.4792.
 \end{itemize}
 
-
 \subsection{Mô hình tốt nhất}
 Mô hình đạt hiệu suất tốt nhất trên tập kiểm thử là mô hình Multiple Linear Regression trên tập dữ liệu chưa qua tiền xử lý.
 
@@ -1750,11 +1782,13 @@ Mô hình đạt hiệu suất tốt nhất trên tập kiểm thử là mô hì
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{Rplot}
-\caption{Biểu đồ thể hiện mối quan hệ giữa giá trị dự đoán và giá trị kiểm thử} \label{fig2}
+\caption{Biểu đồ thể hiện mối quan hệ giữa giá trị dự đoán và giá trị kiểm thử của mô hình Multiple Linear Regression} \label{fig2}
 \end{figure}
 
 \section{Kết luận}
- Kết quả đạt được thông qua quá trình phân tích ảnh hưởng của yếu tố lên kết quả, tương tác giữa các yếu tố và phân tích hồi quy trên bộ dữ liệu trước và sau khi tiền xử lý cho thấy rằng việc loại bỏ các điểm dữ liệu bất thường có thể làm giảm hiệu suất của mô hình. Ngoài ra, trong quá trình xây dựng mô hình, chúng tôi rút được rằng  không chỉ cần chú ý tới các yếu tố có sức ảnh hưởng lên kết quả mà cần phải quan tâm cả tới những tương tác giữa các yếu tố mặc dù những yếu tố đó khi sử dụng đơn lẻ thì không có ảnh hưởng, điển hình trong bộ dữ liệu chính là hai thuộc tính SEX và S4. Vậy nên để mô hình đạt hiệu suất cao thì cần phải liên tục thực nghiệm trên nhiều yếu tố và tương tác khác nhau, cân nhắc xử lý các điểm dữ liệu bất thường,...
+Nhìn chung kết quả thực nghiệm trên các mô hình hồi quy vẫn còn thấp, một phần nguyên nhân là do các thuộc tính bộ dữ liệu phân bố hồn loạn và ít có quan hệ tuyến tính với Y, ngoài ra còn có nhiều điểm dữ liệu ngoại lệ.
+
+Thông qua quá trình phân tích ảnh hưởng của yếu tố lên kết quả, tương tác giữa các yếu tố và phân tích hồi quy trên bộ dữ liệu trước và sau khi tiền xử lý cho thấy rằng việc loại bỏ các điểm dữ liệu bất thường có thể làm giảm hiệu suất của mô hình. Ngoài ra, trong quá trình xây dựng mô hình, chúng tôi rút được rằng  không chỉ cần chú ý tới các yếu tố có sức ảnh hưởng lên kết quả mà cần phải quan tâm cả tới những tương tác giữa các yếu tố mặc dù những yếu tố đó khi sử dụng đơn lẻ thì không có ảnh hưởng, điển hình trong bộ dữ liệu chính là hai thuộc tính SEX và S4. Vậy nên để mô hình đạt hiệu suất cao thì cần phải liên tục thực nghiệm trên nhiều yếu tố và tương tác khác nhau, cân nhắc xử lý các điểm dữ liệu bất thường,...
 
 \begin{thebibliography}{5}
 \bibitem{ref_url1}
