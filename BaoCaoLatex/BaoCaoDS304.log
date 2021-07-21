@@ -1,20 +1,16 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2021.5.30)  21 JUL 2021 20:10
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2021.6.7)  21 JUL 2021 21:34
 entering extended mode
 **BaoCaoDS304.tex
-
-("D:\#UIT_Documents\#HK2_2020_2021\Phan tich va Thiet ke thuc nghiem\R_project\
-BaoCaofinal\DS304_TK-PTTN\BaoCaoLatex\BaoCaoDS304.tex"
+(C:\Users\HP\Documents\GitHub\DS304_TK-PTTN\BaoCaoLatex\BaoCaoDS304.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
 rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
-
-("D:\#UIT_Documents\#HK2_2020_2021\Phan tich va Thiet ke thuc nghiem\R_project\
-BaoCaofinal\DS304_TK-PTTN\BaoCaoLatex\llncs.cls"
+(C:\Users\HP\Documents\GitHub\DS304_TK-PTTN\BaoCaoLatex\llncs.cls
 Document Class: llncs 2018/03/10 v2.20 
  LaTeX document class for Lecture Notes in Computer Science
-(E:\Program_Data\Miktex_2.8\tex\latex\base\article.cls
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(E:\Program_Data\Miktex_2.8\tex\latex\base\size10.clo
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\size10.clo"
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -29,7 +25,7 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(E:\Program_Data\Miktex_2.8\tex\latex\tools\multicol.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\multicol.sty"
 Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
 \c@tracingmulticols=\count87
 \mult@box=\box26
@@ -76,10 +72,10 @@ Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
 \mult@nat@firstbox=\box50
 \colbreak@box=\box51
 )
-(E:\Program_Data\Miktex_2.8\tex\latex\oberdiek\aliascnt.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\oberdiek\aliascnt.sty"
 Package: aliascnt 2009/09/08 v1.3 Alias counter (HO)
 
-(E:\Program_Data\Miktex_2.8\tex\latex\carlisle\remreset.sty))
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\carlisle\remreset.sty"))
 \c@chapter=\count95
 LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
 LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
@@ -131,19 +127,19 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
 \c@remark=\count114
 \headlineindent=\dimen123
 )
-(E:\Program_Data\Miktex_2.8\tex\latex\base\inputenc.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
 
-(E:\Program_Data\Miktex_2.8\tex\latex\base\utf8.def
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(E:\Program_Data\Miktex_2.8\tex\latex\base\t1enc.dfu
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -293,7 +289,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(E:\Program_Data\Miktex_2.8\tex\latex\base\ot1enc.dfu
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -324,7 +320,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(E:\Program_Data\Miktex_2.8\tex\latex\base\omsenc.dfu
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -348,21 +344,21 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(E:\Program_Data\Miktex_2.8\tex\latex\vntex\vietnam.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\vntex\vietnam.sty"
 Package: vietnam 2009/07/12 v1.3 support for Vietnamese
 
-(E:\Program_Data\Miktex_2.8\tex\latex\base\ifthen.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(E:\Program_Data\Miktex_2.8\tex\latex\base\fontenc.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(E:\Program_Data\Miktex_2.8\tex\latex\vntex\t5enc.def
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\vntex\t5enc.def"
 File: t5enc.def 2006/11/21 v1.4 Vietnamese T5 encoding
 Now handling font encoding T5 ...
 ... processing UTF-8 mapping file for font encoding T5
 
-(E:\Program_Data\Miktex_2.8\tex\latex\vntex\t5enc.dfu
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\vntex\t5enc.dfu"
 File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
    defining Unicode char U+00AB (decimal 171)
    defining Unicode char U+00BB (decimal 187)
@@ -518,72 +514,72 @@ File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
 ))
 LaTeX Font Info:    Try loading font information for T5+cmr on input line 100.
 
-(E:\Program_Data\Miktex_2.8\tex\latex\vntex\t5cmr.fd
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\vntex\t5cmr.fd"
 File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ))
-(E:\Program_Data\Miktex_2.8\tex\latex\vntex\vncaps.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\vntex\vncaps.tex"
 File: vncaps.tex 2006/06/07 v1.1 Captions in Vietnamese
 ))
-(E:\Program_Data\Miktex_2.8\tex\latex\graphics\graphicx.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(E:\Program_Data\Miktex_2.8\tex\latex\graphics\keyval.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks20
 )
-(E:\Program_Data\Miktex_2.8\tex\latex\graphics\graphics.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(E:\Program_Data\Miktex_2.8\tex\latex\graphics\trig.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(E:\Program_Data\Miktex_2.8\tex\latex\00miktex\graphics.cfg
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(E:\Program_Data\Miktex_2.8\tex\latex\pdftex-def\pdftex.def
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
 \Gread@gobject=\count115
 ))
 \Gin@req@height=\dimen124
 \Gin@req@width=\dimen125
 )
-(E:\Program_Data\Miktex_2.8\tex\latex\oberdiek\epstopdf.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\oberdiek\epstopdf.sty"
 Package: epstopdf 2009/10/17 v2.4 Conversion with epstopdf on the fly (HO)
 
-(E:\Program_Data\Miktex_2.8\tex\latex\oberdiek\epstopdf-base.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2009/10/17 v2.4 Base part for package epstopdf
 
-(E:\Program_Data\Miktex_2.8\tex\generic\oberdiek\infwarerr.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
 )
-(E:\Program_Data\Miktex_2.8\tex\latex\oberdiek\grfext.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
 )
-(E:\Program_Data\Miktex_2.8\tex\latex\oberdiek\kvoptions.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
 
-(E:\Program_Data\Miktex_2.8\tex\generic\oberdiek\kvsetkeys.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
 t (HO)
 
-(E:\Program_Data\Miktex_2.8\tex\generic\oberdiek\etexcmds.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(E:\Program_Data\Miktex_2.8\tex\generic\oberdiek\pdftexcmds.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
  (HO)
 
-(E:\Program_Data\Miktex_2.8\tex\generic\oberdiek\ifluatex.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-(E:\Program_Data\Miktex_2.8\tex\generic\oberdiek\ltxcmds.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
 )
 )
@@ -596,7 +592,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 433.
 ))
-(E:\Program_Data\Miktex_2.8\tex\latex\float\float.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count116
 \float@exts=\toks21
@@ -604,7 +600,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks22
 \@floatcapt=\box55
 )
-(E:\Program_Data\Miktex_2.8\tex\latex\tools\array.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\array.sty"
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen126
 \extrarowheight=\dimen127
@@ -612,10 +608,10 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \extratabsurround=\skip45
 \backup@length=\skip46
 )
-(E:\Program_Data\Miktex_2.8\tex\latex\multirow\multirow.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen128
 )
-(E:\Program_Data\Miktex_2.8\tex\latex\ltxmisc\ulem.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ltxmisc\ulem.sty"
 \UL@box=\box56
 \UL@hyphenbox=\box57
 \UL@skip=\skip47
@@ -626,27 +622,27 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 Package: ulem 2000/05/26
 \ULdepth=\dimen130
 )
-(E:\Program_Data\Miktex_2.8\tex\latex\ltxmisc\url.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ltxmisc\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-(E:\Program_Data\Miktex_2.8\tex\latex\todonotes\todonotes.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\todonotes\todonotes.sty"
 Package: todonotes 2009/10/24 .dtx Todonotes source and documentation.
 Package: todonotes 2009/04/02
 
-(E:\Program_Data\Miktex_2.8\tex\latex\xkeyval\xkeyval.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\xkeyval\xkeyval.sty"
 Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
 
-(E:\Program_Data\Miktex_2.8\tex\generic\xkeyval\xkeyval.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xkeyval\xkeyval.tex"
 \XKV@toks=\toks25
 \XKV@tempa@toks=\toks26
 \XKV@depth=\count118
 File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
 ))
-(E:\Program_Data\Miktex_2.8\tex\latex\xcolor\xcolor.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(E:\Program_Data\Miktex_2.8\tex\latex\00miktex\color.cfg
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -660,24 +656,26 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(E:\Program_Data\Miktex_2.8\tex\latex\pgf\frontendlayer\tikz.sty
-(E:\Program_Data\Miktex_2.8\tex\latex\pgf\basiclayer\pgf.sty
-(E:\Program_Data\Miktex_2.8\tex\latex\pgf\utilities\pgfrcs.sty
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\utilities\pgfutil-common.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pgf\frontendlayer\tikz.sty"
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pgf\basiclayer\pgf.sty"
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pgf\utilities\pgfrcs.sty"
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\utilities\pgfutil-common.te
+x"
 \pgfutil@everybye=\toks27
 )
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\utilities\pgfutil-latex.def)
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\utilities\pgfrcs.code.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\utilities\pgfutil-latex.def
+") ("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\utilities\pgfrcs.code.te
+x"
 Package: pgfrcs 2008/02/20 v2.00 (rcs-revision 1.21)
 ))
 Package: pgf 2008/01/15 v2.00 (rcs-revision 1.12)
-
-(E:\Program_Data\Miktex_2.8\tex\latex\pgf\basiclayer\pgfcore.sty
-(E:\Program_Data\Miktex_2.8\tex\latex\pgf\systemlayer\pgfsys.sty
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\systemlayer\pgfsys.code.tex
+ ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pgf\basiclayer\pgfcore.sty"
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pgf\systemlayer\pgfsys.sty"
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\systemlayer\pgfsys.code.tex
+"
 Package: pgfsys 2008/02/07 v2.00 (rcs-revision 1.31)
-
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\utilities\pgfkeys.code.tex
+ ("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\utilities\pgfkeys.code.tex
+"
 \pgfkeys@pathtoks=\toks28
 \pgfkeys@temptoks=\toks29
 )
@@ -693,45 +691,52 @@ Package: pgfsys 2008/02/07 v2.00 (rcs-revision 1.31)
 \c@pgf@countb=\count120
 \c@pgf@countc=\count121
 \c@pgf@countd=\count122
-
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\systemlayer\pgf.cfg
+ ("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\systemlayer\pgf.cfg"
 File: pgf.cfg 2008/01/13  (rcs-revision 1.6)
 )
 Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 885.
 
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\systemlayer\pgfsys-pdftex.d
+ef"
 File: pgfsys-pdftex.def 2007/12/20  (rcs-revision 1.20)
 
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\systemlayer\pgfsys-common-p
+df.def"
 File: pgfsys-common-pdf.def 2007/12/17  (rcs-revision 1.8)
 )))
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\systemlayer\pgfsyssoftpath.
+code.tex"
 File: pgfsyssoftpath.code.tex 2008/01/23  (rcs-revision 1.6)
 \pgfsyssoftpath@smallbuffer@items=\count123
 \pgfsyssoftpath@bigbuffer@items=\count124
 )
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\systemlayer\pgfsysprotocol.
+code.tex"
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-)) (E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcore.code.tex
+))
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\basiclayer\pgfcore.code.tex
+"
 Package: pgfcore 2008/01/15 v2.00 (rcs-revision 1.6)
-
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\math\pgfmath.code.tex
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\math\pgfmathcalc.code.tex
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\math\pgfmathutil.code.tex
+ ("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\math\pgfmath.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\math\pgfmathcalc.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\math\pgfmathutil.code.tex"
 \pgfmath@box=\box59
-)
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\math\pgfmathparser.code.tex
+) ("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\math\pgfmathparser.code.t
+ex"
 \pgfmath@stack=\toks30
 \c@pgfmath@parsecounta=\count125
 \c@pgfmath@parsecountb=\count126
 \c@pgfmath@parsecountc=\count127
 \pgfmath@parsex=\dimen139
 )
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\math\pgfmathoperations.code.tex
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\math\pgfmathtrig.code.tex)
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\math\pgfmathrnd.code.tex))
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\math\pgfmathbase.code.tex)))
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\math\pgfmathoperations.code
+.tex"
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\math\pgfmathtrig.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\math\pgfmathrnd.code.tex"))
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\math\pgfmathbase.code.tex")
+))
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\basiclayer\pgfcorepoints.co
+de.tex"
 File: pgfcorepoints.code.tex 2008/02/03  (rcs-revision 1.13)
 \pgf@picminx=\dimen140
 \pgf@picmaxx=\dimen141
@@ -748,98 +753,110 @@ File: pgfcorepoints.code.tex 2008/02/03  (rcs-revision 1.13)
 \pgf@zx=\dimen152
 \pgf@zy=\dimen153
 )
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcorepathconstruct.cod
-e.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\basiclayer\pgfcorepathconst
+ruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2008/02/13  (rcs-revision 1.14)
 \pgf@path@lastx=\dimen154
 \pgf@path@lasty=\dimen155
 )
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcorepathusage.code.te
-x
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\basiclayer\pgfcorepathusage
+.code.tex"
 File: pgfcorepathusage.code.tex 2008/01/23  (rcs-revision 1.11)
 \pgf@shorten@end@additional=\dimen156
 \pgf@shorten@start@additional=\dimen157
 )
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\basiclayer\pgfcorescopes.co
+de.tex"
 File: pgfcorescopes.code.tex 2008/01/15  (rcs-revision 1.26)
 \pgfpic=\box60
 \pgf@hbox=\box61
 \pgf@layerbox@main=\box62
 \pgf@picture@serial@count=\count128
 )
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code
-.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\basiclayer\pgfcoregraphicst
+ate.code.tex"
 File: pgfcoregraphicstate.code.tex 2007/12/12  (rcs-revision 1.8)
 \pgflinewidth=\dimen158
 )
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcoretransformations.c
-ode.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\basiclayer\pgfcoretransform
+ations.code.tex"
 File: pgfcoretransformations.code.tex 2008/02/04  (rcs-revision 1.10)
 \pgf@pt@x=\dimen159
 \pgf@pt@y=\dimen160
 \pgf@pt@temp=\dimen161
 )
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\basiclayer\pgfcorequick.cod
+e.tex"
 File: pgfcorequick.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\basiclayer\pgfcoreobjects.c
+ode.tex"
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcorepathprocessing.co
-de.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\basiclayer\pgfcorepathproce
+ssing.code.tex"
 File: pgfcorepathprocessing.code.tex 2008/01/23  (rcs-revision 1.7)
 )
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\basiclayer\pgfcorearrows.co
+de.tex"
 File: pgfcorearrows.code.tex 2007/06/07  (rcs-revision 1.8)
 )
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\basiclayer\pgfcoreshade.cod
+e.tex"
 File: pgfcoreshade.code.tex 2007/12/10  (rcs-revision 1.9)
 \pgf@max=\dimen162
 \pgf@sys@shading@range@num=\count129
 )
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\basiclayer\pgfcoreimage.cod
+e.tex"
 File: pgfcoreimage.code.tex 2008/01/15  (rcs-revision 1.1)
 \pgfexternal@startupbox=\box63
 )
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\basiclayer\pgfcorelayers.co
+de.tex"
 File: pgfcorelayers.code.tex 2008/01/15  (rcs-revision 1.1)
 )
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcoretransparency.code
-.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\basiclayer\pgfcoretranspare
+ncy.code.tex"
 File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
 )
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\basiclayer\pgfcorepatterns.
+code.tex"
 File: pgfcorepatterns.code.tex 2008/01/15  (rcs-revision 1.1)
 )))
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\modules\pgfmoduleshapes.cod
+e.tex"
 File: pgfmoduleshapes.code.tex 2008/02/13  (rcs-revision 1.4)
 \pgfnodeparttextbox=\box64
 \toks@savedmacro=\toks31
 )
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\modules\pgfmoduleplot.code.
+tex"
 File: pgfmoduleplot.code.tex 2008/01/15  (rcs-revision 1.1)
 \pgf@plotwrite=\write3
 )
-(E:\Program_Data\Miktex_2.8\tex\latex\pgf\compatibility\pgfcomp-version-0-65.st
-y
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pgf\compatibility\pgfcomp-version
+-0-65.sty"
 Package: pgfcomp-version-0-65 2007/07/03 v2.00 (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen163
 \pgf@nodesepend=\dimen164
 )
-(E:\Program_Data\Miktex_2.8\tex\latex\pgf\compatibility\pgfcomp-version-1-18.st
-y
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pgf\compatibility\pgfcomp-version
+-1-18.sty"
 Package: pgfcomp-version-1-18 2007/07/23 v2.00 (rcs-revision 1.1)
-)) (E:\Program_Data\Miktex_2.8\tex\latex\pgf\utilities\pgffor.sty
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\utilities\pgffor.code.tex
+))
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pgf\utilities\pgffor.sty"
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\utilities\pgffor.code.tex"
 Package: pgffor 2007/11/07 v2.00 (rcs-revision 1.8)
 \pgffor@iter=\dimen165
 \pgffor@skip=\dimen166
 ))
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\frontendlayer\tikz\tikz.cod
+e.tex"
 Package: tikz 2008/02/13 v2.00 (rcs-revision 1.27)
 
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\libraries\pgflibraryplothandlers.co
-de.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\libraries\pgflibraryplothan
+dlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2007/03/09 v2.00 (rcs-revision 1.9)
 \pgf@plot@mark@count=\count130
 \pgfplotmarksize=\dimen167
@@ -857,7 +874,8 @@ File: pgflibraryplothandlers.code.tex 2007/03/09 v2.00 (rcs-revision 1.9)
 \tikznumberofcurrentchild=\count133
 \tikz@fig@count=\count134
 
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\modules\pgfmodulematrix.cod
+e.tex"
 File: pgfmodulematrix.code.tex 2008/01/15  (rcs-revision 1.1)
 \pgfmatrixcurrentrow=\count135
 \pgfmatrixcurrentcolumn=\count136
@@ -865,10 +883,11 @@ File: pgfmodulematrix.code.tex 2008/01/15  (rcs-revision 1.1)
 )
 \tikz@expandcount=\count138
 
-(E:\Program_Data\Miktex_2.8\tex\generic\pgf\frontendlayer\tikz\libraries\tikzli
-brarytopaths.code.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2008/01/09 v2.00 (rcs-revision 1.1)
-))) (E:\Program_Data\Miktex_2.8\tex\latex\tools\calc.sty
+)))
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\calc.sty"
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count139
 \calc@Bcount=\count140
@@ -882,7 +901,8 @@ LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Cskip=\skip50
 )
 \c@@todonotes@numberoftodonotes=\count142
-) (E:\Program_Data\Miktex_2.8\tex\latex\listings\listings.sty
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\listings\listings.sty"
 \lst@mode=\count143
 \lst@gtempboxa=\box67
 \lst@token=\toks32
@@ -896,18 +916,18 @@ LaTeX Info: Redefining \addtolength on input line 77.
 \lst@lineno=\count148
 \lst@maxwidth=\dimen179
 
-(E:\Program_Data\Miktex_2.8\tex\latex\listings\lstmisc.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 \c@lstnumber=\count149
 \lst@skipnumbers=\count150
 \lst@framebox=\box68
 )
-(E:\Program_Data\Miktex_2.8\tex\latex\listings\listings.cfg
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\listings\listings.cfg"
 File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
 Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
-(E:\Program_Data\Miktex_2.8\tex\latex\fancyvrb\fancyvrb.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\fancyvrb\fancyvrb.sty"
 Package: fancyvrb 2008/02/07
 
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
@@ -919,10 +939,10 @@ Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix
 \FV@StepNumber=\count153
 \FV@OutFile=\write4
 )
-(E:\Program_Data\Miktex_2.8\tex\latex\verbatimbox\verbatimbox.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\verbatimbox\verbatimbox.sty"
 Package: verbatimbox 2007/03/16 v1.0
 
-(E:\Program_Data\Miktex_2.8\tex\latex\tools\verbatim.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\verbatim.sty"
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks33
 \verbatim@line=\toks34
@@ -934,8 +954,7 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \ps@tempdima=\dimen182
 \ps@tempboxa=\box71
 )
-("D:\#UIT_Documents\#HK2_2020_2021\Phan tich va Thiet ke thuc nghiem\R_project\
-BaoCaofinal\DS304_TK-PTTN\BaoCaoLatex\BaoCaoDS304.aux"
+(C:\Users\HP\Documents\GitHub\DS304_TK-PTTN\BaoCaoLatex\BaoCaoDS304.aux
 
 LaTeX Warning: Label `fig2' multiply defined.
 
@@ -1002,7 +1021,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
 LaTeX Font Info:    ... okay on input line 60.
 LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 60.
 LaTeX Font Info:    ... okay on input line 60.
- (E:\Program_Data\Miktex_2.8\tex\context\base\supp-pdf.tex
+ ("C:\Program Files (x86)\MiKTeX 2.8\tex\context\base\supp-pdf.tex"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count154
 \scratchdimen=\dimen183
@@ -1027,12 +1046,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 85.
 LaTeX Font Info:    Try loading font information for T5+cmtt on input line 85.
- (E:\Program_Data\Miktex_2.8\tex\latex\vntex\t5cmtt.fd
+ ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\vntex\t5cmtt.fd"
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 90.
 
-(E:\Program_Data\Miktex_2.8\tex\latex\base\omscmr.fd
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
@@ -1069,33 +1088,29 @@ File: describe.png Graphic file (type png)
  <use describe.png>
 <Scatter_Y.png, id=27, 1465.6356pt x 1434.0777pt>
 File: Scatter_Y.png Graphic file (type png)
- <use Scatter_Y.png> [4 <D:/#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke
- thuc nghiem/R_project/BaoCaofinal/DS304_TK-PTTN/BaoCaoLatex/describe.png> <D:/
-#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke thuc nghiem/R_project/BaoCa
-ofinal/DS304_TK-PTTN/BaoCaoLatex/Scatter_Y.png>] <Scatter_factors.png, id=33, 1
-754.9565pt x 1608.2484pt>
+ <use Scatter_Y.png> [4 <C:/Users/HP/Documents/GitHub/DS304_TK-PTTN/BaoCaoLatex
+/describe.png> <C:/Users/HP/Documents/GitHub/DS304_TK-PTTN/BaoCaoLatex/Scatter_
+Y.png>]
+<Scatter_factors.png, id=33, 1754.9565pt x 1608.2484pt>
 File: Scatter_factors.png Graphic file (type png)
 
-<use Scatter_factors.png> [5 <D:/#UIT_Documents/#HK2_2020_2021/Phan tich va Thi
-et ke thuc nghiem/R_project/BaoCaofinal/DS304_TK-PTTN/BaoCaoLatex/Scatter_facto
-rs.png>] <Corr.png, id=38, 672.111pt x 581.0508pt>
+<use Scatter_factors.png> [5 <C:/Users/HP/Documents/GitHub/DS304_TK-PTTN/BaoCao
+Latex/Scatter_factors.png>] <Corr.png, id=38, 672.111pt x 581.0508pt>
 File: Corr.png Graphic file (type png)
- <use Corr.png> [6 <D:/#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke thuc
- nghiem/R_project/BaoCaofinal/DS304_TK-PTTN/BaoCaoLatex/Corr.png>]
-<Dist_Y.png, id=43, 960.4683pt x 558.1653pt>
+
+<use Corr.png> [6 <C:/Users/HP/Documents/GitHub/DS304_TK-PTTN/BaoCaoLatex/Corr.
+png>] <Dist_Y.png, id=43, 960.4683pt x 558.1653pt>
 File: Dist_Y.png Graphic file (type png)
  <use Dist_Y.png>
 <Dist_BMI.png, id=44, 1184.5053pt x 721.7364pt>
 File: Dist_BMI.png Graphic file (type png)
- <use Dist_BMI.png> [7 <D:/#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke 
-thuc nghiem/R_project/BaoCaofinal/DS304_TK-PTTN/BaoCaoLatex/Dist_Y.png>] [8 <D:
-/#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke thuc nghiem/R_project/BaoC
-aofinal/DS304_TK-PTTN/BaoCaoLatex/Dist_BMI.png>] <box.png, id=54, 2477.255pt x 
-2477.255pt>
+ <use Dist_BMI.png> [7 <C:/Users/HP/Documents/GitHub/DS304_TK-PTTN/BaoCaoLatex/
+Dist_Y.png>] [8 <C:/Users/HP/Documents/GitHub/DS304_TK-PTTN/BaoCaoLatex/Dist_BM
+I.png>]
+<box.png, id=54, 2477.255pt x 2477.255pt>
 File: box.png Graphic file (type png)
- <use box.png>
-[9 <D:/#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke thuc nghiem/R_projec
-t/BaoCaofinal/DS304_TK-PTTN/BaoCaoLatex/box.png>]
+ <use box.png> [9 <C:/Users/HP/Documents/GitHub/DS304_TK-PTTN/BaoCaoLatex/box.p
+ng>]
 <AGEOR.png, id=59, 1003.75pt x 548.0475pt>
 File: AGEOR.png Graphic file (type png)
  <use AGEOR.png>
@@ -1110,18 +1125,14 @@ File: S1OR.png Graphic file (type png)
  <use S1OR.png>
 <S2OR.png, id=63, 1003.75pt x 548.0475pt>
 File: S2OR.png Graphic file (type png)
- <use S2OR.png> [10 <D:/#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke thu
-c nghiem/R_project/BaoCaofinal/DS304_TK-PTTN/BaoCaoLatex/AGEOR.png> <D:/#UIT_Do
-cuments/#HK2_2020_2021/Phan tich va Thiet ke thuc nghiem/R_project/BaoCaofinal/
-DS304_TK-PTTN/BaoCaoLatex/BMIOR.png>]
+ <use S2OR.png> [10 <C:/Users/HP/Documents/GitHub/DS304_TK-PTTN/BaoCaoLatex/AGE
+OR.png> <C:/Users/HP/Documents/GitHub/DS304_TK-PTTN/BaoCaoLatex/BMIOR.png>]
 Overfull \vbox (61.29924pt too high) has occurred while \output is active []
 
 
-[11 <D:/#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke thuc nghiem/R_proje
-ct/BaoCaofinal/DS304_TK-PTTN/BaoCaoLatex/BPOR.png> <D:/#UIT_Documents/#HK2_2020
-_2021/Phan tich va Thiet ke thuc nghiem/R_project/BaoCaofinal/DS304_TK-PTTN/Bao
-CaoLatex/S1OR.png> <D:/#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke thuc
- nghiem/R_project/BaoCaofinal/DS304_TK-PTTN/BaoCaoLatex/S2OR.png>]
+[11 <C:/Users/HP/Documents/GitHub/DS304_TK-PTTN/BaoCaoLatex/BPOR.png> <C:/Users
+/HP/Documents/GitHub/DS304_TK-PTTN/BaoCaoLatex/S1OR.png> <C:/Users/HP/Documents
+/GitHub/DS304_TK-PTTN/BaoCaoLatex/S2OR.png>]
 <S3OR.png, id=78, 1003.75pt x 548.0475pt>
 File: S3OR.png Graphic file (type png)
  <use S3OR.png>
@@ -1134,28 +1145,26 @@ File: S5OR.png Graphic file (type png)
 Overfull \vbox (61.29924pt too high) has occurred while \output is active []
 
 
-[12 <D:/#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke thuc nghiem/R_proje
-ct/BaoCaofinal/DS304_TK-PTTN/BaoCaoLatex/S3OR.png> <D:/#UIT_Documents/#HK2_2020
-_2021/Phan tich va Thiet ke thuc nghiem/R_project/BaoCaofinal/DS304_TK-PTTN/Bao
-CaoLatex/S4OR.png> <D:/#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke thuc
- nghiem/R_project/BaoCaofinal/DS304_TK-PTTN/BaoCaoLatex/S5OR.png>]
+[12 <C:/Users/HP/Documents/GitHub/DS304_TK-PTTN/BaoCaoLatex/S3OR.png> <C:/Users
+/HP/Documents/GitHub/DS304_TK-PTTN/BaoCaoLatex/S4OR.png> <C:/Users/HP/Documents
+/GitHub/DS304_TK-PTTN/BaoCaoLatex/S5OR.png>]
 <S6OR.png, id=87, 1003.75pt x 548.0475pt>
 File: S6OR.png Graphic file (type png)
- <use S6OR.png> [13 <D:/#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke thu
-c nghiem/R_project/BaoCaofinal/DS304_TK-PTTN/BaoCaoLatex/S6OR.png>]
-(E:\Program_Data\Miktex_2.8\tex\latex\listings\lstlang1.sty
+ <use S6OR.png> [13 <C:/Users/HP/Documents/GitHub/DS304_TK-PTTN/BaoCaoLatex/S6O
+R.png>]
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-(E:\Program_Data\Miktex_2.8\tex\latex\listings\lstlang2.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\listings\lstlang2.sty"
 File: lstlang2.sty 2004/09/05 1.3 listings language file
 )
-(E:\Program_Data\Miktex_2.8\tex\latex\listings\lstlang3.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\listings\lstlang3.sty"
 File: lstlang3.sty 2004/09/05 1.3 listings language file
 ) [14]
 LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 426.
- [15] [16]
-[17] [18] [19] [20] [21] [22] [23]
+
+[15] [16] [17] [18] [19] [20] [21] [22] [23]
 Overfull \hbox (6.79274pt too wide) in paragraph at lines 873--874
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1200,64 +1209,87 @@ Underfull \hbox (badness 10000) in paragraph at lines 1183--1184
 
  []
 
-[31] [32] [33] [34] [35] [36] [37] [38] [39] [40]
-Overfull \hbox (1.73627pt too wide) in paragraph at lines 1704--1723
+
+Underfull \hbox (badness 10000) in paragraph at lines 1190--1192
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1195--1196
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1202--1204
+
+ []
+
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 1205--1206
+
+ []
+
+[32] [33] [34] [35] [36] [37] [38] [39] [40] [41]
+Overfull \hbox (1.73627pt too wide) in paragraph at lines 1724--1743
  [] 
  []
 
-[41]
-Overfull \hbox (1.73627pt too wide) in paragraph at lines 1739--1764
+[42]
+Overfull \hbox (1.73627pt too wide) in paragraph at lines 1759--1784
  [] 
  []
 
-[42] <Rplot.jpg, id=195, 432.11438pt x 274.77657pt>
+[43] <Rplot.jpg, id=201, 432.11438pt x 274.77657pt>
 File: Rplot.jpg Graphic file (type jpg)
- <use Rplot.jpg> [43 <D:/#UIT_Documents/#HK2_2020_2021/Phan tich va Thiet ke th
-uc nghiem/R_project/BaoCaofinal/DS304_TK-PTTN/BaoCaoLatex/Rplot.jpg>]
-Underfull \hbox (badness 3199) in paragraph at lines 1795--1796
+ <use Rplot.jpg> [44 <C:/Users/HP/Documents/GitHub/DS304_TK-PTTN/BaoCaoLatex/Rp
+lot.jpg>]
+Underfull \hbox (badness 3199) in paragraph at lines 1815--1816
 []\T5/cmr/m/n/9 Regularization: Ridge, Lasso and Elas-tic Net, $\T5/cmtt/m/n/9 
 https : / / www . datacamp . com /$
  []
 
-[44]
-("D:\#UIT_Documents\#HK2_2020_2021\Phan tich va Thiet ke thuc nghiem\R_project\
-BaoCaofinal\DS304_TK-PTTN\BaoCaoLatex\BaoCaoDS304.aux")
+[45] (C:\Users\HP\Documents\GitHub\DS304_TK-PTTN\BaoCaoLatex\BaoCaoDS304.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  12510 strings out of 495285
- 198363 string characters out of 3180474
+ 199510 string characters out of 3179888
  309648 words of memory out of 3000000
  15405 multiletter control sequences out of 15000+200000
  21434 words of font info for 47 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  54i,14n,74p,1291b,1951s stack positions out of 5000i,500n,10000p,200000b,50000s
-<E:/Program_Data/Miktex_2.8/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><E:/Pr
-ogram_Data/Miktex_2.8/fonts/type1/public/amsfonts/cm/cmbx7.pfb><E:/Program_Data
-/Miktex_2.8/fonts/type1/public/amsfonts/cm/cmex10.pfb><E:/Program_Data/Miktex_2
-.8/fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/Program_Data/Miktex_2.8/fonts/
-type1/public/amsfonts/cm/cmmi6.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/publ
-ic/amsfonts/cm/cmmi7.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/public/amsfont
-s/cm/cmmi9.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/public/amsfonts/cm/cmmib
-10.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:
-/Program_Data/Miktex_2.8/fonts/type1/public/amsfonts/cm/cmr6.pfb><E:/Program_Da
-ta/Miktex_2.8/fonts/type1/public/amsfonts/cm/cmr7.pfb><E:/Program_Data/Miktex_2
-.8/fonts/type1/public/amsfonts/cm/cmr9.pfb><E:/Program_Data/Miktex_2.8/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/publi
-c/amsfonts/cm/cmsy7.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/public/amsfonts
-/cm/cmsy9.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/vntex/vnr/vnbx10.pfb><E:/
-Program_Data/Miktex_2.8/fonts/type1/vntex/vnr/vnbx12.pfb><E:/Program_Data/Mikte
-x_2.8/fonts/type1/vntex/vnr/vnbx7.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/v
-ntex/vnr/vnbx9.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/vntex/vnr/vnr10.pfb>
-<E:/Program_Data/Miktex_2.8/fonts/type1/vntex/vnr/vnr7.pfb><E:/Program_Data/Mik
-tex_2.8/fonts/type1/vntex/vnr/vnr9.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/
-vntex/vnr/vnti10.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/vntex/vnr/vntt10.p
-fb><E:/Program_Data/Miktex_2.8/fonts/type1/vntex/vnr/vntt9.pfb>
-Output written on BaoCaoDS304.pdf (44 pages, 10062508 bytes).
+<C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmbsy10.pfb
+><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/
+Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program
+ Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files
+ (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files 
+(x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files 
+(x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86
+)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/Mi
+KTeX 2.8/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX
+ 2.8/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2
+.8/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.8/
+fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.8/fon
+ts/type1/vntex/vnr/vnbx10.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/vn
+tex/vnr/vnbx12.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnb
+x7.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnbx9.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnr10.pfb><C:/Program Files
+ (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnr7.pfb><C:/Program Files (x86)/MiKTeX
+ 2.8/fonts/type1/vntex/vnr/vnr9.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/ty
+pe1/vntex/vnr/vnti10.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/vntex/v
+nr/vntt10.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vntt9.pf
+b>
+Output written on BaoCaoDS304.pdf (45 pages, 10084746 bytes).
 PDF statistics:
- 282 PDF objects out of 1000 (max. 8388607)
+ 293 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  98 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1184,7 +1184,27 @@ Trong đó: \\
 \end{itemize}
 
  Độ đo đánh giá Adjusted R-Squared đã khắc phục khuyết điểm vốn có của R-Squared, khi tăng số lượng thuộc tính độc lập nếu giá trị của độ đo Adjusted R-Squared giảm nghĩa là thuộc tính đó không có ý nghĩa trong việc nâng cao hiệu suất mô hình tránh trường hợp dư thừa hay tăng độ phức tạp cho mô hình một cách không cần thiết.
+ \subsubsection{MSE} 
+\begin{equation}
+	MSE= \frac{1}{n}\sum_{i=1}^{n} (Y_i - \tilde {Y_i})^2
+\end{equation}
+Trong đó:\\
+\begin{itemize}
+	\item \boldmath{$Y_i$:} giá trị của biến độc lập trong bộ dữ liệu
+	\item \boldmath{$\tilde {Y_i}$:} giá trị của biến độc lập được dự đoán từ mô hình.
+	\item \textbf{n:} số lượng điểm dữ liệu trong bộ dữ liệu.\\
+\end{itemize}
+MSE (mean squared error) là độ đánh giá phổ biến cho các mô hình máy học hồi quy. Thông qua việc tính trung bình cho hàm lỗi squared sum hay chính là trung bình hàm lỗi giữa giá trị thực sự của biến độc lập từ bộ dữ liệu với giá trị của biến độc lập được dự đoán từ mô hình giúp đánh giá hiệu suất của mô hình. Giá trị của MSE càng nhỏ chứng tỏ khả năng dự đoán của mô hình càng chính xác.
 
+\subsubsection{RMSE} 
+\begin{equation}
+	RMSE= \sqrt{MSE}
+\end{equation}
+Trong đó:\\
+\begin{itemize}
+	\item \textbf{MSE:} giá trị của MSE.\\
+\end{itemize}
+RMSE (root mean squared error) là độ đánh giá độ chính xác giữa các mô hình máy học khác nhau khi sử dụng chung cùng một dữ liệu. Giá trị của RMSE không mang giá trị âm và khi đạt được giá trị là 0 nghĩa là mô hình có thể dự đoán chính xác tuyệt đối. Ngoài ra, RMSE còn giúp hỗ trợ phát hiện các điểm dữ liệu bất thường từ đó giúp cải thiện hiệu suất.
 
 \subsection{Xây dựng mô hình hồi quy}
 
