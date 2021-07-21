@@ -1725,7 +1725,7 @@ Sau đây là bảng kết quả đánh giá tổng hợp của các mô hình h
 
 \textbf{Nhận xét:} 
 \begin{itemize}
-	\item Các mô hình trên tập dữ liệu huấn luyện trước khi tiền xử lý có kết quả Adjusted R-Squared tốt hơn so với sau khi tiền xử lý. Khi xét độ đo RMSE thì hầu hết mô hình phạm ít lỗi hơn khi sử dụng dữ liệu đã qua xử lý.
+	\item Các mô hình trên tập dữ liệu huấn luyện trước khi tiền xử lý có kết quả Adjusted R-Squared tốt hơn so với sau khi tiền xử lý. Còn khi xét độ đo RMSE thì hầu hết mô hình phạm ít lỗi hơn khi sử dụng dữ liệu đã qua xử lý.
 	\item Độ đo Adjusted R-Squared và RMSE tốt nhất trước và sau khi tiền xử lý trên tập huấn luyện đều thuộc về mô hình \textbf{Polynomial Regression} với Adjusted R-Squared lần lượt là \textbf{0.5213} và \textbf{0.4964}, RMSE lần lượt là \textbf{51.403} và \textbf{51.786}. Điều đó cho thấy mô hình Polynomial Regression có mức độ tương thích tốt hơn so với các mô hình còn lại trên tập huấn luyện.
 	\item Mô hình Simple Linear Regression cho kết quả thấp nhất trên cả hai bộ dữ liệu với Adjusted R-Squared lần lượt là \textbf{0.3180} và \textbf{0.2883}, RMSE lần lượt là \textbf{62.7097} và \textbf{62.5494}.
 \end{itemize}
@@ -1786,9 +1786,9 @@ Mô hình đạt hiệu suất tốt nhất trên tập kiểm thử là mô hì
 \end{figure}
 
 \section{Kết luận}
-Nhìn chung kết quả thực nghiệm trên các mô hình hồi quy vẫn còn thấp, một phần nguyên nhân là do các thuộc tính bộ dữ liệu phân bố hồn loạn và ít có quan hệ tuyến tính với Y, ngoài ra còn có nhiều điểm dữ liệu ngoại lệ.
+Nhìn chung kết quả thực nghiệm trên các mô hình hồi quy vẫn còn thấp, một phần nguyên nhân là do các thuộc tính bộ dữ liệu phân bố hỗn loạn và ít có quan hệ tuyến tính với thuộc tính Y, ngoài ra còn có nhiều điểm dữ liệu ngoại lệ.
 
-Thông qua quá trình phân tích ảnh hưởng của yếu tố lên kết quả, tương tác giữa các yếu tố và phân tích hồi quy trên bộ dữ liệu trước và sau khi tiền xử lý cho thấy rằng việc loại bỏ các điểm dữ liệu bất thường có thể làm giảm hiệu suất của mô hình. Ngoài ra, trong quá trình xây dựng mô hình, chúng tôi rút được rằng  không chỉ cần chú ý tới các yếu tố có sức ảnh hưởng lên kết quả mà cần phải quan tâm cả tới những tương tác giữa các yếu tố mặc dù những yếu tố đó khi sử dụng đơn lẻ thì không có ảnh hưởng, điển hình trong bộ dữ liệu chính là hai thuộc tính SEX và S4. Vậy nên để mô hình đạt hiệu suất cao thì cần phải liên tục thực nghiệm trên nhiều yếu tố và tương tác khác nhau, cân nhắc xử lý các điểm dữ liệu bất thường,...
+Thông qua quá trình phân tích ảnh hưởng của yếu tố lên kết quả, tương tác giữa các yếu tố và phân tích hồi quy trên bộ dữ liệu trước và sau khi tiền xử lý cho thấy rằng việc loại bỏ các điểm dữ liệu bất thường có thể làm giảm hiệu suất của mô hình. Ngoài ra, trong quá trình xây dựng mô hình, chúng tôi rút được rằng  không chỉ cần chú ý tới các yếu tố có sức ảnh hưởng lên kết quả mà cần phải quan tâm cả tới những tương tác giữa các yếu tố mặc dù những yếu tố đó khi sử dụng đơn lẻ thì không có ảnh hưởng, ví dụ điển hình trong bộ dữ liệu chính là hai thuộc tính SEX và S1. Vậy nên để mô hình đạt hiệu suất cao thì cần phải liên tục thực nghiệm trên nhiều yếu tố và tương tác khác nhau, cân nhắc xử lý các điểm dữ liệu bất thường,...
 
 \begin{thebibliography}{5}
 \bibitem{ref_url1}
